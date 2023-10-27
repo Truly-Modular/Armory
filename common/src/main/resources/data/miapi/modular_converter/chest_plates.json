@@ -1,19 +1,30 @@
 {
     "minecraft:iron_chestplate": {
         "module": "chest_base",
-        "moduleData": {
-            "properties": "{\"material\":\"iron\"}"
-        },
         "subModules": {
             "0": {
-                "module": "left_arm",
+                "module": "front_chestplate",
                 "moduleData": {
                     "properties": "{\"material\":\"iron\"}"
                 },
                 "subModules": {}
             },
             "1": {
-                "module": "right_arm",
+                "module": "back_chestplate",
+                "moduleData": {
+                    "properties": "{\"material\":\"iron\"}"
+                },
+                "subModules": {}
+            },
+            "2": {
+                "module": "arm_left",
+                "moduleData": {
+                    "properties": "{\"material\":\"iron\"}"
+                },
+                "subModules": {}
+            },
+            "3": {
+                "module": "arm_right",
                 "moduleData": {
                     "properties": "{\"material\":\"iron\"}"
                 },
@@ -23,19 +34,30 @@
     },
     "minecraft:golden_chestplate": {
         "module": "chest_base",
-        "moduleData": {
-            "properties": "{\"material\":\"gold\"}"
-        },
         "subModules": {
             "0": {
-                "module": "left_arm",
+                "module": "front_chestplate",
                 "moduleData": {
                     "properties": "{\"material\":\"gold\"}"
                 },
                 "subModules": {}
             },
             "1": {
-                "module": "right_arm",
+                "module": "back_chestplate",
+                "moduleData": {
+                    "properties": "{\"material\":\"gold\"}"
+                },
+                "subModules": {}
+            },
+            "2": {
+                "module": "arm_left",
+                "moduleData": {
+                    "properties": "{\"material\":\"gold\"}"
+                },
+                "subModules": {}
+            },
+            "3": {
+                "module": "arm_right",
                 "moduleData": {
                     "properties": "{\"material\":\"gold\"}"
                 },
@@ -45,19 +67,30 @@
     },
     "minecraft:diamond_chestplate": {
         "module": "chest_base",
-        "moduleData": {
-            "properties": "{\"material\":\"diamond\"}"
-        },
         "subModules": {
             "0": {
-                "module": "left_arm",
+                "module": "front_chestplate",
                 "moduleData": {
                     "properties": "{\"material\":\"diamond\"}"
                 },
                 "subModules": {}
             },
             "1": {
-                "module": "right_arm",
+                "module": "back_chestplate",
+                "moduleData": {
+                    "properties": "{\"material\":\"diamond\"}"
+                },
+                "subModules": {}
+            },
+            "2": {
+                "module": "arm_left",
+                "moduleData": {
+                    "properties": "{\"material\":\"diamond\"}"
+                },
+                "subModules": {}
+            },
+            "3": {
+                "module": "arm_right",
                 "moduleData": {
                     "properties": "{\"material\":\"diamond\"}"
                 },
@@ -67,21 +100,65 @@
     },
     "minecraft:netherite_chestplate": {
         "module": "chest_base",
-        "moduleData": {
-            "properties": "{\"material\":\"netherite\"}"
-        },
         "subModules": {
             "0": {
-                "module": "left_arm",
+                "module": "front_chestplate",
                 "moduleData": {
                     "properties": "{\"material\":\"netherite\"}"
                 },
                 "subModules": {}
             },
             "1": {
-                "module": "right_arm",
+                "module": "back_chestplate",
                 "moduleData": {
                     "properties": "{\"material\":\"netherite\"}"
+                },
+                "subModules": {}
+            },
+            "2": {
+                "module": "arm_left",
+                "moduleData": {
+                    "properties": "{\"material\":\"netherite\"}"
+                },
+                "subModules": {}
+            },
+            "3": {
+                "module": "arm_right",
+                "moduleData": {
+                    "properties": "{\"material\":\"netherite\"}"
+                },
+                "subModules": {}
+            }
+        }
+    },
+    "minecraft:leather_chestplate": {
+        "module": "chest_base",
+        "subModules": {
+            "0": {
+                "module": "front_chestplate",
+                "moduleData": {
+                    "properties": "{\"material\":\"leather\"}"
+                },
+                "subModules": {}
+            },
+            "1": {
+                "module": "back_chestplate",
+                "moduleData": {
+                    "properties": "{\"material\":\"leather\"}"
+                },
+                "subModules": {}
+            },
+            "2": {
+                "module": "arm_left",
+                "moduleData": {
+                    "properties": "{\"material\":\"leather\"}"
+                },
+                "subModules": {}
+            },
+            "3": {
+                "module": "arm_right",
+                "moduleData": {
+                    "properties": "{\"material\":\"leather\"}"
                 },
                 "subModules": {}
             }

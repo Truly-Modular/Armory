@@ -38,7 +38,7 @@ dependencies {
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
     implementation(include('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2'))
-    modImplementation "maven.modrinth:modular-item-api:${miapi_version}"
+    modImplementation "maven.modrinth:modular-item-api:${miapi_version}-fabric"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }

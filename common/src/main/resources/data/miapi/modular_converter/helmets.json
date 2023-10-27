@@ -1,30 +1,57 @@
 {
-    "minecraft:golden_helmet": {
-        "module": "helmet_base",
-        "moduleData": {
-            "properties": "{\"material\":\"gold\"}"
-        },
-        "subModules": {}
-    },
     "minecraft:iron_helmet": {
         "module": "helmet_base",
-        "moduleData": {
-            "properties": "{\"material\":\"iron\"}"
-        },
-        "subModules": {}
+        "subModules": {
+            "0": {
+                "module": "helmet_plate",
+                "moduleData": {
+                    "properties": "{\"material\":\"iron\"}"
+                }
+            }
+        }
+    },
+    "minecraft:golden_helmet": {
+        "module": "helmet_base",
+        "subModules": {
+            "0": {
+                "module": "helmet_plate",
+                "moduleData": {
+                    "properties": "{\"material\":\"gold\"}"
+                }
+            }
+        }
     },
     "minecraft:diamond_helmet": {
         "module": "helmet_base",
-        "moduleData": {
-            "properties": "{\"material\":\"diamond\"}"
-        },
-        "subModules": {}
+        "subModules": {
+            "0": {
+                "module": "helmet_plate",
+                "moduleData": {
+                    "properties": "{\"material\":\"diamond\"}"
+                }
+            }
+        }
     },
     "minecraft:netherite_helmet": {
         "module": "helmet_base",
-        "moduleData": {
-            "properties": "{\"material\":\"netherite\"}"
-        },
-        "subModules": {}
+        "subModules": {
+            "0": {
+                "module": "helmet_plate",
+                "moduleData": {
+                    "properties": "{\"material\":\"netherite\"}"
+                }
+            }
+        }
+    },
+    "minecraft:leather_helmet": {
+        "module": "helmet_base",
+        "subModules": {
+            "0": {
+                "module": "helmet_plate",
+                "moduleData": {
+                    "properties": "{\"material\":\"leather\"}"
+                }
+            }
+        }
     }
 }

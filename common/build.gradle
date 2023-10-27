@@ -5,7 +5,7 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    modImplementation "maven.modrinth:modular-item-api:${miapi_version}"
+    modImplementation "maven.modrinth:modular-item-api:${miapi_version}-fabric"
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
 
