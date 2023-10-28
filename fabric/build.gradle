@@ -39,6 +39,7 @@ dependencies {
 
     implementation(include('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2'))
     modImplementation "maven.modrinth:modular-item-api:${miapi_version}-fabric"
+    modApi("com.github.RedPxnda.Nucleus:nucleus:${rootProject.nucleus_version}")
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }

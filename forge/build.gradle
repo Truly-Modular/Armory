@@ -22,11 +22,6 @@ repositories {
     }
 }
 
-forgix {
-    group = "smartin.miapi"
-    mergedJarName = "Truly-Modular-Archery-${rootProject.mod_version}-${rootProject.minecraft_version}.jar"
-}
-
 tasks.register('buildMerged') {
     dependsOn(':forge:build', ':fabric:build')
 
@@ -49,7 +44,7 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
 
-    modImplementation "maven.modrinth:modular-item-api:${miapi_version}-forge"
+    //modImplementation "maven.modrinth:modular-item-api:${miapi_version}-forge"
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }

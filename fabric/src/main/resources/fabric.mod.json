@@ -21,5 +21,16 @@
     "fabricloader": ">=0.14.21",
     "minecraft": ">=1.20.1",
     "miapi": ">0.3"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "discord": "https://discord.gg/m9AbjqvcGn"
+      },
+      "parent": {
+        "id": "miapi"
+      },
+      "update_checker": true
+    }
   }
 }
