@@ -97,13 +97,20 @@ public class GenerateArmorModularConverter {
                     "                \"subModules\": {}\n" +
                     "            },\n" +
                     "            \"1\": {\n" +
-                    "                \"module\": \"arm_left\",\n" +
+                    "                \"module\": \"back_chestplate\",\n" +
                     "                \"moduleData\": {\n" +
                     "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
                     "                },\n" +
                     "                \"subModules\": {}\n" +
                     "            },\n" +
                     "            \"2\": {\n" +
+                    "                \"module\": \"arm_left\",\n" +
+                    "                \"moduleData\": {\n" +
+                    "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                    "                },\n" +
+                    "                \"subModules\": {}\n" +
+                    "            },\n" +
+                    "            \"3\": {\n" +
                     "                \"module\": \"arm_right\",\n" +
                     "                \"moduleData\": {\n" +
                     "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
