@@ -21,7 +21,11 @@
                         "origin": "item"
                     }
                 }
-            ]
+            ],
+            "itemLore": {
+                "lang": "miapi.underboot.lore",
+                "position": "top"
+            }
         }
     }
 }

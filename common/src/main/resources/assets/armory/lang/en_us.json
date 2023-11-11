@@ -1,4 +1,9 @@
 {
+    "miapi.underboot.lore": "Socks, basis for Modular Boots",
+    "miapi.underchest.lore": "Undershirt, a basis for modular Chestplate",
+    "miapi.underhelmet.lore": "Underhelmet, the basis for Modular Helmets",
+    "miapi.underpants.lore": "Underpants, the basis for Modular Leggings",
+
     "miapi.module.boot_left": "Left Boot",
     "miapi.module.boot_left.name": "[translation.[material.translation]]Boots",
     "miapi.module.boot_left.description": "The left Boot protecting your left foot",
