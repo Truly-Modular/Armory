@@ -193,7 +193,7 @@
             }
         }
     },
-    "displayName": "miapi.module.boot_name.name",
+    "displayName": "miapi.module.boot_base.name",
     "enchantments": {
         "allowed": [
             "miapi:basic",

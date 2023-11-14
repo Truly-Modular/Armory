@@ -33,11 +33,7 @@
                         "origin": "item"
                     }
                 }
-            ],
-            "itemLore": {
-                "lang": "miapi.underchest.lore",
-                "position": "top"
-            }
+            ]
         }
     }
 }
