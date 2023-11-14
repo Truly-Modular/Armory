@@ -8,6 +8,7 @@
             "allowed": [
                 "belt"
             ],
+            "translationKey": "miapi.slot.belt.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -31,6 +32,7 @@
             "allowed": [
                 "leg_left"
             ],
+            "translationKey": "miapi.slot.leg_left.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -54,6 +56,7 @@
             "allowed": [
                 "leg_right"
             ],
+            "translationKey": "miapi.slot.leg_right.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,

@@ -8,6 +8,7 @@
             "allowed": [
                 "helmet_plate"
             ],
+            "translationKey": "miapi.slot.helmet.name",
             "transform": {
                 "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
                 "translation": {"x": 0.0, "y": -3.375, "z": 0.0},

@@ -8,6 +8,7 @@
             "allowed": [
                 "chest_front"
             ],
+            "translationKey": "miapi.slot.frontplate.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -31,6 +32,7 @@
             "allowed": [
                 "chest_back"
             ],
+            "translationKey": "miapi.slot.backplate.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -54,6 +56,7 @@
             "allowed": [
                 "arm_left"
             ],
+            "translationKey": "miapi.slot.arm_left.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -77,6 +80,7 @@
             "allowed": [
                 "arm_right"
             ],
+            "translationKey": "miapi.slot.arm_right.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,

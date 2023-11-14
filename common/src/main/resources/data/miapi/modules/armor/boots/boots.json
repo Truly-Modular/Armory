@@ -8,6 +8,7 @@
             "allowed": [
                 "boot_left"
             ],
+            "translationKey": "miapi.slot.boot_left.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -31,6 +32,7 @@
             "allowed": [
                 "boot_right"
             ],
+            "translationKey": "miapi.slot.boot_right.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,

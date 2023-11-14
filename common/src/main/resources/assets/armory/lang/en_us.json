@@ -1,4 +1,18 @@
 {
+    "miapi.slot.helmet.name": "Empty Helmet Slot",
+
+    "miapi.slot.frontplate.name": "Empty Frontplate Slot",
+    "miapi.slot.backplate.name": "Empty Backplate Slot",
+    "miapi.slot.arm_left.name": "Empty Left Arm Slot",
+    "miapi.slot.arm_right.name": "Empty Right Arm Slot",
+
+    "miapi.slot.belt.name": "Empty Belt Slot",
+    "miapi.slot.leg_left.name": "Empty Left Leg Slot",
+    "miapi.slot.leg_right.name": "Empty Right Leg Slot",
+
+    "miapi.slot.boot_left.name": "Empty Left Boot Slot",
+    "miapi.slot.boot_right.name": "Empty Right Boot Slot",
+
     "miapi.underboot.lore": "Socks, basis for Modular Boots",
     "miapi.underchest.lore": "Undershirt, a basis for modular Chestplate",
     "miapi.underhelmet.lore": "Underhelmet, the basis for Modular Helmets",
