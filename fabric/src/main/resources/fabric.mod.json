@@ -12,7 +12,11 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "main": [
+      "smartin.armory.fabric.ArmoryFabric"
+    ]
+  },
   "mixins": [
     "armory.mixins.json",
     "armory-common.mixins.json"
