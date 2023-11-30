@@ -3,7 +3,7 @@ const path = require('path')
 
 const sourceFolder = './' // Replace with the path to your source folder
 const searchString = 'base' // Replace with the string you want to replace
-const replaceString = 'heavy' // Replace with the string you want to use as a replacement
+const replaceString = 'scuba' // Replace with the string you want to use as a replacement
 const requiredPath = `base`
 
 function processFolder(folderPath) {
@@ -22,7 +22,7 @@ function processFolder(folderPath) {
 			const updatedData = data.replace(new RegExp(searchString, 'g'), replaceString)
 			let newFilePath = ''
 			if (true) {
-				newFilePath = newFilePath.replace(new RegExp(searchString, 'g'), replaceString)
+				newFilePath = filePath.replace(new RegExp(searchString, 'g'), replaceString)
 				createFolderIfNotExists(newFilePath)
 			} else {
 				newFilePath = filePath.replace('default.json', `${replaceString}.json`)
@@ -33,13 +33,13 @@ function processFolder(folderPath) {
 }
 
 function createFolderIfNotExists(path) {
-	const folders = path.split('/') // Assuming a forward slash as the separator
+	const folders = path.split('\\') // Assuming a forward slash as the separator
 	let currentPath = ''
-
+	console.log(`Requested fullpath is ${path}`)
 	for (const folder of folders) {
-		currentPath += folder + '/'
+		currentPath += folder + '\\'
 
-		if (!fs.existsSync(currentPath)) {
+		if (!fs.existsSync(currentPath) && !currentPath.includes('.')) {
 			try {
 				fs.mkdirSync(currentPath)
 				console.log(`Folder created at ${currentPath}`)
