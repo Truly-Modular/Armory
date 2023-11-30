@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "miapi:item/armor/bright"
+		"1": "miapi:item/armor/base/bright"
 	},
 	"elements": [
 		{
