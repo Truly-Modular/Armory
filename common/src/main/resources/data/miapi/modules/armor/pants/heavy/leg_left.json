@@ -65,6 +65,24 @@
             "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*2",
             "operation": "+",
             "slot": "legs"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "0.025",
+            "operation": "*",
+            "slot": "legs"
+        },
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": " (- 1 - [material.density]*1.5)/1000",
+            "operation": "*",
+            "slot": "legs"
+        },
+        {
+            "attribute": "miapi:generic.elytra_glide_efficiency",
+            "value": " - 5 -[material.density]*0.2",
+            "operation": "+",
+            "slot": "legs"
         }
     ],
     "durability": "[material.durability] / 7 * 2 / 3.7",

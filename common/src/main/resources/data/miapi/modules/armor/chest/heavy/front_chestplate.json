@@ -67,6 +67,12 @@
             "slot": "chest"
         },
         {
+            "attribute": "minecraft:generic.armor",
+            "value": "0.04",
+            "operation": "*",
+            "slot": "chest"
+        },
+        {
             "attribute": "minecraft:generic.armor_toughness",
             "value": "((((([material.mining_level]-2)/(abs([material.mining_level]-2))))/(2))+0.5) * ([material.mining_level]-1) / 2",
             "operation": "+",
@@ -74,7 +80,19 @@
         },
         {
             "attribute": "minecraft:generic.knockback_resistance",
-            "value": "((((([material.mining_level]-3)/(abs([material.mining_level]-3))))/(2))+0.5) * ([material.mining_level]-3) / 20",
+            "value": "((((([material.mining_level]-3)/(abs([material.mining_level]-3))))/(2))+0.5) * ([material.mining_level]-2) / 20",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": " (- 1 - [material.density]*5)/1000",
+            "operation": "*",
+            "slot": "chest"
+        },
+        {
+            "attribute": "miapi:generic.elytra_glide_efficiency",
+            "value": " - 30 -[material.density]*2",
             "operation": "+",
             "slot": "chest"
         }

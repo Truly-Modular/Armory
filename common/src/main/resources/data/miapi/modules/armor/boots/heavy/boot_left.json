@@ -80,6 +80,12 @@
             "slot": "feet"
         },
         {
+            "attribute": "minecraft:generic.armor",
+            "value": "0.05",
+            "operation": "*",
+            "slot": "feet"
+        },
+        {
             "attribute": "minecraft:generic.armor_toughness",
             "value": "(((((([material.mining_level]-2)/(abs([material.mining_level]-2))))/(2))+0.5) * ([material.mining_level]-1))/2",
             "operation": "+",
@@ -87,17 +93,24 @@
         },
         {
             "attribute": "minecraft:generic.knockback_resistance",
-            "value": "(((((([material.mining_level]-3)/(abs([material.mining_level]-3))))/(2))+0.5) * ([material.mining_level]-3) / 10) /2",
+            "value": "(((((([material.mining_level]-2)/(abs([material.mining_level]-2))))/(2))+0.5) * ([material.mining_level]-2) / 10) /2",
             "operation": "+",
             "slot": "feet"
         },
         {
             "attribute": "miapi:generic.swim_speed",
-            "value": "10",
+            "value": " (- 30 - [material.density]*0.5)/1000",
+            "operation": "*",
+            "slot": "feet"
+        },
+        {
+            "attribute": "miapi:generic.elytra_glide_efficiency",
+            "value": " - 5 -[material.density]*0.2",
             "operation": "+",
             "slot": "feet"
         }
     ],
+    "water_gravity": "floor([material.density]*5+30)",
     "durability": "[material.durability]* 0.5 / 4.2",
     "displayName": "miapi.module.boot_left.name"
 }
