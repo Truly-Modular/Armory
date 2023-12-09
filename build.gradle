@@ -32,7 +32,7 @@ tasks.register('buildBoth') {
                 from fabricJar
                 into project.file('Merged')
                 rename { fileName ->
-                    "Truly-Modular-Armory-${modVersion}-${minecraftVersion}-fabric.jar"
+                    "Truly-Modular-Armory-${modVersion}-${minecraftVersion}-snapshot-fabric.jar"
                 }
             }
         }
@@ -42,7 +42,7 @@ tasks.register('buildBoth') {
                 from forgeJar
                 into project.file('Merged')
                 rename { fileName ->
-                    "Truly-Modular-Armory-${modVersion}-${minecraftVersion}-forge.jar"
+                    "Truly-Modular-Armory-${modVersion}-${minecraftVersion}-snapshot-forge.jar"
                 }
             }
         }

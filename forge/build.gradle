@@ -22,6 +22,15 @@ repositories {
     }
 }
 
+tasks.register('githubPublish') {
+    finalizedBy ':common:publish'
+    group = 'publishing'
+
+    doLast {
+        publishing.publications.mavenCommon.groupId = "com.${rootProject.github}"
+    }
+}
+
 tasks.register('buildMerged') {
     dependsOn(':forge:build', ':fabric:build')
 
@@ -92,12 +101,14 @@ publishing {
     publications {
         mavenForge(MavenPublication) {
             artifactId = rootProject.archives_base_name + "-" + project.name
+            version = rootProject.mod_version + "-" + rootProject.minecraft_version
+
             from components.java
         }
     }
 
     // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
     repositories {
-        // Add repositories to publish to here.
+        maven { url uri(file("$rootDir/build/repository")) }
     }
 }
