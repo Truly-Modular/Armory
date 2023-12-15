@@ -44,7 +44,7 @@
             }
         }
     ],
-    "priority": 0,
+    "priority": 1,
     "repairPriority": 0,
     "materialProperty": [
         "default",
@@ -80,6 +80,7 @@
             "slot": "chest"
         }
     ],
+    "food_exhaustion": "floor([material.density]*1+3)",
     "tag": [
         "background_icon_alt",
         "armor",

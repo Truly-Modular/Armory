@@ -7,7 +7,7 @@
                 "tag": "elytra"
             }
         },
-        "properties": {
+        "replace": {
             "displayName": "miapi:armored_elytra",
             "attributes": [
                 {

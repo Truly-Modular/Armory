@@ -25,7 +25,7 @@
         "armor",
         "helmet"
     ],
-    "priority": 0,
+    "priority": 1,
     "repairPriority": 0,
     "tag": [
         "background_icon",
@@ -73,6 +73,7 @@
             "slot": "head"
         }
     ],
+    "food_exhaustion": "floor([material.density]*2+15)",
     "durability": "[material.durability] / 5",
     "allowedMaterial": {
         "allowedMaterials": [
@@ -85,7 +86,7 @@
             "crystal",
             "glass"
         ],
-        "cost": 5
+        "cost": 6
     },
-    "displayName": "miapi.module.helmet_plate.name"
+    "displayName": "miapi.module.helmet_heavy.name"
 }

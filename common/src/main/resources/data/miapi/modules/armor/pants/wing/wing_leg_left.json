@@ -44,7 +44,7 @@
             }
         }
     ],
-    "priority": 1,
+    "priority": 2,
     "repairPriority": 0,
     "materialProperty": [
         "default",

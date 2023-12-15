@@ -67,6 +67,11 @@
             "slot": "legs"
         }
     ],
+    "crafting_condition": {
+        "visible": {
+            "type": "not"
+        }
+    },
     "durability": "[material.durability] / 7 * 2 / 3.7",
     "allowedMaterial": {
         "allowedMaterials": [

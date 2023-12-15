@@ -1,0 +1,87 @@
+{
+    "name": "front_chain_chestplate_crafted",
+    "texture": [
+        {
+            "path": "miapi:models/item/armor/model/chest_front/chain/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "origin": "body"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/chain/chest/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 2,
+    "repairPriority": 1,
+    "materialProperty": [
+        "default",
+        "armor",
+        "chest"
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "chest"
+    ],
+    "allowedInSlots": [
+        "chest_front"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4)) / 8 * 3",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "miapi:generic.projectile_armor",
+            "value": "ceil(([material.hardness]*2+[material.flexibility])/3*3)/10",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ],
+    "durability": "[material.durability] / 7 * 3 / 3.8",
+    "allowedMaterial": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 2
+    },
+    "displayName": "miapi.module.front_chain_chestplate_crafted.name"
+}

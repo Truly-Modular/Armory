@@ -44,7 +44,7 @@
             }
         }
     ],
-    "priority": 0,
+    "priority": 1,
     "repairPriority": 1,
     "materialProperty": [
         "default",
@@ -97,6 +97,7 @@
             "slot": "chest"
         }
     ],
+    "food_exhaustion": "floor([material.density]*2+7)",
     "durability": "[material.durability] / 7 * 3 / 3.8",
     "allowedMaterial": {
         "allowedMaterials": [
@@ -109,7 +110,7 @@
             "crystal",
             "glass"
         ],
-        "cost": 3
+        "cost": 5
     },
-    "displayName": "miapi.module.front_chestplate.name"
+    "displayName": "miapi.module.front_chestplate_heavy.name"
 }

@@ -22,7 +22,7 @@
                 }
             ]
         },
-        "properties": {
+        "replace": {
             "texture": [
                 {
                     "path": "miapi:models/item/armor/gui/background/chest/base_alt/[material.texture].json",

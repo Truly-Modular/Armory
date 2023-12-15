@@ -10,7 +10,7 @@
                 }
             }
         },
-        "properties": {
+        "replace": {
             "texture": [
                 {
                     "path": "miapi:models/item/armor/gui/background/helmet/base/[material.texture].json",

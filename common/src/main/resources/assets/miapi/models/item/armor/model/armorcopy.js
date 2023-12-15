@@ -2,9 +2,9 @@ const fs = require('fs')
 const path = require('path')
 
 const sourceFolder = './' // Replace with the path to your source folder
-const searchString = 'base' // Replace with the string you want to replace
-const replaceString = 'scuba' // Replace with the string you want to use as a replacement
-const requiredPath = `base`
+const searchString = 'default' // Replace with the string you want to replace
+const replaceString = 'bright' // Replace with the string you want to use as a replacement
+const requiredPath = `heavy`
 
 function processFolder(folderPath) {
 	const files = fs.readdirSync(folderPath)
@@ -21,7 +21,7 @@ function processFolder(folderPath) {
 			const data = fs.readFileSync(filePath, 'utf8')
 			const updatedData = data.replace(new RegExp(searchString, 'g'), replaceString)
 			let newFilePath = ''
-			if (true) {
+			if (false) {
 				newFilePath = filePath.replace(new RegExp(searchString, 'g'), replaceString)
 				createFolderIfNotExists(newFilePath)
 			} else {

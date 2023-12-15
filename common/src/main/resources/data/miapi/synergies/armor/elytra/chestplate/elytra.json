@@ -8,7 +8,7 @@
                 "tag": "wing_right"
             }
         },
-        "properties": {
+        "replace": {
             "displayName": "miapi.modular_elytra",
             "itemId": "miapi:modular_elytra"
         }

@@ -44,7 +44,7 @@
             }
         }
     ],
-    "priority": 0,
+    "priority": 1,
     "repairPriority": 0,
     "materialProperty": [
         "default",
@@ -70,7 +70,7 @@
             "crystal",
             "glass"
         ],
-        "cost": 2
+        "cost": 3
     },
     "attributes": [
         {
@@ -111,6 +111,7 @@
         }
     ],
     "water_gravity": "floor([material.density]*5+30)",
+    "food_exhaustion": "floor([material.density]*2+10)",
     "durability": "[material.durability]* 0.5 / 4.2",
-    "displayName": "miapi.module.boot_left.name"
+    "displayName": "miapi.module.boot_left_heavy.name"
 }

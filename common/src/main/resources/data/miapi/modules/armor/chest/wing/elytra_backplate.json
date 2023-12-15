@@ -51,7 +51,7 @@
             }
         }
     },
-    "priority": 1,
+    "priority": 3,
     "repairPriority": 1,
     "materialProperty": [
         "default",

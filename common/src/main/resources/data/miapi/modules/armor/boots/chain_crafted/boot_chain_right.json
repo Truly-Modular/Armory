@@ -1,0 +1,87 @@
+{
+    "name": "boot_chain_right_crafted",
+    "texture": [
+        {
+            "path": "miapi:models/item/armor/model/boot_right/chain/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "origin": "right_leg"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/chain/boot_right/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 2,
+    "repairPriority": 0,
+    "materialProperty": [
+        "default",
+        "armor",
+        "boot"
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "boot"
+    ],
+    "allowedInSlots": [
+        "boot_right"
+    ],
+    "allowedMaterial": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 1
+    },
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(4))",
+            "operation": "+",
+            "slot": "feet"
+        },
+        {
+            "attribute": "miapi:generic.projectile_armor",
+            "value": "ceil(([material.hardness]*2+[material.flexibility])/3*2)/10",
+            "operation": "+",
+            "slot": "feet"
+        }
+    ],
+    "durability": "[material.durability]* 0.5 / 4.2",
+    "displayName": "miapi.module.boot_chain_right_crafted.name"
+}

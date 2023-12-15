@@ -44,7 +44,7 @@
             }
         }
     ],
-    "priority": 0,
+    "priority": 1,
     "repairPriority": 0,
     "materialProperty": [
         "default",
@@ -66,7 +66,7 @@
             "flint",
             "bone"
         ],
-        "cost": 3
+        "cost": 4
     },
     "attributes": [
         {
@@ -107,5 +107,6 @@
         }
     ],
     "durability": "[material.durability] / 7 * 3 / 3.7",
-    "displayName": "miapi.module.belt_chain.name"
+    "food_exhaustion": "floor([material.density]*2+5)",
+    "displayName": "miapi.module.belt_heavy.name"
 }

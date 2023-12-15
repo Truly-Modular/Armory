@@ -1,5 +1,5 @@
 {
-    "name": "leg_heavy_left",
+    "name": "leg_left_heavy",
     "texture": [
         {
             "path": "miapi:models/item/armor/model/leg_left/heavy/[material.texture].json",
@@ -44,7 +44,7 @@
             }
         }
     ],
-    "priority": 0,
+    "priority": 1,
     "repairPriority": 0,
     "materialProperty": [
         "default",
@@ -85,6 +85,7 @@
             "slot": "legs"
         }
     ],
+    "food_exhaustion": "floor([material.density]*1+5)",
     "durability": "[material.durability] / 7 * 2 / 3.7",
     "allowedMaterial": {
         "allowedMaterials": [
@@ -93,6 +94,6 @@
             "flint",
             "bone"
         ],
-        "cost": 2
+        "cost": 3
     }
 }
