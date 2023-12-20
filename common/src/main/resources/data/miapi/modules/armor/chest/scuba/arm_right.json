@@ -44,6 +44,34 @@
             }
         }
     ],
+    "slots": {
+        "20": {
+            "allowed": [
+                "cosmetic_2x4",
+                "banner_2x4"
+            ],
+            "slotType": "cosmetic",
+            "translationKey": "miapi.slot.arm_patch.name",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 2.15,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.1,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "origin": "right_arm"
+            }
+        }
+    },
     "priority": 4,
     "repairPriority": 0,
     "materialProperty": [

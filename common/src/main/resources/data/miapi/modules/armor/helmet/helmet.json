@@ -6,7 +6,8 @@
     "slots": {
         "0": {
             "allowed": [
-                "helmet_plate"
+                "helmet_plate",
+                "cosmetic"
             ],
             "translationKey": "miapi.slot.helmet.name",
             "transform": {
