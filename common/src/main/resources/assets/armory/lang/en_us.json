@@ -238,5 +238,11 @@
     "miapi.module.wing_leg_right.description": "A Large Panel to stabilise gliding with Wings",
 
     "miapi.modular_elytra": "[translation.[material.translation]]Elytra",
-    "miapi:armored_elytra": "[translation.[material.translation]]Armored Elytra"
+    "miapi:armored_elytra": "[translation.[material.translation]]Armored Elytra",
+
+    "miapi.module.crown": "Crown",
+    "miapi.module.crown.name": "[translation.[material.translation]]Crown",
+    "miapi.module.crown.description": "A decorative Crown",
+
+    "miapi.crown.technocrown.lore": "Technoblade never dies"
 }

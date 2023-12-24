@@ -20,6 +20,20 @@
             }
         }
     ],
+    "slots": {
+        "0": {
+            "allowed": [
+                "hat"
+            ],
+            "translationKey": "miapi.slot.helmet.name",
+            "transform": {
+                "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
+                "translation": {"x": 0.0, "y": -1.0, "z": 0.0},
+                "scale": {"x": 1.1, "y": 1.1, "z": 1.1},
+                "origin": "head"
+            }
+        }
+    },
     "materialProperty": [
         "default",
         "armor",
