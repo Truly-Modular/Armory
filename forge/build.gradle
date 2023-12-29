@@ -23,11 +23,11 @@ repositories {
 }
 
 tasks.register('githubPublish') {
-    finalizedBy ':common:publish'
+    finalizedBy ':forge:publish'
     group = 'publishing'
 
     doLast {
-        publishing.publications.mavenCommon.groupId = "com.${rootProject.github}"
+        publishing.publications.mavenForge.groupId = "com.${rootProject.github}"
     }
 }
 

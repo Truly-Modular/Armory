@@ -54,11 +54,11 @@ processResources {
 }
 
 tasks.register('githubPublish') {
-    finalizedBy ':common:publish'
+    finalizedBy ':fabric:publish'
     group = 'publishing'
 
     doLast {
-        publishing.publications.mavenCommon.groupId = "com.${rootProject.github}"
+        publishing.publications.mavenFabric.groupId = "com.${rootProject.github}"
     }
 }
 
