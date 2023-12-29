@@ -22,15 +22,6 @@ repositories {
     }
 }
 
-tasks.register('githubPublish') {
-    finalizedBy ':forge:publish'
-    group = 'publishing'
-
-    doLast {
-        publishing.publications.mavenForge.groupId = "com.${rootProject.github}"
-    }
-}
-
 tasks.register('buildMerged') {
     dependsOn(':forge:build', ':fabric:build')
 
@@ -94,6 +85,15 @@ sourcesJar {
 components.java {
     withVariantsFromConfiguration(project.configurations.shadowRuntimeElements) {
         skip()
+    }
+}
+
+tasks.register('githubPublish') {
+    finalizedBy ':forge:publish'
+    group = 'publishing'
+
+    doLast {
+        publishing.publications.mavenForge.groupId = "com.${rootProject.github}"
     }
 }
 
