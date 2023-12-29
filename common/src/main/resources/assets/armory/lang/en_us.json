@@ -160,6 +160,48 @@
 
 
 
+    "miapi.module.boot_left_scuba": "Left Scuba Boot",
+    "miapi.module.boot_left_scuba.name": "[translation.[material.translation]]Scuba Boots",
+    "miapi.module.boot_left_scuba.description": "The left Scuba Boot for Swimming",
+
+    "miapi.module.boot_right_scuba": "Right Scuba Boot",
+    "miapi.module.boot_right_scuba.name": "[translation.[material.translation]]Scuba Boots",
+    "miapi.module.boot_right_scuba.description": "The right Scuba Boot for Swimming",
+
+    "miapi.module.leg_left_scuba": "Left Scuba Pants",
+    "miapi.module.leg_left_scuba.name": "[translation.[material.translation]]Left Scuba Pants",
+    "miapi.module.leg_left_scuba.description": "A Scuba leg for Swimming",
+
+    "miapi.module.leg_right_scuba": "Right Scuba Pants",
+    "miapi.module.leg_right_scuba.name": "[translation.[material.translation]]Right Scuba Pants",
+    "miapi.module.leg_right_scuba.description": "A Scuba leg for Swimming",
+
+    "miapi.module.belt_scuba": "Scuba Belt",
+    "miapi.module.belt_scuba.name": "[translation.[material.translation]]Scuba Leggings",
+    "miapi.module.belt_scuba.description": "A Scuba belt to allow for faster Swimming",
+
+    "miapi.module.arm_left_scuba": "Left Scuba-Sleeve",
+    "miapi.module.arm_left_scuba.name": "[translation.[material.translation]]Left Scuba-Sleeve",
+    "miapi.module.arm_left_scuba.description": "A Left Scuba Arm",
+
+    "miapi.module.arm_right_scuba": "Right Scuba-Sleeve",
+    "miapi.module.arm_right_scuba.name": "[translation.[material.translation]]Right Scuba-Sleeve",
+    "miapi.module.arm_right_scuba.description": "A right Scuba Arm",
+
+    "miapi.module.front_chestplate_scuba": "Scuba Chestplate",
+    "miapi.module.front_chestplate_scuba.name": "[translation.[material.translation]]Scuba Chestplate",
+    "miapi.module.front_chestplate_scuba.description": "Scuba suit Chestplate to improve Swimmingspeed",
+
+    "miapi.module.back_chestplate_scuba": "Scuba Backplate",
+    "miapi.module.back_chestplate_scuba.name": "[translation.[material.translation]]Scuba Backplate",
+    "miapi.module.back_chestplate_scuba.description": "Scuba Backplate to improve Swimmingspeed",
+
+    "miapi.module.helmet_scuba": "Scuba Helmet",
+    "miapi.module.helmet_scuba.name": "[translation.[material.translation]]Scuba Helmet",
+    "miapi.module.helmet_scuba.description": "A Scuba Helmet to improve Swimmingspeed",
+
+
+
     "miapi.module.boot_chain_left": "Old Left Chainmail Boot",
     "miapi.module.boot_chain_left.name": "[translation.[material.translation]]Chainmail Boots",
     "miapi.module.boot_chain_left.description": "The left Boot protecting your left foot",
@@ -243,6 +285,14 @@
     "miapi.module.crown": "Crown",
     "miapi.module.crown.name": "[translation.[material.translation]]Crown",
     "miapi.module.crown.description": "A decorative Crown",
+
+    "miapi.module.banner_head": "Banner Cosmetic",
+    "miapi.module.banner_head.name": "[translation.[material.translation]]Banner",
+    "miapi.module.banner_head.description": "Large Banner on your Head\nProudly displaying your alligment",
+
+    "miapi.module.banner_chest": "Banner Cosmetic",
+    "miapi.module.banner_chest.name": "[translation.[material.translation]]Banner",
+    "miapi.module.banner_chest.description": "Chest Banner Decorative Piece\nGreat for displaying Art or Flags",
 
     "miapi.crown.technocrown.lore": "Technoblade never dies"
 }

@@ -43,6 +43,12 @@
             "slot": "head"
         },
         {
+            "attribute": "miapi:generic.swim_speed",
+            "value": "( [material.hardness]-[material.density]/2  )/100",
+            "operation": "+",
+            "slot": "head"
+        },
+        {
             "attribute": "minecraft:generic.armor_toughness",
             "value": "((((([material.mining_level]-2)/(abs([material.mining_level]-2))))/(2))+0.5) * ([material.mining_level]-1)",
             "operation": "+",
@@ -58,7 +64,11 @@
     "durability": "[material.durability] / 5",
     "allowedMaterial": {
         "allowedMaterials": [
-            "fabric"
+            "fabric",
+            "metal",
+            "flint",
+            "crystal",
+            "glass"
         ],
         "cost": 5
     },

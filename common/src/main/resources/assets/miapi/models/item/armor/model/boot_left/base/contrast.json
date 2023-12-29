@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "miapi:item/armor/scuba/default"
+		"1": "miapi:item/armor/base/contrast"
 	},
 	"elements": [
 		{
@@ -26,18 +26,6 @@
 				"west": {"uv": [2, 14.5, 3, 16], "texture": "#1"},
 				"up": {"uv": [2, 13.5, 3, 14.5], "texture": "#1"},
 				"down": {"uv": [0, 13.5, 1, 14.5], "texture": "#1"}
-			}
-		},
-		{
-			"from": [-2, -3, -2],
-			"to": [2, -3, -6],
-			"faces": {
-				"north": {"uv": [5, 13.5, 7, 15.5], "texture": "#missing"},
-				"east": {"uv": [5, 13.5, 7, 15.5], "texture": "#missing"},
-				"south": {"uv": [5, 13.5, 7, 15.5], "texture": "#missing"},
-				"west": {"uv": [5, 13.5, 7, 15.5], "texture": "#missing"},
-				"up": {"uv": [4, 15, 5, 16], "texture": "#1"},
-				"down": {"uv": [4, 16, 5, 15], "texture": "#1"}
 			}
 		}
 	]

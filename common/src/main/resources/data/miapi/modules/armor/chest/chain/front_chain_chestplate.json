@@ -51,6 +51,33 @@
         "armor",
         "chest"
     ],
+    "slots": {
+        "40": {
+            "allowed": [
+                "chest_cosmetic"
+            ],
+            "slotType": "cosmetic",
+            "translationKey": "miapi.slot.chest_center.name",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.9,
+                    "z": -2.35
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 0.8,
+                    "z": 1.1
+                },
+                "origin": "body"
+            }
+        }
+    },
     "tag": [
         "background_icon",
         "armor",

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "miapi:item/armor/crown/default",
-		"particle": "miapi:item/armor/crown/default"
+		"2": "miapi:item/armor/crown/contrast",
+		"particle": "miapi:item/armor/crown/contrast"
 	},
 	"elements": [
 		{

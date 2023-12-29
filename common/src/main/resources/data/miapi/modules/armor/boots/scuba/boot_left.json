@@ -61,14 +61,24 @@
     ],
     "allowedMaterial": {
         "allowedMaterials": [
-            "fabric"
+            "fabric",
+            "metal",
+            "flint",
+            "crystal",
+            "glass"
         ],
         "cost": 2
     },
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(2))",
+            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(4))",
+            "operation": "+",
+            "slot": "feet"
+        },
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": "( [material.hardness]-[material.density]/2  )/100",
             "operation": "+",
             "slot": "feet"
         },

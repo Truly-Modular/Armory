@@ -47,8 +47,7 @@
     "slots": {
         "40": {
             "allowed": [
-                "cosmetic_4x8",
-                "banner_4x8"
+                "chest_cosmetic"
             ],
             "slotType": "cosmetic",
             "translationKey": "miapi.slot.chest_center.name",
@@ -90,14 +89,8 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8*3",
+            "value": "(([material.hardness] + 2 - ceil([material.flexibility]/4))/8*3)*1.1",
             "operation": "+",
-            "slot": "chest"
-        },
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "0.04",
-            "operation": "*",
             "slot": "chest"
         },
         {

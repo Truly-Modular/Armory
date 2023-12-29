@@ -36,7 +36,6 @@
     "allowedMaterial": {
         "allowedMaterials": [
             "wood",
-            "fabric",
             "metal",
             "flint",
             "bone",

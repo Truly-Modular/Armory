@@ -90,7 +90,13 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8",
+            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": "( [material.hardness]-[material.density]/2  )/100",
             "operation": "+",
             "slot": "chest"
         }
@@ -98,7 +104,11 @@
     "durability": "[material.durability] / 8 / 3.8",
     "allowedMaterial": {
         "allowedMaterials": [
-            "fabric"
+            "fabric",
+            "metal",
+            "flint",
+            "crystal",
+            "glass"
         ],
         "cost": 1
     }

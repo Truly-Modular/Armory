@@ -47,8 +47,7 @@
     "slots": {
         "40": {
             "allowed": [
-                "cosmetic_4x8",
-                "banner_4x8"
+                "chest_cosmetic"
             ],
             "slotType": "cosmetic",
             "translationKey": "miapi.slot.chest_center.name",
