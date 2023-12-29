@@ -53,15 +53,6 @@ processResources {
     }
 }
 
-tasks.register('githubPublish') {
-    finalizedBy ':fabric:publish'
-    group = 'publishing'
-
-    doLast {
-        publishing.publications.mavenFabric.groupId = "com.${rootProject.github}"
-    }
-}
-
 shadowJar {
     configurations = [project.configurations.shadowCommon]
     archiveClassifier.set("dev-shadow")
@@ -86,6 +77,15 @@ sourcesJar {
 components.java {
     withVariantsFromConfiguration(project.configurations.shadowRuntimeElements) {
         skip()
+    }
+}
+
+tasks.register('githubPublish') {
+    finalizedBy ':fabric:publish'
+    group = 'publishing'
+
+    doLast {
+        publishing.publications.mavenFabric.groupId = "com.${rootProject.github}"
     }
 }
 
