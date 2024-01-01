@@ -23,9 +23,10 @@
     "slots": {
         "0": {
             "allowed": [
-                "hat"
+                "hat",
+                "sub_hat"
             ],
-            "translationKey": "miapi.slot.helmet.name",
+            "translationKey": "miapi.slot.hat.name",
             "transform": {
                 "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
                 "translation": {"x": 0.0, "y": -1.0, "z": 0.0},

@@ -30,7 +30,7 @@
                 "banner_4x8"
             ],
             "slotType": "cosmetic",
-            "translationKey": "miapi.slot.chest_center.name",
+            "translationKey": "miapi.slot.chest_back_center.name",
             "transform": {
                 "rotation": {
                     "x": 180.0,

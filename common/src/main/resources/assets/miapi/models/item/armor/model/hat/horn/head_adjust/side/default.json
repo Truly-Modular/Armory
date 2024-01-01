@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "miapi:item/armor/horn/default",
+		"particle": "miapi:item/armor/crown/default"
+	},
+	"elements": [
+		{
+			"from": [3, 0, -1],
+			"to": [4, 2, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [2, 0.5, 1.75, 1], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [0.5, 0.5, 0, 1], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [0.75, 0.5, 0.5, 1], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [1.5, 0.5, 1, 1], "rotation": 180, "texture": "#3"},
+				"up": {"uv": [1.75, 0, 1.5, 0.5], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0.5, 0.5, 1, 0], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"from": [-4, 0, -1],
+			"to": [-3, 2, 1],
+			"faces": {
+				"north": {"uv": [1.75, 0.5, 2, 1], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [1, 0.5, 1.5, 1], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [0.75, 0.5, 1, 1], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [0, 0.5, 0.5, 1], "rotation": 180, "texture": "#3"},
+				"up": {"uv": [1.5, 0, 1.75, 0.5], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0.5, 0, 1, 0.5], "rotation": 90, "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [16, 0, 0],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "group",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [1]
+				}
+			]
+		}
+	]
+}

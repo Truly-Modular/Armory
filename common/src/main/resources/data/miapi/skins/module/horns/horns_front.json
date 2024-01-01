@@ -1,21 +1,19 @@
 {
-    "path": "techno_crown",
-    "module": "crown",
+    "path": "horns_front",
+    "module": "horns",
     "replace": {
         "texture": [
             {
-                "path": "miapi:models/item/armor/model/hat/crown/technoblade.json",
-                "color_provider": "model",
+                "path": "miapi:models/item/armor/model/hat/horn/front/[material.texture].json",
                 "transform": {
-                    "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
+                    "rotation": {"x": 180.0, "y": 0.0, "z": 0.0},
                     "translation": {"x": 0.0, "y": 0.0, "z": 0.0},
-                    "scale": {"x": 1.0, "y": 1.0, "z": 1.0},
+                    "scale": {"x": 0.91, "y": 0.91, "z": 0.91},
                     "origin": "head"
                 }
             },
             {
-                "path": "miapi:models/item/armor/gui/base/crown/technoblade.json",
-                "color_provider": "model",
+                "path": "miapi:models/item/armor/gui/base/horn/base/[material.texture].json",
                 "transform": {
                     "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
                     "translation": {"x": 0.0, "y": 0.0, "z": 0.1},
@@ -24,15 +22,14 @@
                 }
             }
         ],
-        "itemLore": {
-            "text": {
-                "type": "translatable",
-                "translate": "miapi.crown.technocrown.lore",
-                "color": "dark_gray",
-                "italic": true
-            },
-            "position": "top"
-        }
+        "materialProperty": [
+            "default",
+            "armor",
+            "helmet"
+        ],
+        "tag": [
+            "horns_front"
+        ]
     },
     "condition": {
         "type": "miapi_perm",

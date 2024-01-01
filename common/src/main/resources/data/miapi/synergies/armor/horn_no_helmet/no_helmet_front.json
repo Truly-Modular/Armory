@@ -1,0 +1,36 @@
+{
+    "horns": {
+        "condition": {
+            "type": "and",
+            "conditions": [
+                {
+                    "type": "not",
+                    "condition": {
+                        "type": "otherModule",
+                        "condition": {
+                            "type": "tag",
+                            "tag": "background_icon"
+                        }
+                    }
+                },
+                {
+                    "type": "tag",
+                    "tag": "horns_front"
+                }
+            ]
+        },
+        "merge": {
+            "texture": [
+                {
+                    "path": "miapi:models/item/armor/model/hat/horn/head_adjust/front/[material.texture].json",
+                    "transform": {
+                        "rotation": {"x": 180.0, "y": 0.0, "z": 0.0},
+                        "translation": {"x": 0.0, "y": 0.0, "z": 0.0},
+                        "scale": {"x": 0.91, "y": 0.91, "z": 0.91},
+                        "origin": "head"
+                    }
+                }
+            ]
+        }
+    }
+}

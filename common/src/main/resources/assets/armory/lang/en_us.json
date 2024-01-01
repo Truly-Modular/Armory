@@ -13,6 +13,11 @@
     "miapi.slot.boot_left.name": "Empty Left Boot Slot",
     "miapi.slot.boot_right.name": "Empty Right Boot Slot",
 
+    "miapi.slot.chest_center.name": "Chest Cosmetic Slot",
+    "miapi.slot.chest_back_center.name": "Backplate Cosmetic Slot",
+    "miapi.slot.arm_patch.name": "Arm Patch Slot",
+    "miapi.slot.hat.name": "Hat Slot",
+
     "miapi.underboot.lore": "Socks, basis for Modular Boots",
     "miapi.underchest.lore": "Undershirt, a basis for modular Chestplate",
     "miapi.underhelmet.lore": "Underhelmet, the basis for Modular Helmets",
@@ -285,6 +290,20 @@
     "miapi.module.crown": "Crown",
     "miapi.module.crown.name": "[translation.[material.translation]]Crown",
     "miapi.module.crown.description": "A decorative Crown",
+
+    "miapi.module.horns": "Horns",
+    "miapi.module.horns.description": "Some decorative Horns for your Helmet",
+
+    "miapi.module.ears": "Ears",
+    "miapi.module.ears.description": "Some decorative Ears",
+
+    "miapi.skin.name.horns_bent": "Forward Facing Horns",
+    "miapi.skin.name.horns_front": "Front Horns",
+    "miapi.skin.name.horns_small": "Smaller Horns",
+
+    "miapi.skin.techno_crown": "Techno`s Crown",
+    "miapi.skin.techno_crown.name": "[translation.[material.translation]]Crown",
+    "miapi.skin.techno_crown.description": "Technoblades Crown",
 
     "miapi.module.banner_head": "Banner Cosmetic",
     "miapi.module.banner_head.name": "[translation.[material.translation]]Banner",
