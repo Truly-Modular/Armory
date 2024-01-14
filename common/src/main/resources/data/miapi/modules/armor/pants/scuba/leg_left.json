@@ -3,6 +3,7 @@
     "texture": [
         {
             "path": "miapi:models/item/armor/model/leg_left/scuba/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_TWO",
             "transform": {
                 "rotation": {
                     "x": 0.0,

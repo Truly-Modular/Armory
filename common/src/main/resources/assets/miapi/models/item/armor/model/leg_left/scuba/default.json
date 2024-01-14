@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "miapi:item/armor/scuba/default"
+		"3": "miapi:item/armor/scuba/default/layer_2",
+		"particle": "miapi:item/armor/scuba/default/layer_1"
 	},
 	"elements": [
 		{
@@ -9,25 +10,12 @@
 			"from": [-2, -4, -2],
 			"to": [2, 5, 2],
 			"faces": {
-				"north": {"uv": [2, 10.25, 1, 12.5], "texture": "#1"},
-				"east": {"uv": [3, 10.25, 2, 12.5], "texture": "#1"},
-				"south": {"uv": [4, 10.25, 3, 12.5], "texture": "#1"},
-				"west": {"uv": [1, 10.25, 0, 12.5], "texture": "#1"},
-				"up": {"uv": [2, 9.25, 1, 10.25], "texture": "#1"},
-				"down": {"uv": [3, 9.25, 4, 10.25], "texture": "#1"}
-			}
-		},
-		{
-			"name": "Outer",
-			"from": [-2, -4, 2],
-			"to": [2, 5, -2],
-			"faces": {
-				"north": {"uv": [2, 10.25, 1, 12.5], "texture": "#1"},
-				"east": {"uv": [3, 10.25, 2, 12.5], "texture": "#1"},
-				"south": {"uv": [4, 10.25, 3, 12.5], "texture": "#1"},
-				"west": {"uv": [1, 10.25, 0, 12.5], "texture": "#1"},
-				"up": {"uv": [1, 9.25, 2, 10.25], "texture": "#1"},
-				"down": {"uv": [3, 9.25, 4, 10.25], "texture": "#1"}
+				"north": {"uv": [2, 10, 1, 14.5], "texture": "#3"},
+				"east": {"uv": [3, 10, 2, 14.5], "texture": "#3"},
+				"south": {"uv": [4, 10, 3, 14.5], "texture": "#3"},
+				"west": {"uv": [1, 10, 0, 14.5], "texture": "#3"},
+				"up": {"uv": [2, 8, 1, 10], "texture": "#3"},
+				"down": {"uv": [3, 8, 4, 10], "texture": "#3"}
 			}
 		}
 	]

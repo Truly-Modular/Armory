@@ -3,6 +3,7 @@
     "texture": [
         {
             "path": "miapi:models/item/armor/model/chest_back/scuba/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
             "transform": {
                 "rotation": {
                     "x": 0.0,
