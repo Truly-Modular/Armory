@@ -11,14 +11,6 @@
 			"faces": {
 				"south": {"uv": [8, 10, 10, 16], "texture": "#2"}
 			}
-		},
-		{
-			"name": "cube inverted",
-			"from": [4, 4, 2],
-			"to": [-4, -8, -2],
-			"faces": {
-				"north": {"uv": [8, 16, 10, 10], "texture": "#2"}
-			}
 		}
 	],
 	"groups": [
@@ -26,7 +18,7 @@
 			"name": "inner",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"children": [0, 1]
+			"children": [0]
 		}
 	]
 }

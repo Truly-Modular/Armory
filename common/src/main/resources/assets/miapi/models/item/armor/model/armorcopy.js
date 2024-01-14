@@ -3,8 +3,8 @@ const path = require('path')
 
 const sourceFolder = './' // Replace with the path to your source folder
 const searchString = 'default' // Replace with the string you want to replace
-const replaceString = 'stone_magma' // Replace with the string you want to use as a replacement
-const requiredPath = `base`
+const replaceString = 'netherite' // Replace with the string you want to use as a replacement
+const requiredPath = `heavy`
 
 function processFolder(folderPath) {
 	const files = fs.readdirSync(folderPath)
