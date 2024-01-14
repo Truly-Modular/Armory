@@ -17,6 +17,19 @@
 				"up": {"uv": [2, 8, 1, 10], "texture": "#3"},
 				"down": {"uv": [3, 8, 4, 10], "texture": "#3"}
 			}
+		},
+		{
+			"name": "Outer inverted",
+			"from": [2, 5, 2],
+			"to": [-2, -4, -2],
+			"faces": {
+				"north": {"uv": [4, 14.5, 3, 10], "texture": "#3"},
+				"east": {"uv": [1, 14.5, 0, 10], "texture": "#3"},
+				"south": {"uv": [2, 14.5, 1, 10], "texture": "#3"},
+				"west": {"uv": [3, 14.5, 2, 10], "texture": "#3"},
+				"up": {"uv": [4, 8, 3, 10], "texture": "#3"},
+				"down": {"uv": [1, 8, 2, 10], "texture": "#3"}
+			}
 		}
 	]
 }

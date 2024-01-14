@@ -16,6 +16,19 @@
 				"up": {"uv": [0, 8, 1, 10], "texture": "#2"},
 				"down": {"uv": [2, 8, 3, 10], "texture": "#2"}
 			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [2, 3, 2],
+			"to": [-2, -3, -2],
+			"faces": {
+				"north": {"uv": [3, 16, 4, 13], "texture": "#2"},
+				"east": {"uv": [1, 16, 0, 13], "texture": "#2"},
+				"south": {"uv": [1, 16, 2, 13], "texture": "#2"},
+				"west": {"uv": [3, 16, 2, 13], "texture": "#2"},
+				"up": {"uv": [3, 8, 2, 10], "texture": "#2"},
+				"down": {"uv": [1, 8, 0, 10], "texture": "#2"}
+			}
 		}
 	]
 }

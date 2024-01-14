@@ -11,15 +11,19 @@
 			"faces": {
 				"south": {"uv": [8, 10, 10, 16], "texture": "#2"}
 			}
-		}
-	],
-	"groups": [
-		{
-			"name": "inner",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": []
 		},
-		0
+		{
+			"name": "cube inverted",
+			"from": [4, 4, 2],
+			"to": [-4, -9, -2],
+			"faces": {
+				"north": {"uv": [8, 16, 10, 10], "texture": "#2"},
+				"east": {"uv": [15, 1, 16, 0], "texture": "#2"},
+				"south": {"uv": [15, 1, 16, 0], "texture": "#2"},
+				"west": {"uv": [15, 1, 16, 0], "texture": "#2"},
+				"up": {"uv": [16, 0, 15, 1], "texture": "#2"},
+				"down": {"uv": [16, 0, 15, 1], "texture": "#2"}
+			}
+		}
 	]
 }
