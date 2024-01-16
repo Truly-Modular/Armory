@@ -97,6 +97,12 @@
             "slot": "chest"
         },
         {
+            "attribute": "minecraft:generic.max_health",
+            "value": "1",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
             "attribute": "miapi:generic.elytra_glide_efficiency",
             "value": " - 10 -[material.density]*0.3",
             "operation": "+",

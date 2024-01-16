@@ -88,7 +88,13 @@
         },
         {
             "attribute": "minecraft:generic.armor_toughness",
-            "value": "(((((([material.mining_level]-2)/(abs([material.mining_level]-2))))/(2))+0.5) * ([material.mining_level]-1))/2",
+            "value": "[material.mining_level]/2",
+            "operation": "+",
+            "slot": "feet"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": "1",
             "operation": "+",
             "slot": "feet"
         },
