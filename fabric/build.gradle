@@ -8,6 +8,7 @@ architectury {
 }
 
 repositories {
+    maven { url 'https://maven.uuid.gg/releases' }
     maven { url 'https://maven.kosmx.dev/' }
     maven { url 'https://maven.shedaniel.me/' }
     maven { url 'https://maven.fabricmc.net/' }
@@ -36,6 +37,11 @@ dependencies {
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
+
+    modApi "com.redpxnda.nucleus:core-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_core_version}"
+    modApi "com.redpxnda.nucleus:codec-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_codec_version}"
+    modApi "com.redpxnda.nucleus:pose-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_pose_version}"
+    modApi "com.redpxnda.nucleus:facet-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_facet_version}"
 
     modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-fabric")
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
