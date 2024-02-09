@@ -16,6 +16,16 @@ repositories {
     maven { url 'https://maven.terraformersmc.com/' }
     maven { url 'https://www.cursemaven.com' }
     maven {
+        url "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
+    }
+    maven {
+        url 'http://trulymodular.duckdns.org/maven'
+        allowInsecureProtocol = true
+    }
+    maven {
         name = 'Modrinth'
         url = 'https://api.modrinth.com/maven'
         content {
@@ -38,13 +48,7 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
-    modApi "com.redpxnda.nucleus:core-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_core_version}"
-    modApi "com.redpxnda.nucleus:codec-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_codec_version}"
-    modApi "com.redpxnda.nucleus:pose-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_pose_version}"
-    modApi "com.redpxnda.nucleus:facet-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_facet_version}"
-
-    modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-fabric")
-    implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}")
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
