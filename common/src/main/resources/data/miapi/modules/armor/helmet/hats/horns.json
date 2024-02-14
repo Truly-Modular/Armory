@@ -22,8 +22,8 @@
     ],
     "materialProperty": [
         "default",
-        "armor",
-        "helmet"
+        "armor_cosmetic",
+        "helmet_cosmetic"
     ],
     "tag": [
         "horns"

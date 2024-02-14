@@ -27,8 +27,8 @@
     ],
     "tag": [
         "background_icon",
-        "armor",
-        "helmet"
+        "armor_cosmetic",
+        "helmet_cosmetic"
     ],
     "allowedInSlots": [
         "hat"
