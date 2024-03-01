@@ -72,7 +72,7 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(4))",
+            "value": "((floor((([material.tensile_strength])/(2)))-floor((([material.density])/(4))))/(4))",
             "operation": "+",
             "slot": "feet"
         }

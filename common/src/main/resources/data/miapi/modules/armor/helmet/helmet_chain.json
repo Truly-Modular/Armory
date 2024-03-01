@@ -39,7 +39,7 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "floor([material.hardness]/2)",
+            "value": "floor([material.tensile_strength]/2)",
             "operation": "+",
             "slot": "head"
         }

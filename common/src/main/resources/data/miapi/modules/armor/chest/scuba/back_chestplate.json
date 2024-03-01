@@ -65,13 +65,13 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8*3",
+            "value": "([material.tensile_strength] + 1 - ceil([material.flexibility]/4))/8*3",
             "operation": "+",
             "slot": "chest"
         },
         {
             "attribute": "miapi:generic.swim_speed",
-            "value": "( [material.hardness]-[material.density]/2  )/100",
+            "value": "( [material.tensile_strength]-[material.density]/2  )/100",
             "operation": "+",
             "slot": "chest"
         },

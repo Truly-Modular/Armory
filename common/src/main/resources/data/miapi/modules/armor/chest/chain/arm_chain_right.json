@@ -63,7 +63,7 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8",
+            "value": "([material.tensile_strength] + 1 - ceil([material.flexibility]/4))/8",
             "operation": "+",
             "slot": "chest"
         }
