@@ -72,13 +72,13 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "((floor((([material.tensile_strength])/(2)))-floor((([material.density])/(4))))/(4))",
+            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(4))",
             "operation": "+",
             "slot": "feet"
         },
         {
             "attribute": "miapi:generic.projectile_armor",
-            "value": "ceil(([material.tensile_strength]*2+[material.flexibility])/3*2)/10",
+            "value": "ceil(([material.hardness]*2+[material.flexibility])/3*2)/10",
             "operation": "+",
             "slot": "feet"
         }

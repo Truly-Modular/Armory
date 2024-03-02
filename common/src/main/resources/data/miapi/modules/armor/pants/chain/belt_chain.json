@@ -72,7 +72,7 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "(([material.tensile_strength]-ceil((([material.tensile_strength])/(6.5)))+ceil((([material.tensile_strength])/(4.5)))-2)/(7))*3",
+            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*3",
             "operation": "+",
             "slot": "legs"
         }
