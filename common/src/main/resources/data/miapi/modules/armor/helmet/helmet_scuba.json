@@ -61,8 +61,9 @@
         {
             "attribute": "miapi:generic.swim_speed",
             "value": "( [material.hardness]-[material.density]/2  )/100",
-            "operation": "+",
-            "slot": "head"
+            "operation": "*",
+            "slot": "head",
+            "target_operation": "*"
         },
         {
             "attribute": "minecraft:generic.armor_toughness",

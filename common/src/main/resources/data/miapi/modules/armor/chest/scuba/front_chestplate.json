@@ -38,7 +38,7 @@
                 },
                 "scale": {
                     "x": 1.0,
-                    "y": 0.95,
+                    "y": 1.0,
                     "z": 1.0
                 },
                 "origin": "item"
@@ -97,8 +97,9 @@
         {
             "attribute": "miapi:generic.swim_speed",
             "value": "( [material.hardness]-[material.density]/2  )/100",
-            "operation": "+",
-            "slot": "chest"
+            "operation": "*",
+            "slot": "chest",
+            "target_operation": "*"
         },
         {
             "attribute": "minecraft:generic.armor_toughness",
