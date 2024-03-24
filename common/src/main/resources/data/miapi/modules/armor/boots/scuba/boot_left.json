@@ -79,7 +79,7 @@
         },
         {
             "attribute": "miapi:generic.swim_speed",
-            "value": "( [material.hardness]-[material.density]/2  ) / 100",
+            "value": "( [material.hardness]-[material.density] ) / 100",
             "operation": "*",
             "slot": "feet",
             "target_operation": "*"
