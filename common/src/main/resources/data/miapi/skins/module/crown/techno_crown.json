@@ -24,6 +24,7 @@
                 }
             }
         ],
+        "displayName": "miapi.skin.techno_crown.name",
         "itemLore": {
             "text": {
                 "type": "translatable",
