@@ -63,12 +63,30 @@ subprojects {
     version = rootProject.mod_version
     group = rootProject.maven_group
 
-    repositories {
-        // Add repositories to retrieve artifacts from in here.
-        // You should only use this when depending on other mods because
-        // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-        // See https://docs.gradle.org/current/userguide/declaring_repositories.html
-        // for more information about repositories.
+    processResources {
+        def expandProps = [
+                "version"                   : rootProject.mod_version,
+                "group"                     : rootProject.group, //Else we target the task's group.
+                "minecraft_version"         : rootProject.minecraft_version,
+                "architectury_version"      : rootProject.architectury_version,
+                "github"                    : rootProject.github,
+                "miapi_version"             : rootProject.miapi_version,
+                "forge_version"             : rootProject.forge_version,
+                "forge_loader_version_range": rootProject.forge_loader_version_range,
+                "forge_version_range"       : rootProject.forge_version_range,
+                "minecraft_version_range"   : rootProject.minecraft_version,
+                "fabric_api_version"        : rootProject.fabric_api_version,
+                "fabric_loader_version"     : rootProject.fabric_loader_version,
+                "mod_name"                  : rootProject.mod_name,
+                "mod_author"                : rootProject.mod_author,
+                "mod_id"                    : rootProject.mod_id,
+                "mod_description"           : rootProject.mod_description,
+                "credits"                   : rootProject.credits
+        ]
+
+        filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', '*.mixins.json']) {
+            expand expandProps
+        }
     }
 
     tasks.withType(JavaCompile) {
