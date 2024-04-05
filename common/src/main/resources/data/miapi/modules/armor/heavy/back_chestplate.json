@@ -82,6 +82,12 @@
             "slot": "chest"
         },
         {
+            "attribute": "miapi:generic.shielding_armor",
+            "value": "1",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
             "attribute": "miapi:generic.swim_speed",
             "value": " (- 1 - [material.density]*5)/1000",
             "operation": "*",

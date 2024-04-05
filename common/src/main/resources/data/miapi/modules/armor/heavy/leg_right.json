@@ -68,7 +68,7 @@
             "slot": "legs"
         },
         {
-            "attribute": "minecraft:generic.max_health",
+            "attribute": "miapi:generic.shielding_armor",
             "value": "1",
             "operation": "+",
             "slot": "legs"

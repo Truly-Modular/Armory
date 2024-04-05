@@ -1,8 +1,8 @@
 {
-    "name": "boot_right_heavy",
+    "name": "boot_left_heavy",
     "texture": [
         {
-            "path": "miapi:models/item/armor/model/boot_right/heavy/[material.texture].json",
+            "path": "miapi:models/item/armor/model/boot_left/heavy/[material.texture].json",
             "trim_mode": "ARMOR_LAYER_ONE",
             "transform": {
                 "rotation": {
@@ -20,11 +20,11 @@
                     "y": 1.0,
                     "z": 1.0
                 },
-                "origin": "right_leg"
+                "origin": "left_leg"
             }
         },
         {
-            "path": "miapi:models/item/armor/gui/heavy/boot_right/base/[material.texture].json",
+            "path": "miapi:models/item/armor/gui/heavy/boot_left/base/[material.texture].json",
             "transform": {
                 "rotation": {
                     "x": 0.0,
@@ -58,7 +58,7 @@
         "boot"
     ],
     "allowedInSlots": [
-        "boot_right"
+        "boot_left"
     ],
     "allowedMaterial": {
         "allowedMaterials": [
@@ -93,7 +93,7 @@
             "slot": "feet"
         },
         {
-            "attribute": "minecraft:generic.max_health",
+            "attribute": "miapi:generic.shielding_armor",
             "value": "1",
             "operation": "+",
             "slot": "feet"
@@ -106,7 +106,7 @@
         },
         {
             "attribute": "miapi:generic.swim_speed",
-            "value": " (- 1 - [material.density]*0.5)/1000",
+            "value": " (- 30 - [material.density]*0.5)/1000",
             "operation": "*",
             "slot": "feet"
         },
