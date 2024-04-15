@@ -13,6 +13,10 @@ repositories {
             includeGroup 'maven.modrinth'
         }
     }
+    maven {
+        url 'http://trulymodular.duckdns.org/maven'
+        allowInsecureProtocol = true
+    }
 }
 
 dependencies {
@@ -27,7 +31,7 @@ dependencies {
     modApi "com.redpxnda.nucleus:pose-common:${rootProject.minecraft_version}+${rootProject.nucleus_pose_version}"
     modApi "com.redpxnda.nucleus:facet-common:${rootProject.minecraft_version}+${rootProject.nucleus_facet_version}"
 
-    modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-${rootProject.minecraft_version}-fabric")
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}-${rootProject.minecraft_version}")
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
 
