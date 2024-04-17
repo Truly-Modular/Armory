@@ -26,11 +26,6 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    modApi "com.redpxnda.nucleus:core-common:${rootProject.minecraft_version}+${rootProject.nucleus_core_version}"
-    modApi "com.redpxnda.nucleus:codec-common:${rootProject.minecraft_version}+${rootProject.nucleus_codec_version}"
-    modApi "com.redpxnda.nucleus:pose-common:${rootProject.minecraft_version}+${rootProject.nucleus_pose_version}"
-    modApi "com.redpxnda.nucleus:facet-common:${rootProject.minecraft_version}+${rootProject.nucleus_facet_version}"
-
     modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}-${rootProject.minecraft_version}")
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
