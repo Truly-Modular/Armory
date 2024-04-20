@@ -38,6 +38,7 @@
     },
     "materialProperty": [
         "default",
+        "heavy_armor",
         "armor",
         "helmet"
     ],
@@ -45,6 +46,7 @@
     "repairPriority": 0,
     "tag": [
         "background_icon",
+        "heavy_armor",
         "armor",
         "helmet"
     ],

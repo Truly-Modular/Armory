@@ -78,11 +78,13 @@
     "materialProperty": [
         "default",
         "armor",
+        "heavy_armor",
         "chest"
     ],
     "tag": [
         "background_icon_alt",
         "armor",
+        "heavy_armor",
         "chest"
     ],
     "allowedInSlots": [

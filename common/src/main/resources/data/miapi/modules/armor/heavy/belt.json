@@ -50,6 +50,7 @@
     "materialProperty": [
         "default",
         "armor",
+        "heavy_armor",
         "pants"
     ],
     "allowedInSlots": [
@@ -58,6 +59,7 @@
     "tag": [
         "background_icon",
         "armor",
+        "heavy_armor",
         "pants"
     ],
     "allowedMaterial": {

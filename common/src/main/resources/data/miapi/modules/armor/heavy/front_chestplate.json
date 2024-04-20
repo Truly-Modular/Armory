@@ -76,11 +76,13 @@
     "repairPriority": 1,
     "materialProperty": [
         "default",
+        "heavy_armor",
         "armor",
         "chest"
     ],
     "tag": [
         "background_icon",
+        "heavy_armor",
         "armor",
         "chest"
     ],

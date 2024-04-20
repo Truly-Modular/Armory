@@ -57,6 +57,12 @@
     "materialProperty": [
         "default",
         "armor",
+        "heavy_armor",
+        "chest"
+    ],
+    "tag": [
+        "armor",
+        "heavy_armor",
         "chest"
     ],
     "allowedInSlots": [

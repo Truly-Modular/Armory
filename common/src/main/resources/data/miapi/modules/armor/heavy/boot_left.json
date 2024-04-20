@@ -50,10 +50,12 @@
     "materialProperty": [
         "default",
         "armor",
+        "heavy_armor",
         "boot"
     ],
     "tag": [
         "background_icon",
+        "heavy_armor",
         "armor",
         "boot"
     ],

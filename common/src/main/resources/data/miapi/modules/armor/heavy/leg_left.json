@@ -49,11 +49,13 @@
     "repairPriority": 0,
     "materialProperty": [
         "default",
+        "heavy_armor",
         "armor",
         "pants"
     ],
     "tag": [
         "background_icon",
+        "heavy_armor",
         "armor",
         "leg"
     ],
