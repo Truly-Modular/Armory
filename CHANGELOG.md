@@ -2,3 +2,4 @@
 - added Shielding Armor to heavy armor
 - increased Armor Toughness for heavy Armor
 - improved scuba swimming speed
+- added zh_cn localization
