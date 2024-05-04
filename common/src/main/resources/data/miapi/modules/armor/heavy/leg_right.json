@@ -92,10 +92,14 @@
     "durability": "[material.durability] / 7 * 2 / 3.7",
     "allowedMaterial": {
         "allowedMaterials": [
+            "wood",
+            "fabric",
             "metal",
-            "crystal",
             "flint",
-            "bone"
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
         ],
         "cost": 3
     }
