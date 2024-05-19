@@ -31,11 +31,11 @@ dependencies {
 }
 
 architectury {
-    common()
+    common('fabric', 'forge')
 }
 
 tasks.register('githubPublish') {
-    finalizedBy ':common:publish'
+    finalizedBy ':armory-common:publish'
     group = 'publishing'
 
     doLast {

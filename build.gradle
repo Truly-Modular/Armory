@@ -4,19 +4,19 @@ plugins {
 }
 
 tasks.register('clean-builds') {
-    dependsOn(':forge:clean',':fabric:clean')
+    dependsOn(':armory-forge:clean',':armory-fabric:clean')
     doLast {
         println "Cleaned previous build"
     }
 }
 
 tasks.register('buildBoth') {
-    dependsOn('clean-builds', ':fabric:build', ':forge:build')
+    dependsOn('clean-builds', ':armory-fabric:build', ':armory-forge:build')
     doLast {
         def modVersion = rootProject.mod_version
         def minecraftVersion = rootProject.minecraft_version
-        def fabricBuildDir = project(':fabric').file('build/libs')
-        def forgeBuildDir = project(':forge').file('build/libs')
+        def fabricBuildDir = project(':armory-fabric').file('build/libs')
+        def forgeBuildDir = project(':armory-forge').file('build/libs')
         def fabricJar = fabricBuildDir.listFiles().find { it.name.endsWith("${modVersion}.jar") }
         def forgeJar = forgeBuildDir.listFiles().find { it.name.endsWith("${modVersion}.jar") }
 
