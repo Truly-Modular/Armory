@@ -50,6 +50,7 @@
     "materialProperty": [
         "default",
         "armor",
+        "chain_armor",
         "boot"
     ],
     "tag": [

@@ -71,6 +71,7 @@
     "tag": [
         "background_icon_alt",
         "armor",
+        "chain_armor",
         "arm"
     ],
     "durability": "[material.durability] / 8 / 3.8",

@@ -6,6 +6,14 @@
     "miapi.slot.arm_left.name": "Empty Left Arm Slot",
     "miapi.slot.arm_right.name": "Empty Right Arm Slot",
 
+    "miapi.skin.name.pride-armor_1": "Aurora Tinted",
+    "miapi.skin.name.pride-armor_2": "Chromatic Armor",
+    "miapi.skin.name.pride-armor_3": "Luminous",
+
+    "miapi.skin.name.pride-wing_1": "Wings of the Rainbow",
+    "miapi.skin.name.pride-wing_2": "Chromatic Skyblazers",
+    "miapi.skin.name.pride-wing_3": "Prismatic Flight",
+
     "miapi.slot.belt.name": "Empty Belt Slot",
     "miapi.slot.leg_left.name": "Empty Left Leg Slot",
     "miapi.slot.leg_right.name": "Empty Right Leg Slot",

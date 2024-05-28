@@ -46,6 +46,7 @@
     "tag": [
         "background_icon",
         "armor",
+        "chain_armor",
         "helmet"
     ],
     "allowedInSlots": [

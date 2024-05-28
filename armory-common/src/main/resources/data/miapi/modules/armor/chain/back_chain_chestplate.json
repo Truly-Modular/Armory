@@ -59,6 +59,11 @@
         "armor",
         "chest"
     ],
+    "tag": [
+        "armor",
+        "chain_armor",
+        "pants"
+    ],
     "allowedInSlots": [
         "chest_back"
     ],

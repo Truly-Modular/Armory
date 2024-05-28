@@ -53,7 +53,8 @@
         "chest"
     ],
     "tag": [
-        "wing_left"
+        "wing_left",
+        "wing"
     ],
     "allowedInSlots": [
         "wing_left"

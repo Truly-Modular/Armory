@@ -53,6 +53,11 @@
         }
     },
     "priority": 2,
+    "tag": [
+        "armor",
+        "chain_armor",
+        "chest"
+    ],
     "repairPriority": 1,
     "materialProperty": [
         "default",

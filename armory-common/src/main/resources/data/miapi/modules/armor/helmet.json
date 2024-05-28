@@ -175,28 +175,5 @@
     },
     "displayName": "miapi.module.helmet_base.name",
     "itemId": "miapi:modular_helmet",
-    "equipmentSlot": "helmet",
-    "modelMerge": [
-        {
-            "from": "head",
-            "to": "item",
-            "transform": {
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "translation": {
-                    "x": 0.0,
-                    "y": 1.4,
-                    "z": 0.0
-                },
-                "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
-            }
-        }
-    ]
+    "equipmentSlot": "helmet"
 }

@@ -59,6 +59,10 @@
         "armor",
         "chest"
     ],
+    "tag": [
+        "armor",
+        "chest"
+    ],
     "allowedInSlots": [
         "chest_back"
     ],
