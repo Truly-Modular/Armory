@@ -1,0 +1,25 @@
+{
+    "path": "pride/pride-armor_bi",
+    "module_tags": [
+        "armor"
+    ],
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "colorProvider": "material:rainbow_pride_bi",
+                "modelTargetType": "path",
+                "modelTargetInfo": "",
+                "allowOtherModules": false
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["pride","supporter"]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}
