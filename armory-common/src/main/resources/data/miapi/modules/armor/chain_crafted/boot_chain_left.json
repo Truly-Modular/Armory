@@ -84,6 +84,6 @@
             "slot": "feet"
         }
     ],
-    "durability": "[material.durability]* 0.5 / 4.2",
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 2",
     "displayName": "miapi.module.boot_chain_left_crafted.name"
 }

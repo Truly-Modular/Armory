@@ -50,7 +50,7 @@
             "type": "not"
         }
     },
-    "durability": "[material.durability] / 5",
+    "durability": "([material.durability]+[material.armor_durability_offset])",
     "allowedMaterial": {
         "allowedMaterials": [
             "metal",

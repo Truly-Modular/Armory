@@ -75,7 +75,7 @@
             "target_operation": "*"
         }
     ],
-    "durability": "[material.durability] / 7 * 2 / 3.7",
+    "durability": "([material.durability]+[material.armor_durability_offset]) * 0.65 / 7 * 2",
     "allowedMaterial": {
         "allowedMaterials": [
             "fabric",

@@ -96,7 +96,7 @@
             "slot": "chest"
         }
     ],
-    "durability": "[material.durability] / 8 / 3.8",
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 8",
     "allowedMaterial": {
         "allowedMaterials": [
             "wood",

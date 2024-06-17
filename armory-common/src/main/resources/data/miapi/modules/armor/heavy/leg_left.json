@@ -89,7 +89,7 @@
         }
     ],
     "food_exhaustion": "floor([material.density]*1+5)",
-    "durability": "[material.durability] / 7 * 2 / 3.7",
+    "durability": "([material.durability]+[material.armor_durability_offset]) * 1.3 / 7 * 2",
     "allowedMaterial": {
         "allowedMaterials": [
             "wood",

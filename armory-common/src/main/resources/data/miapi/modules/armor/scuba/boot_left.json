@@ -97,6 +97,6 @@
             "slot": "feet"
         }
     ],
-    "durability": "[material.durability]* 0.5 / 4.2",
+    "durability": "([material.durability]+[material.armor_durability_offset]) * 0.65 / 2",
     "displayName": "miapi.module.boot_left_scuba.name"
 }
