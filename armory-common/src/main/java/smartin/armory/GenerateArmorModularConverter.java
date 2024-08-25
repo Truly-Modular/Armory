@@ -10,7 +10,6 @@ import smartin.miapi.datapack.ReloadEvents;
 import smartin.miapi.events.MiapiEvents;
 import smartin.miapi.item.ModularItemStackConverter;
 import smartin.miapi.modules.ItemModule;
-import smartin.miapi.modules.material.GeneratedMaterial;
 import smartin.miapi.modules.material.Material;
 import smartin.miapi.modules.properties.ItemIdProperty;
 import smartin.miapi.registries.RegistryInventory;
@@ -39,8 +38,34 @@ public class GenerateArmorModularConverter {
             }
             return stack;
         });
+        /*
         MiapiEvents.GENERATED_MATERIAL.register((GeneratedMaterial material, ItemStack mainIngredient, List<Item> tools, boolean isClient) -> {
             Optional<ArmorMaterial> armorMaterial = armorItems.keySet().stream().filter(armor -> armor.getRepairIngredient().test(mainIngredient)).findFirst();
+            if(armorMaterial.isPresent()){
+                List<ArmorItem> materialArmorItems = armorItems.get(armorMaterial.get());
+                Optional<ArmorItem> helmetItem = materialArmorItems.stream().filter(item -> item.getType().equals(ArmorItem.Type.HELMET)).findFirst();
+                Optional<ArmorItem> chestPlateItem = materialArmorItems.stream().filter(item -> item.getType().equals(ArmorItem.Type.CHESTPLATE)).findFirst();
+                Optional<ArmorItem> leggingsItem = materialArmorItems.stream().filter(item -> item.getType().equals(ArmorItem.Type.LEGGINGS)).findFirst();
+                Optional<ArmorItem> shoeItem = materialArmorItems.stream().filter(item -> item.getType().equals(ArmorItem.Type.BOOTS)).findFirst();
+
+                helmetItem.ifPresent(item -> addHelmetItem(material, item));
+                chestPlateItem.ifPresent(item -> addChestPlateItem(material, item));
+                leggingsItem.ifPresent(item -> addLeggingsItem(material, item));
+                shoeItem.ifPresent(item -> addShoesItem(material, item));
+            }
+            return EventResult.pass();
+        });
+
+         */
+        MiapiEvents.GENERATE_MATERIAL_CONVERTERS.register((Material material, List<Item> tools, boolean isClient) -> {
+            Optional<ArmorMaterial> armorMaterial = armorItems
+                    .keySet()
+                    .stream()
+                    .filter(armor -> armor.getRepairIngredient().getMatchingStacks()!=null)
+                    .filter(armor -> armor.getRepairIngredient().getMatchingStacks().length>1)
+                    .filter(armor -> armor.getRepairIngredient().getMatchingStacks()[0]!=null)
+                    .filter(armor -> material.getValueOfItem(armor.getRepairIngredient().getMatchingStacks()[0])>0)
+                    .findFirst();
             if(armorMaterial.isPresent()){
                 List<ArmorItem> materialArmorItems = armorItems.get(armorMaterial.get());
                 Optional<ArmorItem> helmetItem = materialArmorItems.stream().filter(item -> item.getType().equals(ArmorItem.Type.HELMET)).findFirst();

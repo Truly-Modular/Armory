@@ -1,4 +1,5 @@
 {
     "module": "boot_base",
-    "translation": "miapi.create_item.boots"
+    "translation": "miapi.create_item.boots",
+    "priority":-1
 }

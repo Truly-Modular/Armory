@@ -1,4 +1,5 @@
 {
     "module": "pants_base",
-    "translation": "miapi.create_item.pants"
+    "translation": "miapi.create_item.pants",
+    "priority":-2
 }

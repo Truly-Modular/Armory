@@ -1,4 +1,5 @@
 {
     "module": "chest_base",
-    "translation": "miapi.create_item.chestplate"
+    "translation": "miapi.create_item.chestplate",
+    "priority":-3
 }

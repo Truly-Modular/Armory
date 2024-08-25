@@ -1,4 +1,5 @@
 {
     "module": "helmet_base",
-    "translation": "miapi.create_item.helmet"
+    "translation": "miapi.create_item.helmet",
+    "priority":-4
 }
