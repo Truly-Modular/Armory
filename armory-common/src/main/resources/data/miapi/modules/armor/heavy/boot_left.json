@@ -78,7 +78,7 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(2))",
+            "value": "( floor( ( [material.hardness] / 2 )) - floor( min(  [material.density] / 4 , ([material.hardness] / 3) )) ) / 2",
             "operation": "+",
             "slot": "feet"
         },
@@ -90,7 +90,7 @@
         },
         {
             "attribute": "minecraft:generic.armor_toughness",
-            "value": "[material.mining_level]/2",
+            "value": "[material.mining_level]*0.5",
             "operation": "+",
             "slot": "feet"
         },
