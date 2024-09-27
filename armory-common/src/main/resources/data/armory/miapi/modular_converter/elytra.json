@@ -1,0 +1,33 @@
+{
+    "minecraft:elytra": {
+        "key": "armory:armor/chestplate",
+        "child": {
+            "chest_back": {
+                "key": "armory:armor/wing/elytra_backplate",
+                "data": {
+                    "properties": {
+                        "material": "miapi:custom/elytra"
+                    }
+                },
+                "child": {
+                    "left_wing": {
+                        "key": "armory:armor/wing/left",
+                        "data": {
+                            "properties": {
+                                "material": "miapi:fabric/phantom_membrane"
+                            }
+                        }
+                    },
+                    "right_wing": {
+                        "key": "armory:armor/wing/right",
+                        "data": {
+                            "properties": {
+                                "material": "miapi:fabric/phantom_membrane"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/belt/chain/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_TWO",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "body"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/chain/belt/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 0,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "pants"
+    ],
+    "allowed_in_slots": [
+        "belt"
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "chain_armor",
+        "pants"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 3
+    },
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*3",
+            "operation": "+",
+            "slot": "legs"
+        }
+    ],
+    "crafting_condition": {
+        "visible": {
+            "type": "not"
+        }
+    },
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 7 * 3",
+    "display_name": "miapi.module.armory.armor.chain.belt.name"
+}

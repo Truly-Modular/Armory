@@ -1,0 +1,97 @@
+{
+    "allowed_in_slots": [
+        "chest_back"
+    ],
+    "slots": {
+        "left_wing": {
+            "allowed": [
+                "wing_left"
+            ],
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": -4.5,
+                    "y": 10,
+                    "z": 1
+                },
+                "scale": {
+                    "x": 1.125,
+                    "y": 1.125,
+                    "z": 1.125
+                },
+                "origin": "left_wing"
+            }
+        },
+        "right_wing": {
+            "allowed": [
+                "wing_right"
+            ],
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 4.5,
+                    "y": 10,
+                    "z": 1
+                },
+                "scale": {
+                    "x": 1.125,
+                    "y": 1.125,
+                    "z": 1.125
+                },
+                "origin": "right_wing"
+            }
+        }
+    },
+    "priority": 3,
+    "repair_priority": 1,
+    "material_property": [
+        "default",
+        "armor",
+        "wing",
+        "chest"
+    ],
+    "model": [
+        {
+            "path": "miapi:models/item/armor/gui/wingsuit/elytra_base/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "elytra"
+    ],
+    "durability": "[material.durability] / 7 * 3",
+    "allowed_material": {
+        "allowedMaterials": [
+            "elytra"
+        ],
+        "cost": 1
+    },
+    "display_name": "miapi.module.back_elytra.name"
+}

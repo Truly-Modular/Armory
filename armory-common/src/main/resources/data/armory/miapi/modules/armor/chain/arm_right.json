@@ -1,0 +1,86 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/arm_right/chain/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "right_arm"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/chain/arm_right/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 1,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "chest"
+    ],
+    "tag": [
+        "background_icon_alt",
+        "armor",
+        "chain_armor",
+        "chest"
+    ],
+    "allowed_in_slots": [
+        "arm_right"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ],
+    "crafting_condition": {
+        "visible": {
+            "type": "not"
+        }
+    },
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 8",
+    "allowed_material": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 1
+    }
+}

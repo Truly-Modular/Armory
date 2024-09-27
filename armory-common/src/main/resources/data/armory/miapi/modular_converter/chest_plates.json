@@ -1,0 +1,187 @@
+{
+    "minecraft:iron_chestplate": {
+        "key": "armory:armor/chestplate",
+        "child": {
+            "chest_front": {
+                "key": "armory:armor/default/front_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "chest_back": {
+                "key": "armory:armor/default/back_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "arm_left": {
+                "key": "armory:armor/default/arm_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "arm_right": {
+                "key": "armory:armor/default/arm_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:golden_chestplate": {
+        "key": "armory:armor/chestplate",
+        "child": {
+            "chest_front": {
+                "key": "armory:armor/default/front_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/gold"
+                    }
+                }
+            },
+            "chest_back": {
+                "key": "armory:armor/default/back_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/gold"
+                    }
+                }
+            },
+            "arm_left": {
+                "key": "armory:armor/default/arm_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/gold"
+                    }
+                }
+            },
+            "arm_right": {
+                "key": "armory:armor/default/arm_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/gold"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:diamond_chestplate": {
+        "key": "armory:armor/chestplate",
+        "child": {
+            "chest_front": {
+                "key": "armory:armor/default/front_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:crystal/diamond"
+                    }
+                }
+            },
+            "chest_back": {
+                "key": "armory:armor/default/back_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:crystal/diamond"
+                    }
+                }
+            },
+            "arm_left": {
+                "key": "armory:armor/default/arm_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:crystal/diamond"
+                    }
+                }
+            },
+            "arm_right": {
+                "key": "armory:armor/default/arm_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:crystal/diamond"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:netherite_chestplate": {
+        "key": "armory:armor/chestplate",
+        "child": {
+            "chest_front": {
+                "key": "armory:armor/default/front_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/netherite"
+                    }
+                }
+            },
+            "chest_back": {
+                "key": "armory:armor/default/back_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/netherite"
+                    }
+                }
+            },
+            "arm_left": {
+                "key": "armory:armor/default/arm_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/netherite"
+                    }
+                }
+            },
+            "arm_right": {
+                "key": "armory:armor/default/arm_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/netherite"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:leather_chestplate": {
+        "key": "armory:armor/chestplate",
+        "child": {
+            "chest_front": {
+                "key": "armory:armor/default/front_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:fabric/leather"
+                    }
+                }
+            },
+            "chest_back": {
+                "key": "armory:armor/default/back_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:fabric/leather"
+                    }
+                }
+            },
+            "arm_left": {
+                "key": "armory:armor/default/arm_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:fabric/leather"
+                    }
+                }
+            },
+            "arm_right": {
+                "key": "armory:armor/default/arm_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:fabric/leather"
+                    }
+                }
+            }
+        }
+    }
+}

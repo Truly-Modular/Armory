@@ -1,0 +1,58 @@
+{
+    "inscribe_data_on_craft": "banner",
+    "allowed_in_slots": [
+        "chest_cosmetic"
+    ],
+    "banner": [
+        {
+            "type": "module_data",
+            "model": "model",
+            "modelType": "parent",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 4,
+                    "y": 4,
+                    "z": 4
+                }
+            }
+        },
+        {
+            "type": "module_data",
+            "model": "model",
+            "modelType": "item",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 8,
+                    "y": -9,
+                    "z": -8.2
+                },
+                "scale": {
+                    "x": 4,
+                    "y": 4,
+                    "z": 4
+                }
+            }
+        }
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "banner"
+        ],
+        "cost": 1
+    }
+}

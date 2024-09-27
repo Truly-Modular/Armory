@@ -1,0 +1,28 @@
+{
+    "path": "pride/pride-wing_lesbian",
+    "module_tags": [
+        "wing"
+    ],
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "colorProvider": "material:rainbow_pride_lesbian",
+                "modelTargetType": "path",
+                "modelTargetInfo": "",
+                "allowOtherModules": false
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "pride",
+            "supporter"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

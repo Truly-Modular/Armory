@@ -1,0 +1,232 @@
+{
+    "allowed_in_slots": [
+        "leggings"
+    ],
+    "slots": {
+        "belt": {
+            "allowed": [
+                "belt"
+            ],
+            "translationKey": "miapi.slot.belt.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 9.5,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.125,
+                    "y": 1.125,
+                    "z": 1.25
+                },
+                "origin": "body"
+            }
+        },
+        "leg_left": {
+            "allowed": [
+                "leg_left"
+            ],
+            "priority": 1,
+            "translationKey": "miapi.slot.leg_left.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 4.5,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.2,
+                    "y": 1,
+                    "z": 1.2
+                },
+                "origin": "left_leg"
+            }
+        },
+        "leg_right": {
+            "allowed": [
+                "leg_right"
+            ],
+            "priority": 2,
+            "translationKey": "miapi.slot.leg_right.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 4.5,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.2,
+                    "y": 1,
+                    "z": 1.2
+                },
+                "origin": "right_leg"
+            }
+        }
+    },
+    "material_property": [
+        "default",
+        "armor",
+        "pants"
+    ],
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/armor",
+            "minecraft:enchantable/equipable",
+            "minecraft:enchantable/vanishing",
+            "minecraft:enchantable/chest_armor",
+            "minecraft:enchantable/durability",
+            "minecraft:enchantable/leg_armor"
+        ]
+    },
+    "model_transform": {
+        "thirdperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 55
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "thirdperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -45
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "firstperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 25
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "firstperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -65
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "gui": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "ground": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        },
+        "head": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "fixed": {
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "display_name": "miapi.module.armory.armor.pants.name",
+    "item_id": "miapi:modular_leggings",
+    "equipment_slot": "legs"
+}

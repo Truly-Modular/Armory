@@ -1,0 +1,69 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/wing_left/wing/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "left_wing"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/wingsuit/elytra_left/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -0.05
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 3,
+    "repair_priority": 1,
+    "material_property": [
+        "default",
+        "armor",
+        "wing",
+        "chest"
+    ],
+    "tag": [
+        "wing_left",
+        "wing"
+    ],
+    "allowed_in_slots": [
+        "wing_left"
+    ],
+    "durability": "[material.durability] / 2",
+    "allowed_material": {
+        "allowedMaterials": [
+            "fabric",
+            "feather"
+        ],
+        "cost": 2
+    }
+}

@@ -1,27 +1,11 @@
 package smartin.armory;
 
-import dev.architectury.event.EventResult;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.registry.Registries;
-import smartin.miapi.datapack.ReloadEvents;
-import smartin.miapi.events.MiapiEvents;
-import smartin.miapi.item.ModularItemStackConverter;
-import smartin.miapi.modules.ItemModule;
-import smartin.miapi.modules.material.GeneratedMaterial;
-import smartin.miapi.modules.material.Material;
-import smartin.miapi.modules.properties.ItemIdProperty;
-import smartin.miapi.registries.RegistryInventory;
-
-import java.util.*;
-
 public class GenerateArmorModularConverter {
-    public Map<Item, Converter> modularItem = new HashMap<>();
-    public Map<ArmorMaterial, List<ArmorItem>> armorItems = new HashMap<>();
+    //public Map<Item, Converter> modularItem = new HashMap<>();
+    //public Map<ArmorMaterial, List<ArmorItem>> armorItems = new HashMap<>();
 
     public GenerateArmorModularConverter() {
+        /*
         ReloadEvents.START.subscribe(isClient -> {
             modularItem.clear();
             armorItems.clear();
@@ -55,8 +39,10 @@ public class GenerateArmorModularConverter {
             }
             return EventResult.pass();
         });
-    }
 
+         */
+    }
+/*
     interface Converter {
         ItemStack convert(ItemStack raw);
     }
@@ -193,4 +179,6 @@ public class GenerateArmorModularConverter {
             return modularItem;
         });
     }
+
+ */
 }

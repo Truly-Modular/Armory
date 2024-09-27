@@ -1,0 +1,67 @@
+{
+    "minecraft:iron_helmet": {
+        "key": "armory:armor/helmet",
+        "child": {
+            "hat": {
+                "key": "armory:armor/default/helmet",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:golden_helmet": {
+        "key": "armory:armor/helmet",
+        "child": {
+            "hat": {
+                "key": "armory:armor/default/helmet",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/gold"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:diamond_helmet": {
+        "key": "armory:armor/helmet",
+        "child": {
+            "hat": {
+                "key": "armory:armor/default/helmet",
+                "data": {
+                    "properties": {
+                        "material": "miapi:crystal/diamond"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:netherite_helmet": {
+        "key": "armory:armor/helmet",
+        "child": {
+            "hat": {
+                "key": "armory:armor/default/helmet",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/netherite"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:leather_helmet": {
+        "key": "armory:armor/helmet",
+        "child": {
+            "hat": {
+                "key": "armory:armor/default/helmet",
+                "data": {
+                    "properties": {
+                        "material": "miapi:fabric/leather"
+                    }
+                }
+            }
+        }
+    }
+}

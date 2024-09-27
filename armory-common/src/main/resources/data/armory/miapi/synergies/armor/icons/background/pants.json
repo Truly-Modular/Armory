@@ -1,0 +1,43 @@
+{
+    "armory:armor/pants": {
+        "condition": {
+            "type": "not",
+            "condition": {
+                "type": "otherModule",
+                "condition": {
+                    "type": "tag",
+                    "tag": "background_icon"
+                }
+            }
+        },
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/gui/background/pants/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.1
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "item_lore": {
+                "lang": "miapi.underpants.lore",
+                "position": "top"
+            }
+        }
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "allowed_in_slots": [
+        "helmet"
+    ],
+    "slots": {
+        "hat": {
+            "allowed": [
+                "helmet_plate",
+                "hat",
+                "cosmetic"
+            ],
+            "translationKey": "miapi.slot.helmet.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -3.925,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.25,
+                    "y": 1.25,
+                    "z": 1.25
+                },
+                "origin": "head"
+            }
+        }
+    },
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/armor",
+            "minecraft:enchantable/equipable",
+            "minecraft:enchantable/vanishing",
+            "minecraft:enchantable/chest_armor",
+            "minecraft:enchantable/durability",
+            "minecraft:enchantable/head_armor"
+        ]
+    },
+    "model_transform": {
+        "thirdperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 55
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "thirdperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -45
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "firstperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 25
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "firstperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -65
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "gui": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "ground": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        },
+        "head": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "fixed": {
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "display_name": "miapi.module.armory.armor.helmet.name",
+    "item_id": "miapi:modular_helmet",
+    "equipment_slot": "helmet"
+}

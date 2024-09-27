@@ -1,0 +1,105 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/leg_right/heavy/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_TWO",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "right_leg"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/heavy/leg_right/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 1,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "heavy_armor",
+        "armor",
+        "pants"
+    ],
+    "tag": [
+        "background_icon",
+        "heavy_armor",
+        "armor",
+        "leg"
+    ],
+    "allowed_in_slots": [
+        "leg_right"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "((([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*2)*1.1",
+            "operation": "+",
+            "slot": "legs"
+        },
+        {
+            "attribute": "miapi:generic.shielding_armor",
+            "value": "1",
+            "operation": "+",
+            "slot": "legs"
+        },
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": " (- 1 - [material.density]*1.5)/1000",
+            "operation": "*",
+            "slot": "legs"
+        },
+        {
+            "attribute": "miapi:generic.elytra_glide_efficiency",
+            "value": " - 5 -[material.density]*0.2",
+            "operation": "+",
+            "slot": "legs"
+        }
+    ],
+    "food_exhaustion": "floor([material.density]*1+5)",
+    "durability": "([material.durability]+[material.armor_durability_offset]) * 1.3 / 7 * 2",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "fabric",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    }
+}

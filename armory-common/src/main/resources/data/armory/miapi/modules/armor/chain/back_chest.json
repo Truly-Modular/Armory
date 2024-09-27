@@ -1,0 +1,98 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/chest_back/chain/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "body"
+            }
+        }
+    ],
+    "slots": {
+        "banner": {
+            "allowed": [
+                "cosmetic_4x8",
+                "banner_4x8"
+            ],
+            "slotType": "cosmetic",
+            "translationKey": "miapi.slot.chest_back_center.name",
+            "transform": {
+                "rotation": {
+                    "x": 180,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 1.7,
+                    "z": 2.35
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 0.775,
+                    "z": 1.1
+                },
+                "origin": "body"
+            }
+        }
+    },
+    "priority": 1,
+    "repair_priority": 1,
+    "material_property": [
+        "default",
+        "armor",
+        "chest"
+    ],
+    "tag": [
+        "armor",
+        "chain_armor",
+        "pants"
+    ],
+    "allowed_in_slots": [
+        "chest_back"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8*3",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ],
+    "crafting_condition": {
+        "visible": {
+            "type": "not"
+        }
+    },
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/chest_armor"
+        ]
+    },
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 8 * 3",
+    "allowed_material": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 3
+    },
+    "display_name": "miapi.module.armory.armor.chain.front_chest.name"
+}

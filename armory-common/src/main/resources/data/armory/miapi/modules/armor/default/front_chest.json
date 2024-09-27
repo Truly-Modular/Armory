@@ -1,0 +1,129 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/chest_front/base/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "body"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/base/chest/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "slots": {
+        "banner-chest": {
+            "allowed": [
+                "chest_cosmetic"
+            ],
+            "slotType": "cosmetic",
+            "translationKey": "miapi.slot.chest_center.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0.9,
+                    "z": -2.35
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 0.95,
+                    "z": 1.1
+                },
+                "origin": "body"
+            }
+        }
+    },
+    "priority": 0,
+    "repair_priority": 1,
+    "material_property": [
+        "default",
+        "armor",
+        "chest"
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "chest"
+    ],
+    "allowed_in_slots": [
+        "chest_front"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8*3",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "value": "((((([material.mining_level]-2)/(abs([material.mining_level]-2))))/(2))+0.5) * ([material.mining_level]-1) / 2",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "minecraft:generic.knockback_resistance",
+            "value": "((((([material.mining_level]-3)/(abs([material.mining_level]-3))))/(2))+0.5) * ([material.mining_level]-3) / 20",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ],
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 8 * 3",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "fabric",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    },
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/chest_armor"
+        ]
+    },
+    "display_name": "miapi.module.armory.armor.default.front_chest.name"
+}

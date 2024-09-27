@@ -1,0 +1,79 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/leg_right/wing/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "right_leg"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/wingsuit/leg_right/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 2,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "wing",
+        "pants"
+    ],
+    "allowed_in_slots": [
+        "leg_right"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(14))",
+            "operation": "+",
+            "slot": "legs"
+        },
+        {
+            "attribute": "miapi:generic.elytra_glide_efficiency",
+            "value": "5+[material.flexibility]*3-[material.density]*2",
+            "operation": "+",
+            "slot": "legs"
+        }
+    ],
+    "durability": "[material.durability] / 7 * 2 / 3.7",
+    "allowed_material": {
+        "allowedMaterials": [
+            "fabric",
+            "feather"
+        ],
+        "cost": 4
+    }
+}

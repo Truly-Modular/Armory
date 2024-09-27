@@ -1,0 +1,51 @@
+{
+    "armory:armor/plate": {
+        "condition": {
+            "type": "and",
+            "conditions": [
+                {
+                    "type": "not",
+                    "condition": {
+                        "type": "otherModule",
+                        "condition": {
+                            "type": "tag",
+                            "tag": "background_icon"
+                        }
+                    }
+                },
+                {
+                    "type": "otherModule",
+                    "condition": {
+                        "type": "tag",
+                        "tag": "background_icon_alt"
+                    }
+                }
+            ]
+        },
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/gui/background/chest/base_alt/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.1
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ]
+        }
+    }
+}

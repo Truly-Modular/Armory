@@ -1,0 +1,112 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/arm_right/base/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "right_arm"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/base/arm_right/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "slots": {
+        "banner-arm-right": {
+            "allowed": [
+                "cosmetic_2x4",
+                "banner_2x4"
+            ],
+            "slotType": "cosmetic",
+            "translationKey": "miapi.slot.arm_patch.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": -90,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 2.15,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "right_arm"
+            }
+        }
+    },
+    "priority": 0,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "chest"
+    ],
+    "tag": [
+        "background_icon_alt",
+        "armor",
+        "chest"
+    ],
+    "allowed_in_slots": [
+        "arm_right"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ],
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 8",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "fabric",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 1
+    }
+}

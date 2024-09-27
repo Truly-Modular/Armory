@@ -1,0 +1,84 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/arm_right/wing/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "right_arm"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/wingsuit/arm_right/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 3,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "wing",
+        "chest"
+    ],
+    "allowed_in_slots": [
+        "arm_right"
+    ],
+    "tag": [
+        "background_icon_alt",
+        "armor",
+        "arm"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/16",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "miapi:generic.elytra_glide_efficiency",
+            "value": "[material.flexibility]*2-[material.density]*2",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ],
+    "durability": "[material.durability] / 8",
+    "allowed_material": {
+        "allowedMaterials": [
+            "fabric",
+            "feather"
+        ],
+        "cost": 2
+    }
+}

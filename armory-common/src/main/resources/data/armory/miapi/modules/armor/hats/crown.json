@@ -1,0 +1,72 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/hat/crown/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "head"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/base/crown/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.1
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "material_property": [
+        "default",
+        "armor",
+        "helmet"
+    ],
+    "tag": [
+        "background_icon",
+        "armor_cosmetic",
+        "helmet_cosmetic"
+    ],
+    "allowed_in_slots": [
+        "hat"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    },
+    "display_name": "miapi.module.crown.name"
+}

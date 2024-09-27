@@ -1,0 +1,36 @@
+{
+    "inscribe_data_on_craft": "banner",
+    "item_model": [
+        {
+            "type": "module_data",
+            "model": "banner",
+            "modelType": "head",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.4,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    ],
+    "allowed_in_slots": [
+        "hat"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "banner"
+        ],
+        "cost": 1
+    }
+}

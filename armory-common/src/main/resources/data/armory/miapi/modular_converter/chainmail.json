@@ -1,0 +1,102 @@
+{
+    "minecraft:chainmail_helmet": {
+        "key": "armory:armor/helmet",
+        "child": {
+            "chain": {
+                "key": "armory:armor/chain/helmet",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:chainmail_chestplate": {
+        "key": "armory:armor/chestplate",
+        "child": {
+            "front": {
+                "key": "armory:armor/chain/front_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "back": {
+                "key": "armory:armor/chain/back_chest",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "left_arm": {
+                "key": "armory:armor/chain/arm_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "right_arm": {
+                "key": "armory:armor/chain/arm_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:chainmail_leggings": {
+        "key": "armory:armor/pants",
+        "child": {
+            "belt": {
+                "key": "armory:armor/chain/belt",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "left_leg": {
+                "key": "armory:armor/chain/leg_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "right_leg": {
+                "key": "armory:armor/chain/leg_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:chainmail_boots": {
+        "key": "armory:armor/boots",
+        "child": {
+            "left_boot": {
+                "key": "armory:armor/chain/boot_left",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            },
+            "right_boot": {
+                "key": "armory:armor/chain/boot_right",
+                "data": {
+                    "properties": {
+                        "material": "miapi:metal/iron"
+                    }
+                }
+            }
+        }
+    }
+}

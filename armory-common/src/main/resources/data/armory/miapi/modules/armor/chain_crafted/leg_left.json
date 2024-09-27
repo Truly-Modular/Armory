@@ -1,0 +1,87 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/leg_left/chain/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_TWO",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "left_leg"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/chain/leg_left/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 2,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "pants"
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "chain_armor",
+        "leg"
+    ],
+    "allowed_in_slots": [
+        "leg_left"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*2",
+            "operation": "+",
+            "slot": "legs"
+        },
+        {
+            "attribute": "miapi:generic.projectile_armor",
+            "value": "ceil(([material.hardness]*2+[material.flexibility])/3*2)/10",
+            "operation": "+",
+            "slot": "legs"
+        }
+    ],
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 7 * 2",
+    "allowed_material": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 1
+    }
+}

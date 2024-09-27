@@ -1,0 +1,31 @@
+{
+    "path": "pride/pride-armor_5",
+    "module_tags": [
+        "armor"
+    ],
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "colorProvider": "material:rainbow_pride_5",
+                "modelTargetType": "path",
+                "modelTargetInfo": "",
+                "allowOtherModules": false
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "pride",
+            "supporter",
+            "winter",
+            "autumn",
+            "spring"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

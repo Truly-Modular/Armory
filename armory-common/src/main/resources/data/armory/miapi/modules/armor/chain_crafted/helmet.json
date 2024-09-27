@@ -1,0 +1,115 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/helmet/chain/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "head"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/chain/helmet/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "slots": {
+        "hat": {
+            "allowed": [
+                "hat",
+                "sub_hat"
+            ],
+            "translationKey": "miapi.slot.hat.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.1,
+                    "y": 1.1,
+                    "z": 1.1
+                },
+                "origin": "head"
+            }
+        }
+    },
+    "material_property": [
+        "default",
+        "armor",
+        "helmet"
+    ],
+    "priority": 2,
+    "repair_priority": 0,
+    "tag": [
+        "background_icon",
+        "armor",
+        "chain_armor",
+        "helmet"
+    ],
+    "allowed_in_slots": [
+        "helmet_plate"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "floor([material.hardness]/2)",
+            "operation": "+",
+            "slot": "head"
+        },
+        {
+            "attribute": "miapi:generic.projectile_armor",
+            "value": "ceil(([material.hardness]*2+[material.flexibility])/3*5)/10",
+            "operation": "+",
+            "slot": "head"
+        }
+    ],
+    "durability": "([material.durability]+[material.armor_durability_offset])",
+    "allowed_material": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 5
+    },
+    "display_name": "miapi.module.armory.armor.chain_crafted.helmet.name"
+}
