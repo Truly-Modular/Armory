@@ -6,7 +6,7 @@
     "replace": {
         "overlay_texture_model": [
             {
-                "colorProvider": "material:rainbow_pride_trans",
+                "colorProvider": "material:miapi:custom/rainbow/flags/trans",
                 "modelTargetType": "path",
                 "modelTargetInfo": "",
                 "allowOtherModules": false

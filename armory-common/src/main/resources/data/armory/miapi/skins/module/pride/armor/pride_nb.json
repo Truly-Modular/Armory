@@ -6,7 +6,7 @@
     "replace": {
         "overlay_texture_model": [
             {
-                "colorProvider": "material:rainbow_pride_nb",
+                "colorProvider": "material:miapi:custom/rainbow/flags/nb",
                 "modelTargetType": "path",
                 "modelTargetInfo": "",
                 "allowOtherModules": false
