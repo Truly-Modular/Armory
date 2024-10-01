@@ -34,10 +34,13 @@
                     }
                 }
             ],
-            "item_lore": {
-                "lang": "miapi.underpants.lore",
+            "item_lore": [{
+                "text": {
+                    "type": "translatable",
+                    "translate": "miapi.underpants.lore"
+                },
                 "position": "top"
-            }
+            }]
         }
     }
 }

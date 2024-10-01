@@ -34,10 +34,15 @@
                     }
                 }
             ],
-            "item_lore": {
-                "lang": "miapi.underhelmet.lore",
-                "position": "top"
-            }
+            "item_lore": [
+                {
+                    "text": {
+                        "type": "translatable",
+                        "translate": "miapi.underhelmet.lore"
+                    },
+                    "position": "top"
+                }
+            ]
         }
     }
 }

@@ -49,10 +49,13 @@
                     }
                 }
             ],
-            "item_lore": {
-                "lang": "miapi.underchest.lore",
+            "item_lore": [{
+                "text": {
+                    "type": "translatable",
+                    "translate": "miapi.underchest.lore"
+                },
                 "position": "top"
-            }
+            }]
         }
     }
 }

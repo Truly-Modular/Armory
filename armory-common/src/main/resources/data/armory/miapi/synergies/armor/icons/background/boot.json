@@ -34,10 +34,13 @@
                     }
                 }
             ],
-            "item_lore": {
-                "lang": "miapi.underboot.lore",
+            "item_lore": [{
+                "text": {
+                    "type": "translatable",
+                    "translate": "miapi.underboot.lore"
+                },
                 "position": "top"
-            }
+            }]
         }
     }
 }
