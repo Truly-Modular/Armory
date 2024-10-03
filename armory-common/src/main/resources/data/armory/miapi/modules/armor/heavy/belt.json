@@ -83,7 +83,7 @@
         },
         {
             "attribute": "minecraft:generic.armor_toughness",
-            "value": "[material.mining_level]",
+            "value": "[material.tier]-1",
             "operation": "+",
             "slot": "legs"
         },
@@ -95,7 +95,7 @@
         },
         {
             "attribute": "minecraft:generic.knockback_resistance",
-            "value": "((((([material.mining_level]-2)/(abs([material.mining_level]-2))))/(2))+0.5) * ([material.mining_level]-2) / 10",
+            "value": "(((((([material.tier]-1)-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-2) / 10",
             "operation": "+",
             "slot": "legs"
         },
