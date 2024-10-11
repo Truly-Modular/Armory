@@ -175,5 +175,5 @@
     },
     "display_name": "miapi.module.armory.armor.helmet.name",
     "item_id": "miapi:modular_helmet",
-    "equipment_slot": "helmet"
+    "equipment_slot": "head"
 }
