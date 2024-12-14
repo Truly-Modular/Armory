@@ -6,7 +6,7 @@
                 {
                     "type": "not",
                     "condition": {
-                        "type": "otherModule",
+                        "type": "other_module",
                         "condition": {
                             "type": "tag",
                             "tag": "background_icon"
@@ -16,7 +16,7 @@
                 {
                     "type": "not",
                     "condition": {
-                        "type": "otherModule",
+                        "type": "other_module",
                         "condition": {
                             "type": "tag",
                             "tag": "background_icon_alt"

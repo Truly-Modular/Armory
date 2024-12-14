@@ -2,7 +2,7 @@
     "type": "tag",
     "wing_left": {
         "condition": {
-            "type": "otherModule",
+            "type": "other_module",
             "condition": {
                 "type": "tag",
                 "tag": "wing_right"

@@ -1,7 +1,7 @@
 {
     "armory:armor/chain/front_chest": {
         "condition": {
-            "type": "otherModule",
+            "type": "other_module",
             "condition": {
                 "type": "tag",
                 "tag": "elytra"
