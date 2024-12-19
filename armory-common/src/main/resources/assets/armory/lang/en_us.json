@@ -333,9 +333,9 @@
     "miapi.skin.techno_crown.name": "%s Crown",
     "miapi.skin.techno_crown.description": "Technoblades Crown",
 
-    "miapi.module.armory.armor.banner_head": "Banner Cosmetic",
-    "miapi.module.armory.armor.banner_head.name": "%s Banner",
-    "miapi.module.armory.armor.banner_head.description": "Large Banner on your Head\nProudly displaying your alligment",
+    "miapi.module.armory.armor.banner_cosmetic": "Banner Cosmetic",
+    "miapi.module.armory.armor.banner_cosmetic.name": "%s Banner",
+    "miapi.module.armory.armor.banner_cosmetic.description": "Large Banner on your Head\nProudly displaying your alignment",
 
     "miapi.module.armory.armor.banner_chest": "Banner Cosmetic",
     "miapi.module.armory.armor.banner_chest.name": "%s Banner",

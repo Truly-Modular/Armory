@@ -303,9 +303,9 @@
     "miapi.skin.techno_crown.name": "皇冠",
     "miapi.skin.techno_crown.description": "Technoblade的皇冠",
 
-    "miapi.module.armory.armor.banner_head": "头部旗帜装饰",
-    "miapi.module.armory.armor.banner_head.name": "旗帜",
-    "miapi.module.armory.armor.banner_head.description": "头上的大旗帜\n自豪地展示你的立场",
+    "miapi.module.armory.armor.banner_cosmetic": "头部旗帜装饰",
+    "miapi.module.armory.armor.banner_cosmetic.name": "旗帜",
+    "miapi.module.armory.armor.banner_cosmetic.description": "头上的大旗帜\n自豪地展示你的立场",
 
     "miapi.module.armory.armor.banner_chest": "胸部旗帜装饰",
     "miapi.module.armory.armor.banner_chest.name": "旗帜",
