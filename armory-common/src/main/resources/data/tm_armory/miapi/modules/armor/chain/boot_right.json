@@ -1,0 +1,87 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/boot_right/chain/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "right_leg"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/chain/boot_right/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 2,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "chain_armor",
+        "boot"
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "boot"
+    ],
+    "allowed_in_slots": [
+        "boot_right"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "metal",
+            "crystal",
+            "flint",
+            "bone"
+        ],
+        "cost": 2
+    },
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(4))",
+            "operation": "+",
+            "slot": "feet"
+        }
+    ],
+    "crafting_condition": {
+        "visible": {
+            "type": "not"
+        }
+    },
+    "durability": "([material.durability]+[material.armor_durability_offset]) * 0.5",
+    "display_name": "miapi.module.tm_armory.armor.chain.boot_left.name"
+}

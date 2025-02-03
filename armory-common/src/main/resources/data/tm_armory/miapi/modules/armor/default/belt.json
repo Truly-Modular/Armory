@@ -1,0 +1,97 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/belt/base/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_TWO",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "body"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/base/belt/base/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "priority": 0,
+    "repair_priority": 0,
+    "material_property": [
+        "default",
+        "armor",
+        "pants"
+    ],
+    "allowed_in_slots": [
+        "belt"
+    ],
+    "tag": [
+        "background_icon",
+        "armor",
+        "pants"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "fabric",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    },
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(7))*3",
+            "operation": "+",
+            "slot": "legs"
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "value": "((((([material.tier]-1-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-1)",
+            "operation": "+",
+            "slot": "legs"
+        },
+        {
+            "attribute": "minecraft:generic.knockback_resistance",
+            "value": "(((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10",
+            "operation": "+",
+            "slot": "legs"
+        }
+    ],
+    "durability": "([material.durability]+[material.armor_durability_offset]) / 7 * 3",
+    "display_name": "miapi.module.tm_armory.armor.default.belt.name"
+}

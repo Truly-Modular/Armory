@@ -1,0 +1,256 @@
+{
+    "allowed_in_slots": [
+        "chest"
+    ],
+    "slots": {
+        "chest_front": {
+            "allowed": [
+                "chest_front"
+            ],
+            "translationKey": "miapi.slot.frontplate.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 3.27,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.25,
+                    "y": 1.1,
+                    "z": 1.5
+                },
+                "origin": "body"
+            }
+        },
+        "chest_back": {
+            "allowed": [
+                "chest_back"
+            ],
+            "priotity": 1,
+            "translationKey": "miapi.slot.backplate.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 3.27,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.25,
+                    "y": 1.1,
+                    "z": 1.5
+                },
+                "origin": "body"
+            }
+        },
+        "arm_left": {
+            "allowed": [
+                "arm_left"
+            ],
+            "priority": 2,
+            "translationKey": "miapi.slot.arm_left.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 1,
+                    "y": -0.7,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.5,
+                    "y": 1.17,
+                    "z": 1.5
+                },
+                "origin": "left_arm"
+            }
+        },
+        "arm_right": {
+            "allowed": [
+                "arm_right"
+            ],
+            "priority": 3,
+            "translationKey": "miapi.slot.arm_right.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": -1,
+                    "y": -0.7,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.5,
+                    "y": 1.17,
+                    "z": 1.5
+                },
+                "origin": "right_arm"
+            }
+        }
+    },
+    "material_property": [
+        "default",
+        "armor",
+        "chest"
+    ],
+    "model_transform": {
+        "thirdperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 55
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "thirdperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -45
+            },
+            "translation": {
+                "x": 0,
+                "y": 4,
+                "z": 0.5
+            },
+            "scale": {
+                "x": 0.85,
+                "y": 0.85,
+                "z": 0.85
+            }
+        },
+        "firstperson_righthand": {
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 25
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "firstperson_lefthand": {
+            "rotation": {
+                "x": -90,
+                "y": -90,
+                "z": -65
+            },
+            "translation": {
+                "x": 1.13,
+                "y": 3.2,
+                "z": 1.13
+            },
+            "scale": {
+                "x": 0.68,
+                "y": 0.68,
+                "z": 0.68
+            }
+        },
+        "gui": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "ground": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        },
+        "head": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "fixed": {
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "display_name": "miapi.module.tm_armory.armor.chestplate.name",
+    "item_id": "miapi:modular_chestplate",
+    "equipment_slot": "chest",
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/armor",
+            "minecraft:enchantable/equipable",
+            "minecraft:enchantable/vanishing",
+            "minecraft:enchantable/durability",
+            "minecraft:enchantable/chest_armor"
+        ]
+    }
+}

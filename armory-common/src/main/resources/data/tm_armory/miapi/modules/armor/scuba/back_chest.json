@@ -1,0 +1,112 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/chest_back/scuba/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "body"
+            }
+        }
+    ],
+    "slots": {
+        "banner-back": {
+            "allowed": [
+                "cosmetic_4x8",
+                "banner_4x8"
+            ],
+            "slotType": "cosmetic",
+            "translationKey": "miapi.slot.chest_back_center.name",
+            "transform": {
+                "rotation": {
+                    "x": 180,
+                    "y": 0,
+                    "z": 180
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 1.7,
+                    "z": 2.35
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 0.775,
+                    "z": 1.1
+                },
+                "origin": "body"
+            }
+        }
+    },
+    "priority": 4,
+    "repair_priority": 1,
+    "material_property": [
+        "default",
+        "armor",
+        "chest"
+    ],
+    "tag": [
+        "armor",
+        "chest"
+    ],
+    "allowed_in_slots": [
+        "chest_back"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8*3",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": "( [material.hardness]-[material.density]/2)/25",
+            "operation": "*",
+            "slot": "chest",
+            "target_operation": "*"
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "value": "(((((([material.tier]-1)-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-1)/2",
+            "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "minecraft:generic.knockback_resistance",
+            "value": "(((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 20",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ],
+    "durability": "([material.durability]+[material.armor_durability_offset]) * 0.65 / 8 * 3",
+    "allowed_material": {
+        "allowedMaterials": [
+            "fabric",
+            "metal",
+            "flint",
+            "crystal",
+            "glass"
+        ],
+        "cost": 3
+    },
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/chest_armor"
+        ]
+    },
+    "display_name": "miapi.module.tm_armory.armor.scuba.front_chest.name"
+}
