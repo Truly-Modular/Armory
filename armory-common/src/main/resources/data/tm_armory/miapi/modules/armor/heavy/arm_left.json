@@ -103,7 +103,7 @@
             "slot": "chest"
         },
         {
-            "attribute": "miapi:generic.shielding_armor",
+            "attribute": "minecraft:generic.max_health",
             "value": "1",
             "operation": "+",
             "slot": "chest"

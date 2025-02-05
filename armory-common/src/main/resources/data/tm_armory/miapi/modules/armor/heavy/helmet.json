@@ -108,7 +108,7 @@
             "slot": "head"
         },
         {
-            "attribute": "miapi:generic.shielding_armor",
+            "attribute": "minecraft:generic.max_health",
             "value": "2",
             "operation": "+",
             "slot": "head"
