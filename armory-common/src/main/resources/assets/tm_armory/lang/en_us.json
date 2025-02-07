@@ -6,6 +6,13 @@
     "miapi.slot.arm_left.name": "Empty Left Arm Slot",
     "miapi.slot.arm_right.name": "Empty Right Arm Slot",
 
+    "tm_armory.material_indication.default.armor_points": "Directly increases armor points",
+    "tm_armory.material_indication.chain.flexibility": "Decreases armor points, but increases Projectile Armor",
+
+    "tm_armory.material_indication.heavy.density": "Decreases Swim and Elytra speed, increases exhaustion",
+    "tm_armory.material_indication.heavy.flexibility": "Decreases armor points",
+    "tm_armory.material_indication.armor.tier": "Sets Knock back Resistance and Armor Toughness",
+
     "miapi.skin.name.pride-armor_1": "Aurora Tinted",
     "miapi.skin.name.pride-armor_2": "Chromatic Armor",
     "miapi.skin.name.pride-armor_3": "Luminous",

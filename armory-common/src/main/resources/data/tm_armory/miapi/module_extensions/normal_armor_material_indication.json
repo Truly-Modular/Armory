@@ -1,0 +1,24 @@
+{
+    "tag": "heavy_armor",
+    "merge": {
+        "material_indication": {
+            "hardness": {
+                "strength": 2,
+                "info": {
+                    "type": "translatable",
+                    "translate": "tm_armory.material_indication.default.armor_points",
+                    "color": "dark_gray"
+                }
+            },
+            "tier": {
+                "strength": 2,
+                "info": {
+                    "type": "translatable",
+                    "translate": "tm_armory.material_indication.default.tier",
+                    "color": "dark_gray"
+                }
+            },
+            "durability": 1
+        }
+    }
+}
