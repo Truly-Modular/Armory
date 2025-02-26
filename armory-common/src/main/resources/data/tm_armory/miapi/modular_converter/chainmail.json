@@ -2,12 +2,10 @@
     "minecraft:chainmail_helmet": {
         "key": "armory:armor/helmet",
         "child": {
-            "chain": {
+            "hat": {
                 "key": "armory:armor/chain/helmet",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             }
         }
@@ -15,36 +13,28 @@
     "minecraft:chainmail_chestplate": {
         "key": "armory:armor/chestplate",
         "child": {
-            "front": {
+            "chest_front": {
                 "key": "armory:armor/chain/front_chest",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             },
-            "back": {
+            "chest_back": {
                 "key": "armory:armor/chain/back_chest",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             },
-            "left_arm": {
+            "arm_left": {
                 "key": "armory:armor/chain/arm_left",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             },
-            "right_arm": {
+            "arm_right": {
                 "key": "armory:armor/chain/arm_right",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             }
         }
@@ -55,25 +45,19 @@
             "belt": {
                 "key": "armory:armor/chain/belt",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             },
-            "left_leg": {
+            "leg_left": {
                 "key": "armory:armor/chain/leg_left",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             },
-            "right_leg": {
+            "leg_right": {
                 "key": "armory:armor/chain/leg_right",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             }
         }
@@ -81,20 +65,16 @@
     "minecraft:chainmail_boots": {
         "key": "armory:armor/boots",
         "child": {
-            "left_boot": {
+            "boot_left": {
                 "key": "armory:armor/chain/boot_left",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             },
-            "right_boot": {
+            "boot_right": {
                 "key": "armory:armor/chain/boot_right",
                 "data": {
-                    "properties": {
-                        "material": "miapi:metal/iron"
-                    }
+                    "material": "miapi:metal/iron"
                 }
             }
         }

@@ -54,6 +54,7 @@
     "tag": [
         "background_icon",
         "armor",
+        "scuba",
         "leg"
     ],
     "allowed_in_slots": [

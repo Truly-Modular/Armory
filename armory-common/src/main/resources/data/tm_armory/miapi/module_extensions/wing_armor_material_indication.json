@@ -1,12 +1,28 @@
 {
-    "tag": "default_armor",
+    "tag": "wingsuit",
     "merge": {
         "material_indication": {
             "hardness": {
-                "strength": 2,
+                "strength": 1,
                 "info": {
                     "type": "translatable",
                     "translate": "tm_armory.material_indication.default.armor_points",
+                    "color": "dark_gray"
+                }
+            },
+            "density": {
+                "strength": -1,
+                "info": {
+                    "type": "translatable",
+                    "translate": "tm_armory.material_indication.wing.density",
+                    "color": "dark_gray"
+                }
+            },
+            "flexibility": {
+                "strength": 2,
+                "info": {
+                    "type": "translatable",
+                    "translate": "tm_armory.material_indication.wing.flexibility",
                     "color": "dark_gray"
                 }
             },

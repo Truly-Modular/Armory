@@ -54,6 +54,12 @@
     "allowed_in_slots": [
         "leg_left"
     ],
+    "tag": [
+        "armor",
+        "wingsuit",
+        "leg",
+        "wingsuit"
+    ],
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",

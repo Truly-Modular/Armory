@@ -54,7 +54,8 @@
     "tag": [
         "background_icon",
         "armor",
-        "leg"
+        "leg",
+        "default_armor"
     ],
     "allowed_in_slots": [
         "leg_left"

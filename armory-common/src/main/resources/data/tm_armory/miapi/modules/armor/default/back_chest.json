@@ -53,6 +53,7 @@
     },
     "tag": [
         "armor",
+        "default_armor",
         "chest"
     ],
     "priority": 0,

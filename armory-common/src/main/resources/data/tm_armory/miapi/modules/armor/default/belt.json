@@ -57,6 +57,7 @@
     "tag": [
         "background_icon",
         "armor",
+        "default_armor",
         "pants"
     ],
     "allowed_material": {

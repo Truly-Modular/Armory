@@ -54,7 +54,8 @@
     "tag": [
         "background_icon",
         "armor",
-        "boot"
+        "boot",
+        "default_armor"
     ],
     "allowed_in_slots": [
         "boot_left"

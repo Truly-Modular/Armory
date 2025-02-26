@@ -84,6 +84,7 @@
     "tag": [
         "background_icon",
         "armor",
+        "wingsuit",
         "elytra"
     ],
     "durability": "[material.durability] / 7 * 3",

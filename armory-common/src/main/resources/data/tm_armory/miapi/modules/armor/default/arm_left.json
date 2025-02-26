@@ -93,6 +93,7 @@
     "tag": [
         "background_icon_alt",
         "armor",
+        "default_armor",
         "arm"
     ],
     "durability": "([material.durability]+[material.armor_durability_offset]) / 8",

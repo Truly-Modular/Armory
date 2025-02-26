@@ -82,6 +82,7 @@
     "tag": [
         "background_icon_alt",
         "armor",
+        "default_armor",
         "chest"
     ],
     "allowed_in_slots": [

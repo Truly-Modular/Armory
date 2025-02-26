@@ -6,8 +6,14 @@
     "miapi.slot.arm_left.name": "Empty Left Arm Slot",
     "miapi.slot.arm_right.name": "Empty Right Arm Slot",
 
+    "tm_armory.material_indication.default.tier": "Increases Armor Toughness",
     "tm_armory.material_indication.default.armor_points": "Directly increases armor points",
     "tm_armory.material_indication.chain.flexibility": "Decreases armor points, but increases Projectile Armor",
+    "tm_armory.material_indication.scuba.hardness": "Increases Armor and Swim speed",
+    "tm_armory.material_indication.scuba.flexibility": "Negatively impacts Armor",
+    "tm_armory.material_indication.scuba.density": "Negatively impacts Swim Speed",
+    "tm_armory.material_indication.wing.flexibility": "Negatively impacts armor, but strongly increases glide efficiency",
+    "tm_armory.material_indication.wing.density": "NNegatively impacts glide efficiency",
 
     "tm_armory.material_indication.heavy.density": "Decreases Swim and Elytra speed, increases exhaustion",
     "tm_armory.material_indication.heavy.flexibility": "Decreases armor points",

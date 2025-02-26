@@ -81,6 +81,7 @@
     "tag": [
         "background_icon",
         "armor",
+        "scuba",
         "helmet"
     ],
     "allowed_in_slots": [

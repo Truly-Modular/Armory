@@ -81,7 +81,8 @@
     "tag": [
         "background_icon",
         "armor",
-        "chest"
+        "chest",
+        "default_armor"
     ],
     "allowed_in_slots": [
         "chest_front"

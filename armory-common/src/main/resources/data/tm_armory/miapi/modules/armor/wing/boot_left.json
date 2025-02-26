@@ -61,6 +61,11 @@
         ],
         "cost": 3
     },
+    "tag": [
+        "armor",
+        "wingsuit",
+        "boot"
+    ],
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",

@@ -81,7 +81,8 @@
     "tag": [
         "background_icon",
         "armor",
-        "helmet"
+        "helmet",
+        "default_armor"
     ],
     "allowed_in_slots": [
         "helmet_plate"
