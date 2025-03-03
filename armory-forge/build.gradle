@@ -3,7 +3,7 @@ plugins {
 }
 architectury {
     platformSetupLoomIde()
-    forge()
+    neoForge()
 }
 
 repositories {
@@ -13,18 +13,26 @@ repositories {
     maven { url 'https://maven.fabricmc.net/' }
     maven { url 'https://jitpack.io' }
     maven { url 'https://maven.terraformersmc.com/' }
-    maven { url 'https://maven.uuid.gg/releases' }
-    maven { url 'https://maven.theillusivec4.top/' }
     maven { url 'https://www.cursemaven.com' }
+    maven { url "https://maven.neoforged.net/releases/" }
+    maven { url "https://maven.parchmentmc.org" }
+    maven { url = "https://api.modrinth.com/maven" }
+    maven {
+        url "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
+    }
     maven {
         url 'http://trulymodular.duckdns.org/maven'
         allowInsecureProtocol = true
     }
     maven {
-        name = 'Modrinth'
-        url = 'https://api.modrinth.com/maven'
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
         content {
-            includeGroup 'maven.modrinth'
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
         }
     }
 }
@@ -47,19 +55,19 @@ configurations {
 }
 
 dependencies {
-    forge "net.minecraftforge:forge:${rootProject.forge_version}"
+    neoForge "net.neoforged:neoforge:${rootProject.neoforge_version}"
     // Remove the next line if you don't want to depend on the API
-    modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
+    modApi "dev.architectury:architectury-neoforge:${rootProject.architectury_version}"
 
-    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-forge:${rootProject.miapi_version}-${rootProject.minecraft_version}")
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-neoforge:${rootProject.miapi_version}-${rootProject.minecraft_version}")
     common(project(path: ":armory-common", configuration: "namedElements")) { transitive false }
-    shadowCommon(project(path: ":armory-common", configuration: "transformProductionForge")) { transitive = false }
+    shadowCommon(project(path: ":armory-common", configuration: "transformProductionNeoForge")) { transitive = false }
 }
 
 processResources {
     inputs.property "version", project.version
 
-    filesMatching("META-INF/mods.toml") {
+    filesMatching("META-INF/neoforge.mods.toml") {
         expand "version": project.version
     }
 }

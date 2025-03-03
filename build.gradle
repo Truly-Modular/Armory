@@ -1,6 +1,15 @@
 plugins {
     id "architectury-plugin" version "3.4-SNAPSHOT"
-    id "dev.architectury.loom" version "1.6.397" apply false
+    id "dev.architectury.loom" version "1.7-SNAPSHOT" apply false
+}
+
+repositories {
+    maven { url = 'https://maven.parchmentmc.org' }
+    maven { url "https://maven.neoforged.net/releases/" }
+}
+
+architectury {
+    minecraft = rootProject.minecraft_version
 }
 
 tasks.register('clean-builds') {
@@ -53,7 +62,10 @@ subprojects {
 
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
-        mappings "net.fabricmc:yarn:1.20.1+build.10:v2"
+        mappings loom.layered() {
+            officialMojangMappings()
+            parchment("org.parchmentmc.data:parchment-1.21:2024.06.23@zip")
+        }
     }
     apply plugin: "java"
     apply plugin: "architectury-plugin"
@@ -65,33 +77,26 @@ subprojects {
 
     processResources {
         def expandProps = [
-                "version"                   : rootProject.mod_version,
-                "group"                     : rootProject.group, //Else we target the task's group.
-                "minecraft_version"         : rootProject.minecraft_version,
-                "architectury_version"      : rootProject.architectury_version,
-                "github"                    : rootProject.github,
-                "miapi_version"             : rootProject.miapi_version,
-                "forge_version"             : rootProject.forge_version,
-                "forge_loader_version_range": rootProject.forge_loader_version_range,
-                "forge_version_range"       : rootProject.forge_version_range,
-                "minecraft_version_range"   : rootProject.minecraft_version,
-                "fabric_api_version"        : rootProject.fabric_api_version,
-                "fabric_loader_version"     : rootProject.fabric_loader_version,
-                "mod_name"                  : rootProject.mod_name,
-                "mod_author"                : rootProject.mod_author,
-                "mod_id"                    : rootProject.mod_id,
-                "mod_description"           : rootProject.mod_description,
-                "credits"                   : rootProject.credits
+                "version"                       : rootProject.mod_version,
+                "group"                         : rootProject.project.group, //Else we target the task's group.
+                "minecraft_version"             : rootProject.minecraft_version,
+                "architectury_version"          : rootProject.architectury_version,
+                "neoforge_version"              : rootProject.neoforge_version,
+                "neoforge_loader_version_range" : rootProject.neoforge_loader_version_range,
+                "neoforge_version_range"        : rootProject.neoforge_version_range,
+                "minecraft_version_range"       : rootProject.minecraft_version,
+                "fabric_api_version"            : rootProject.fabric_api_version,
+                "fabric_loader_version"         : rootProject.fabric_loader_version,
+                "mod_name"                      : rootProject.mod_name,
+                "mod_author"                    : rootProject.mod_author,
+                "mod_id"                        : rootProject.mod_id,
+                "mod_description"               : rootProject.mod_description,
+                "credits"                       : rootProject.credits
         ]
 
         filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/neoforge.mods.toml', 'META-INF/mods.toml', '*.mixins.json']) {
             expand expandProps
         }
-    }
-
-    tasks.withType(JavaCompile) {
-        options.encoding = "UTF-8"
-        options.release = 17
     }
 
     java {
