@@ -1,5 +1,5 @@
 {
-    "armory:armor/helmet": {
+    "tm_armory:armor/helmet": {
         "condition": {
             "type": "not",
             "condition": {

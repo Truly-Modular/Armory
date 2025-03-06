@@ -1,5 +1,5 @@
 {
-    "module": "armory:armor/chestplate",
+    "module": "tm_armory:armor/chestplate",
     "translation": "miapi.create_item.chestplate",
     "priority":-3
 }

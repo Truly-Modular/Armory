@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           distribution: 'adopt'
-          java-version: '17'
+          java-version: '21'
 
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
@@ -67,7 +67,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/repository/com/Truly-Modular/Armory/Truly-Modular-armory-armory-forge/${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}/Truly-Modular-armory-armory-forge-${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}.jar
+          file: build/repository/com/Truly-Modular/Armory/Truly-Modular-armory-armory-neoforge/${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}/Truly-Modular-armory-armory-forge-${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}.jar
           tag: ${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}
           overwrite: true
 
@@ -75,7 +75,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/repository/com/Truly-Modular/Armory/Truly-Modular-armory-armory-forge/${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}/Truly-Modular-armory-armory-forge-${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}-sources.jar
+          file: build/repository/com/Truly-Modular/Armory/Truly-Modular-armory-armory-neoforge/${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}/Truly-Modular-armory-armory-forge-${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}-sources.jar
           tag: ${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}
           overwrite: true
 
@@ -83,7 +83,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/repository/com/Truly-Modular/Armory/Truly-Modular-armory-armory-forge/${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}/Truly-Modular-armory-armory-forge-${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}.pom
+          file: build/repository/com/Truly-Modular/Armory/Truly-Modular-armory-armory-neoforge/${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}/Truly-Modular-armory-armory-forge-${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}.pom
           tag: ${{ steps.all.outputs.mod_version }}-${{ steps.all.outputs.minecraft_version }}
           overwrite: true
 

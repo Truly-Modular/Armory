@@ -41,7 +41,7 @@ dependencies {
 }
 
 architectury {
-    common('fabric', 'forge')
+    common('fabric', 'neoforge')
 }
 
 tasks.register('githubPublish') {

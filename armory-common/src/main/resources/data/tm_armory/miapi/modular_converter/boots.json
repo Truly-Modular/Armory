@@ -1,9 +1,9 @@
 {
     "minecraft:iron_boots": {
-        "key": "armory:armor/boots",
+        "key": "tm_armory:armor/boots",
         "child": {
             "boot_left": {
-                "key": "armory:armor/default/boot_left",
+                "key": "tm_armory:armor/default/boot_left",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/iron"
@@ -11,7 +11,7 @@
                 }
             },
             "boot_right": {
-                "key": "armory:armor/default/boot_right" ,
+                "key": "tm_armory:armor/default/boot_right" ,
                 "data": {
                     "properties": {
                         "material": "miapi:metal/iron"
@@ -21,10 +21,10 @@
         }
     },
     "minecraft:golden_boots": {
-        "key": "armory:armor/boots",
+        "key": "tm_armory:armor/boots",
         "child": {
             "boot_left": {
-                "key": "armory:armor/default/boot_left" ,
+                "key": "tm_armory:armor/default/boot_left" ,
                 "data": {
                     "properties": {
                         "material": "miapi:metal/gold"
@@ -32,7 +32,7 @@
                 }
             },
             "boot_right": {
-                "key": "armory:armor/default/boot_right" ,
+                "key": "tm_armory:armor/default/boot_right" ,
                 "data": {
                     "properties": {
                         "material": "miapi:metal/gold"
@@ -42,10 +42,10 @@
         }
     },
     "minecraft:diamond_boots": {
-        "key": "armory:armor/boots",
+        "key": "tm_armory:armor/boots",
         "child": {
             "boot_left": {
-                "key": "armory:armor/default/boot_left" ,
+                "key": "tm_armory:armor/default/boot_left" ,
                 "data": {
                     "properties": {
                         "material": "miapi:crystal/diamond"
@@ -53,7 +53,7 @@
                 }
             },
             "boot_right": {
-                "key": "armory:armor/default/boot_right" ,
+                "key": "tm_armory:armor/default/boot_right" ,
                 "data": {
                     "properties": {
                         "material": "miapi:crystal/diamond"
@@ -63,10 +63,10 @@
         }
     },
     "minecraft:netherite_boots": {
-        "key": "armory:armor/boots",
+        "key": "tm_armory:armor/boots",
         "child": {
             "boot_left": {
-                "key": "armory:armor/default/boot_left" ,
+                "key": "tm_armory:armor/default/boot_left" ,
                 "data": {
                     "properties": {
                         "material": "miapi:metal/netherite"
@@ -74,7 +74,7 @@
                 }
             },
             "boot_right": {
-                "key": "armory:armor/default/boot_right" ,
+                "key": "tm_armory:armor/default/boot_right" ,
                 "data": {
                     "properties": {
                         "material": "miapi:metal/netherite"
@@ -84,10 +84,10 @@
         }
     },
     "minecraft:leather_boots": {
-        "key": "armory:armor/boots" ,
+        "key": "tm_armory:armor/boots" ,
         "child": {
             "boot_left": {
-                "key": "armory:armor/default/boot_left" ,
+                "key": "tm_armory:armor/default/boot_left" ,
                 "data": {
                     "properties": {
                         "material": "miapi:fabric/leather"
@@ -95,7 +95,7 @@
                 }
             },
             "boot_right": {
-                "key": "armory:armor/default/boot_right" ,
+                "key": "tm_armory:armor/default/boot_right" ,
                 "data": {
                     "properties": {
                         "material": "miapi:fabric/leather"

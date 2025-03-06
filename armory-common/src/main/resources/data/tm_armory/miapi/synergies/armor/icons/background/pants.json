@@ -1,5 +1,5 @@
 {
-    "armory:armor/pants": {
+    "tm_armory:armor/pants": {
         "condition": {
             "type": "not",
             "condition": {

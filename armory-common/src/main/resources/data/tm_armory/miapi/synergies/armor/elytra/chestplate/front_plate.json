@@ -1,5 +1,5 @@
 {
-    "armory:armor/default/front_chest": {
+    "tm_armory:armor/default/front_chest": {
         "condition": {
             "type": "other_module",
             "condition": {

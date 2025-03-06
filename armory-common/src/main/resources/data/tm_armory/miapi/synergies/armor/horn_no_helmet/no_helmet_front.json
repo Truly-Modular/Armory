@@ -1,5 +1,5 @@
 {
-    "armory:armor/hats/horns": {
+    "tm_armory:armor/hats/horns": {
         "condition": {
             "type": "and",
             "conditions": [

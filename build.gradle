@@ -91,7 +91,9 @@ subprojects {
                 "mod_author"                    : rootProject.mod_author,
                 "mod_id"                        : rootProject.mod_id,
                 "mod_description"               : rootProject.mod_description,
-                "credits"                       : rootProject.credits
+                "credits"                       : rootProject.credits,
+                "miapi_version"                 : rootProject.miapi_version,
+                "github"                        : rootProject.github
         ]
 
         filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/neoforge.mods.toml', 'META-INF/mods.toml', '*.mixins.json']) {

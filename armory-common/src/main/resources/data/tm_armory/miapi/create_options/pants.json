@@ -1,5 +1,5 @@
 {
-    "module": "armory:armor/pants",
+    "module": "tm_armory:armor/pants",
     "translation": "miapi.create_item.pants",
     "priority":-2
 }

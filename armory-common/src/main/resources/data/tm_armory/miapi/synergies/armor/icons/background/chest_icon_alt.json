@@ -1,5 +1,5 @@
 {
-    "armory:armor/chestplate": {
+    "tm_armory:armor/chestplate": {
         "condition": {
             "type": "and",
             "conditions": [

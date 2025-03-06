@@ -1,9 +1,9 @@
 {
     "minecraft:iron_leggings": {
-        "key": "armory:armor/pants",
+        "key": "tm_armory:armor/pants",
         "child": {
             "belt": {
-                "key": "armory:armor/default/belt",
+                "key": "tm_armory:armor/default/belt",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/iron"
@@ -11,7 +11,7 @@
                 }
             },
             "leg_left": {
-                "key": "armory:armor/default/leg_left",
+                "key": "tm_armory:armor/default/leg_left",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/iron"
@@ -19,7 +19,7 @@
                 }
             },
             "leg_right": {
-                "key": "armory:armor/default/leg_right",
+                "key": "tm_armory:armor/default/leg_right",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/iron"
@@ -29,10 +29,10 @@
         }
     },
     "minecraft:golden_leggings": {
-        "key": "armory:armor/pants",
+        "key": "tm_armory:armor/pants",
         "child": {
             "belt": {
-                "key": "armory:armor/default/belt",
+                "key": "tm_armory:armor/default/belt",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/gold"
@@ -40,7 +40,7 @@
                 }
             },
             "leg_left": {
-                "key": "armory:armor/default/leg_left",
+                "key": "tm_armory:armor/default/leg_left",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/gold"
@@ -48,7 +48,7 @@
                 }
             },
             "leg_right": {
-                "key": "armory:armor/default/leg_right",
+                "key": "tm_armory:armor/default/leg_right",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/gold"
@@ -58,10 +58,10 @@
         }
     },
     "minecraft:diamond_leggings": {
-        "key": "armory:armor/pants",
+        "key": "tm_armory:armor/pants",
         "child": {
             "belt": {
-                "key": "armory:armor/default/belt",
+                "key": "tm_armory:armor/default/belt",
                 "data": {
                     "properties": {
                         "material": "miapi:crystal/diamond"
@@ -69,7 +69,7 @@
                 }
             },
             "leg_left": {
-                "key": "armory:armor/default/leg_left",
+                "key": "tm_armory:armor/default/leg_left",
                 "data": {
                     "properties": {
                         "material": "miapi:crystal/diamond"
@@ -77,7 +77,7 @@
                 }
             },
             "leg_right": {
-                "key": "armory:armor/default/leg_right",
+                "key": "tm_armory:armor/default/leg_right",
                 "data": {
                     "properties": {
                         "material": "miapi:crystal/diamond"
@@ -87,10 +87,10 @@
         }
     },
     "minecraft:netherite_leggings": {
-        "key": "armory:armor/pants",
+        "key": "tm_armory:armor/pants",
         "child": {
             "belt": {
-                "key": "armory:armor/default/belt",
+                "key": "tm_armory:armor/default/belt",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/netherite"
@@ -98,7 +98,7 @@
                 }
             },
             "leg_left": {
-                "key": "armory:armor/default/leg_left",
+                "key": "tm_armory:armor/default/leg_left",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/netherite"
@@ -106,7 +106,7 @@
                 }
             },
             "leg_right": {
-                "key": "armory:armor/default/leg_right",
+                "key": "tm_armory:armor/default/leg_right",
                 "data": {
                     "properties": {
                         "material": "miapi:metal/netherite"
@@ -116,10 +116,10 @@
         }
     },
     "minecraft:leather_leggings": {
-        "key": "armory:armor/pants",
+        "key": "tm_armory:armor/pants",
         "child": {
             "belt": {
-                "key": "armory:armor/default/belt",
+                "key": "tm_armory:armor/default/belt",
                 "data": {
                     "properties": {
                         "material": "miapi:fabric/leather"
@@ -127,7 +127,7 @@
                 }
             },
             "leg_left": {
-                "key": "armory:armor/default/leg_left",
+                "key": "tm_armory:armor/default/leg_left",
                 "data": {
                     "properties": {
                         "material": "miapi:fabric/leather"
@@ -135,7 +135,7 @@
                 }
             },
             "leg_right": {
-                "key": "armory:armor/default/leg_right",
+                "key": "tm_armory:armor/default/leg_right",
                 "data": {
                     "properties": {
                         "material": "miapi:fabric/leather"

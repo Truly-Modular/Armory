@@ -1,5 +1,5 @@
 {
-    "module": "armory:armor/boots",
+    "module": "tm_armory:armor/boots",
     "translation": "miapi.create_item.boots",
     "priority":-1
 }
