@@ -49,7 +49,7 @@
             }
         ],
         "display_name": "miapi.skin.techno_crown.name",
-        "item_tore": {
+        "item_lore": {
             "text": {
                 "type": "translatable",
                 "translate": "miapi.crown.technocrown.lore",
