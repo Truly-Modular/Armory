@@ -85,7 +85,8 @@
         "background_icon_alt",
         "armor",
         "heavy_armor",
-        "arm"
+        "arm",
+        "chest"
     ],
     "allowedInSlots": [
         "arm_left"

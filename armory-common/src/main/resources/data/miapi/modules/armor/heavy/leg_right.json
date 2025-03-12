@@ -51,7 +51,8 @@
         "default",
         "heavy_armor",
         "armor",
-        "pants"
+        "pants",
+        "leg"
     ],
     "tag": [
         "background_icon",
