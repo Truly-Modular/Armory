@@ -90,7 +90,7 @@
     "durability": "[material.durability] / 7 * 3",
     "allowed_material": {
         "allowedMaterials": [
-            "elytra"
+            "miapi:custom/elytra"
         ],
         "cost": 1
     },

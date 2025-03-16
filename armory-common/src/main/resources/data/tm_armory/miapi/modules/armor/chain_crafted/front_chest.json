@@ -37,7 +37,7 @@
                 },
                 "scale": {
                     "x": 1,
-                    "y": 0.95,
+                    "y": 1,
                     "z": 1
                 },
                 "origin": "item"
@@ -104,10 +104,13 @@
     "durability": "([material.durability]+[material.armor_durability_offset]) / 8 * 2",
     "allowed_material": {
         "allowedMaterials": [
+            "wood",
             "metal",
-            "crystal",
             "flint",
-            "bone"
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
         ],
         "cost": 2
     },

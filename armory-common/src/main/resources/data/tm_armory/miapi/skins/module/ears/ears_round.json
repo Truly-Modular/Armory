@@ -1,8 +1,8 @@
 {
     "path": "ears_round",
-    "module": "ears",
+    "module": "tm_armory:armor/hats/ears",
     "replace": {
-        "texture": [
+        "model": [
             {
                 "path": "miapi:models/item/armor/model/hat/ears/round/[material.texture].json",
                 "transform": {

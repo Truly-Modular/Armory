@@ -1,8 +1,8 @@
 {
     "path": "horns_bent",
-    "module": "horns",
+    "module": "tm_armory:armor/hats/horns",
     "replace": {
-        "texture": [
+        "model": [
             {
                 "path": "miapi:models/item/armor/model/hat/horn/bent/[material.texture].json",
                 "transform": {

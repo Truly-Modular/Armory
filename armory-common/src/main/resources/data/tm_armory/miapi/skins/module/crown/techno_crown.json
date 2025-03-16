@@ -1,8 +1,8 @@
 {
     "path": "techno_crown",
-    "module": "crown",
+    "module": "tm_armory:armor/hats/crown",
     "replace": {
-        "texture": [
+        "model": [
             {
                 "path": "miapi:models/item/armor/model/hat/crown/technoblade.json",
                 "color_provider": "model",

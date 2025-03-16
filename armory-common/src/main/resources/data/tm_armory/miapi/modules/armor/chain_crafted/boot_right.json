@@ -62,10 +62,13 @@
     ],
     "allowed_material": {
         "allowedMaterials": [
+            "wood",
             "metal",
-            "crystal",
             "flint",
-            "bone"
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
         ],
         "cost": 1
     },

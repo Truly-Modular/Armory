@@ -77,10 +77,13 @@
     "durability": "([material.durability]+[material.armor_durability_offset]) / 7 * 2",
     "allowed_material": {
         "allowedMaterials": [
+            "wood",
             "metal",
-            "crystal",
             "flint",
-            "bone"
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
         ],
         "cost": 1
     }

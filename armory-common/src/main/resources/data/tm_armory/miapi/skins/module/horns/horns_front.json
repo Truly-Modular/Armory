@@ -1,8 +1,8 @@
 {
     "path": "horns_front",
-    "module": "horns",
+    "module": "tm_armory:armor/hats/horns",
     "replace": {
-        "texture": [
+        "model": [
             {
                 "path": "miapi:models/item/armor/model/hat/horn/front/[material.texture].json",
                 "transform": {
