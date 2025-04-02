@@ -1,15 +1,17 @@
 {
-    "tm_armory:armor/boots": {
+    "type": "module",
+    "module": "tm_armory:armor/boots",
+    "condition": {
+        "type": "not",
         "condition": {
-            "type": "not",
+            "type": "other_module",
             "condition": {
-                "type": "other_module",
-                "condition": {
-                    "type": "tag",
-                    "tag": "background_icon"
-                }
+                "type": "tag",
+                "tag": "background_icon"
             }
-        },
+        }
+    },
+    "properties": {
         "replace": {
             "model": [
                 {
@@ -34,13 +36,15 @@
                     }
                 }
             ],
-            "item_lore": [{
-                "text": {
-                    "type": "translatable",
-                    "translate": "miapi.underboot.lore"
-                },
-                "position": "top"
-            }]
+            "item_lore": [
+                {
+                    "text": {
+                        "type": "translatable",
+                        "translate": "miapi.underboot.lore"
+                    },
+                    "position": "top"
+                }
+            ]
         }
     }
 }

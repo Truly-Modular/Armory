@@ -1,15 +1,17 @@
 {
-    "tm_armory:armor/helmet": {
+    "type": "module",
+    "module": "tm_armory:armor/helmet",
+    "condition": {
+        "type": "not",
         "condition": {
-            "type": "not",
+            "type": "other_module",
             "condition": {
-                "type": "other_module",
-                "condition": {
-                    "type": "tag",
-                    "tag": "background_icon"
-                }
+                "type": "tag",
+                "tag": "background_icon"
             }
-        },
+        }
+    },
+    "properties": {
         "replace": {
             "model": [
                 {

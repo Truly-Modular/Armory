@@ -1,27 +1,29 @@
 {
-    "tm_armory:armor/chestplate": {
-        "condition": {
-            "type": "and",
-            "conditions": [
-                {
-                    "type": "not",
-                    "condition": {
-                        "type": "other_module",
-                        "condition": {
-                            "type": "tag",
-                            "tag": "background_icon"
-                        }
-                    }
-                },
-                {
+    "type": "module",
+    "module": "tm_armory:armor/chestplate",
+    "condition": {
+        "type": "and",
+        "conditions": [
+            {
+                "type": "not",
+                "condition": {
                     "type": "other_module",
                     "condition": {
                         "type": "tag",
-                        "tag": "background_icon_alt"
+                        "tag": "background_icon"
                     }
                 }
-            ]
-        },
+            },
+            {
+                "type": "other_module",
+                "condition": {
+                    "type": "tag",
+                    "tag": "background_icon_alt"
+                }
+            }
+        ]
+    },
+    "properties": {
         "replace": {
             "model": [
                 {

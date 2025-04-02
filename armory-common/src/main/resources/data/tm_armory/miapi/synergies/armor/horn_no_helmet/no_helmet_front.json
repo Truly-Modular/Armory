@@ -1,24 +1,26 @@
 {
-    "tm_armory:armor/hats/horns": {
-        "condition": {
-            "type": "and",
-            "conditions": [
-                {
-                    "type": "not",
+    "type": "module",
+    "module": "tm_armory:armor/hats/horns",
+    "condition": {
+        "type": "and",
+        "conditions": [
+            {
+                "type": "not",
+                "condition": {
+                    "type": "other_module",
                     "condition": {
-                        "type": "other_module",
-                        "condition": {
-                            "type": "tag",
-                            "tag": "background_icon"
-                        }
+                        "type": "tag",
+                        "tag": "background_icon"
                     }
-                },
-                {
-                    "type": "tag",
-                    "tag": "horns_front"
                 }
-            ]
-        },
+            },
+            {
+                "type": "tag",
+                "tag": "horns_front"
+            }
+        ]
+    },
+    "properties": {
         "merge": {
             "model": [
                 {

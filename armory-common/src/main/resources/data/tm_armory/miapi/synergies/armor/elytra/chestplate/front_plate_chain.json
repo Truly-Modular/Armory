@@ -1,12 +1,14 @@
 {
-    "tm_armory:armor/chain/front_chest": {
+    "type": "module",
+    "module": "tm_armory:armor/chain/front_chest",
+    "condition": {
+        "type": "other_module",
         "condition": {
-            "type": "other_module",
-            "condition": {
-                "type": "tag",
-                "tag": "elytra"
-            }
-        },
+            "type": "tag",
+            "tag": "elytra"
+        }
+    },
+    "properties": {
         "replace": {
             "display_name": "miapi:armored_elytra",
             "attributes": [

@@ -1,13 +1,14 @@
 {
     "type": "tag",
-    "wing_left": {
+    "tag": "wing_left",
+    "condition": {
+        "type": "other_module",
         "condition": {
-            "type": "other_module",
-            "condition": {
-                "type": "tag",
-                "tag": "wing_right"
-            }
-        },
+            "type": "tag",
+            "tag": "wing_right"
+        }
+    },
+    "properties": {
         "replace": {
             "display_name": "miapi.modular_elytra",
             "item_id": "miapi:modular_elytra"

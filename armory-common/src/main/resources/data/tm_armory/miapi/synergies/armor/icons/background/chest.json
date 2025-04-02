@@ -1,30 +1,32 @@
 {
-    "tm_armory:armor/chestplate": {
-        "condition": {
-            "type": "and",
-            "conditions": [
-                {
-                    "type": "not",
+    "type": "module",
+    "module": "tm_armory:armor/chestplate",
+    "condition": {
+        "type": "and",
+        "conditions": [
+            {
+                "type": "not",
+                "condition": {
+                    "type": "other_module",
                     "condition": {
-                        "type": "other_module",
-                        "condition": {
-                            "type": "tag",
-                            "tag": "background_icon"
-                        }
-                    }
-                },
-                {
-                    "type": "not",
-                    "condition": {
-                        "type": "other_module",
-                        "condition": {
-                            "type": "tag",
-                            "tag": "background_icon_alt"
-                        }
+                        "type": "tag",
+                        "tag": "background_icon"
                     }
                 }
-            ]
-        },
+            },
+            {
+                "type": "not",
+                "condition": {
+                    "type": "other_module",
+                    "condition": {
+                        "type": "tag",
+                        "tag": "background_icon_alt"
+                    }
+                }
+            }
+        ]
+    },
+    "properties": {
         "replace": {
             "model": [
                 {
@@ -49,13 +51,15 @@
                     }
                 }
             ],
-            "item_lore": [{
-                "text": {
-                    "type": "translatable",
-                    "translate": "miapi.underchest.lore"
-                },
-                "position": "top"
-            }]
+            "item_lore": [
+                {
+                    "text": {
+                        "type": "translatable",
+                        "translate": "miapi.underchest.lore"
+                    },
+                    "position": "top"
+                }
+            ]
         }
     }
 }
