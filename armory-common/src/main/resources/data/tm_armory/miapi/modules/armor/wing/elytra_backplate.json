@@ -7,6 +7,7 @@
             "allowed": [
                 "wing_left"
             ],
+            "translationKey": "miapi.slot.tm_armory.wing_left.name",
             "transform": {
                 "rotation": {
                     "x": 0,
@@ -30,6 +31,7 @@
             "allowed": [
                 "wing_right"
             ],
+            "translationKey": "miapi.slot.tm_armory.wing_right.name",
             "transform": {
                 "rotation": {
                     "x": 0,

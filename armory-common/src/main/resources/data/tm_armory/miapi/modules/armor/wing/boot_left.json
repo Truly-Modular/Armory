@@ -81,5 +81,5 @@
         }
     ],
     "durability": "[material.durability]* 0.5",
-    "display_name": "miapi.module.boot_left.name"
+    "display_name": "miapi.module.tm_armory.armor.wing.boot_left.name"
 }

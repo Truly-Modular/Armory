@@ -76,12 +76,12 @@ public class GenerateConvertersHelperArmor {
 
 
     public static ItemStack bootsItem(Material material) {
-        ModuleInstance bootsModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/boots")));
+        ModuleInstance bootsModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/boots")));
 
-        ModuleInstance leftBootModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/boot_left")));
+        ModuleInstance leftBootModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/boot_left")));
         MaterialProperty.setMaterial(leftBootModule, material);
 
-        ModuleInstance rightBootModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/boot_right")));
+        ModuleInstance rightBootModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/boot_right")));
         MaterialProperty.setMaterial(rightBootModule, material);
 
         bootsModule.setSubModule("boot_left", leftBootModule);
@@ -95,15 +95,15 @@ public class GenerateConvertersHelperArmor {
     }
 
     public static ItemStack leggingsItem(Material material) {
-        ModuleInstance leggingsModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/pants")));
+        ModuleInstance leggingsModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/pants")));
 
-        ModuleInstance beltModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/belt")));
+        ModuleInstance beltModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/belt")));
         MaterialProperty.setMaterial(beltModule, material);
 
-        ModuleInstance leftLegModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/leg_left")));
+        ModuleInstance leftLegModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/leg_left")));
         MaterialProperty.setMaterial(leftLegModule, material);
 
-        ModuleInstance rightLegModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/leg_right")));
+        ModuleInstance rightLegModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/leg_right")));
         MaterialProperty.setMaterial(rightLegModule, material);
 
         leggingsModule.setSubModule("belt", beltModule);
@@ -118,18 +118,18 @@ public class GenerateConvertersHelperArmor {
     }
 
     public static ItemStack chestplateItem(Material material) {
-        ModuleInstance chestplateModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/chestplate")));
+        ModuleInstance chestplateModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/chestplate")));
 
-        ModuleInstance frontChestModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/front_chest")));
+        ModuleInstance frontChestModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/front_chest")));
         MaterialProperty.setMaterial(frontChestModule, material);
 
-        ModuleInstance backChestModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/back_chest")));
+        ModuleInstance backChestModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/back_chest")));
         MaterialProperty.setMaterial(backChestModule, material);
 
-        ModuleInstance leftArmModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/arm_left")));
+        ModuleInstance leftArmModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/arm_left")));
         MaterialProperty.setMaterial(leftArmModule, material);
 
-        ModuleInstance rightArmModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/arm_right")));
+        ModuleInstance rightArmModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/arm_right")));
         MaterialProperty.setMaterial(rightArmModule, material);
 
         chestplateModule.setSubModule("chest_front", frontChestModule);
@@ -146,10 +146,10 @@ public class GenerateConvertersHelperArmor {
 
     public static ItemStack helmetItem(Material material) {
         // Create the root module for the helmet
-        ModuleInstance helmetModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/helmet")));
+        ModuleInstance helmetModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/helmet")));
 
         // Create the "hat" submodule representing the actual helmet part
-        ModuleInstance hatModule = new ModuleInstance(RegistryInventory.modules.get(Miapi.id("tm_armory", "armor/default/helmet")));
+        ModuleInstance hatModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/helmet")));
         MaterialProperty.setMaterial(hatModule, material);
 
         // Set "hat" as a child of "helmet"

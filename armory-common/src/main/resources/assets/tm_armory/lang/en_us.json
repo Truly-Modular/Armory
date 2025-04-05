@@ -55,6 +55,9 @@
     "miapi.slot.arm_patch.name": "Arm Patch Slot",
     "miapi.slot.hat.name": "Hat Slot",
 
+    "miapi.slot.tm_armory.wing_left.name": "Left Wing Slot",
+    "miapi.slot.tm_armory.wing_right.name": "Right Wing Slot",
+
     "miapi.underboot.lore": "Socks, basis for Modular Boots",
     "miapi.underpants.lore": "Underpants, basis for Modular leggings",
     "miapi.underchest.lore": "Undershirt, a basis for modular Chestplate",
