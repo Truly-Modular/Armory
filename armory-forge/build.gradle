@@ -24,7 +24,7 @@ repositories {
         }
     }
     maven {
-        url 'http://trulymodular.duckdns.org/maven'
+        url 'http://trulymodular.dedyn.io/maven'
         allowInsecureProtocol = true
     }
     maven {

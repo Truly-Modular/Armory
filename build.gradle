@@ -84,7 +84,7 @@ subprojects {
                 "neoforge_version"              : rootProject.neoforge_version,
                 "neoforge_loader_version_range" : rootProject.neoforge_loader_version_range,
                 "neoforge_version_range"        : rootProject.neoforge_version_range,
-                "minecraft_version_range"       : rootProject.minecraft_version,
+                "minecraft_version_range"       : rootProject.minecraft_version_range,
                 "fabric_api_version"            : rootProject.fabric_api_version,
                 "fabric_loader_version"         : rootProject.fabric_loader_version,
                 "mod_name"                      : rootProject.mod_name,
