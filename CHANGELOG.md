@@ -1,3 +1,2 @@
-## v1.9 (1.20.1)
-- fixed durability of armor
-- added es-es translations (by potato)
+## v2.0 (1.21)
+- ported to 1.21
