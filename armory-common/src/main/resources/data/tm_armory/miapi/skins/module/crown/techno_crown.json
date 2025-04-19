@@ -52,7 +52,7 @@
         "item_lore": {
             "text": {
                 "type": "translatable",
-                "translate": "miapi.crown.technocrown.lore",
+                "translate": "miapi.hats.crown.technocrown.lore",
                 "color": "dark_gray",
                 "italic": true
             },

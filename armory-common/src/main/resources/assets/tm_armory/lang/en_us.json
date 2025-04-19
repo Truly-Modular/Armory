@@ -349,13 +349,13 @@
     "miapi.skin.techno_crown.name": "%s Crown",
     "miapi.skin.techno_crown.description": "Technoblades Crown",
 
-    "miapi.module.tm_armory.armor.banner_cosmetic": "Banner Cosmetic",
-    "miapi.module.tm_armory.armor.banner_cosmetic.name": "%s Banner",
-    "miapi.module.tm_armory.armor.banner_cosmetic.description": "Large Banner on your Head\nProudly displaying your alignment",
+    "miapi.module.tm_armory.armor.hats.banner": "Banner Cosmetic",
+    "miapi.module.tm_armory.armor.hats.banner.name": "%s Banner",
+    "miapi.module.tm_armory.armor.hats.banner.description": "Large Banner on your Head\nProudly displaying your alignment",
 
-    "miapi.module.tm_armory.armor.banner_chest": "Banner Cosmetic",
-    "miapi.module.tm_armory.armor.banner_chest.name": "%s Banner",
-    "miapi.module.tm_armory.armor.banner_chest.description": "Chest Banner Decorative Piece\nGreat for displaying Art or Flags",
+    "miapi.module.tm_armory.armor.chest.banner": "Banner Cosmetic",
+    "miapi.module.tm_armory.armor.chest.banner.name": "%s Banner",
+    "miapi.module.tm_armory.armor.chest.banner.description": "Chest Banner Decorative Piece\nGreat for displaying Art or Flags",
 
     "miapi.hats.crown.technocrown.lore": "Technoblade never dies"
 }
