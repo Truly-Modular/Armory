@@ -247,6 +247,7 @@
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/armor",
+            "minecraft:enchantable/equippable",
             "minecraft:enchantable/equipable",
             "minecraft:enchantable/vanishing",
             "minecraft:enchantable/durability",

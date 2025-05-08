@@ -1,2 +1,2 @@
-## v2.0 (1.21)
-- ported to 1.21
+## v2.1 (1.21)
+- fixed equippable enchantments not working
