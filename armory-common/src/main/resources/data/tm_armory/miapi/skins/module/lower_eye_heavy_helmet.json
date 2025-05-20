@@ -1,0 +1,64 @@
+{
+    "path": "heavy_helm_low_eyes",
+    "module": "tm_armory:armor/heavy/helmet",
+    "replace": {
+        "model": [
+            {
+                "path": "miapi:models/item/armor/model/helmet/heavy_low_eye/[material.texture].json",
+                "trim_mode": "ARMOR_LAYER_ONE",
+                "transform": {
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "origin": "head"
+                }
+            },
+            {
+                "path": "miapi:models/item/armor/gui/heavy/helmet/base/[material.texture].json",
+                "transform": {
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "origin": "item"
+                }
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": [
+            "user",
+            "supporter",
+            "techno"
+        ]
+    },
+    "model": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}
