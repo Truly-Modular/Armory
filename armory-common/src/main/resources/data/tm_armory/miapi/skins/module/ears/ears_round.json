@@ -1,6 +1,7 @@
 {
     "path": "ears_round",
     "module": "tm_armory:armor/hats/ears",
+    "type": "attachment",
     "replace": {
         "model": [
             {

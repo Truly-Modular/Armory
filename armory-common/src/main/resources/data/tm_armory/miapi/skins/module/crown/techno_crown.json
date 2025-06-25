@@ -1,5 +1,6 @@
 {
     "path": "techno_crown",
+    "type": "model",
     "module": "tm_armory:armor/hats/crown",
     "replace": {
         "model": [

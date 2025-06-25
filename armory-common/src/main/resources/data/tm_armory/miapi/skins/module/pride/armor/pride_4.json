@@ -3,6 +3,7 @@
     "module_tags": [
         "armor"
     ],
+    "type": "overlay",
     "replace": {
         "overlay_texture_model": [
             {

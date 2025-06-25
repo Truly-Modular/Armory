@@ -1,6 +1,7 @@
 {
     "path": "horns_front",
     "module": "tm_armory:armor/hats/horns",
+    "type": "attachment",
     "replace": {
         "model": [
             {

@@ -1,6 +1,7 @@
 {
     "path": "heavy_helm_low_eyes",
     "module": "tm_armory:armor/heavy/helmet",
+    "type": "model",
     "replace": {
         "model": [
             {

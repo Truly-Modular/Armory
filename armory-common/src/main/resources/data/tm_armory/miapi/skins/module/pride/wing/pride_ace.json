@@ -3,6 +3,7 @@
     "module_tags": [
         "wing"
     ],
+    "type": "overlay",
     "replace": {
         "overlay_texture_model": [
             {

@@ -1,6 +1,7 @@
 {
     "path": "wizzard",
     "module": "tm_armory:armor/default/helmet",
+    "type": "model",
     "replace": {
         "model": [
             {
