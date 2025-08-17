@@ -74,18 +74,6 @@
     },
     "priority": 1,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "heavy_armor",
-        "chest"
-    ],
-    "tag": [
-        "background_icon_alt",
-        "armor",
-        "heavy_armor",
-        "arm"
-    ],
     "allowed_in_slots": [
         "arm_left"
     ],
@@ -129,5 +117,15 @@
             "glass"
         ],
         "cost": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "heavy_armor",
+        "chest",
+        "background_icon_alt",
+        "armor",
+        "heavy_armor",
+        "arm"
+    ]
 }

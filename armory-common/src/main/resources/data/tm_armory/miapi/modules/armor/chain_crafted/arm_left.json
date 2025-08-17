@@ -74,12 +74,6 @@
     },
     "priority": 2,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "chain_armor",
-        "chest"
-    ],
     "allowed_in_slots": [
         "arm_left"
     ],
@@ -97,11 +91,6 @@
             "slot": "chest"
         }
     ],
-    "tag": [
-        "background_icon_alt",
-        "armor",
-        "arm"
-    ],
     "durability": "([material.durability]+[material.armor_durability_offset]) / 8",
     "allowed_material": {
         "allowedMaterials": [
@@ -114,5 +103,14 @@
             "glass"
         ],
         "cost": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "chain_armor",
+        "chest",
+        "background_icon_alt",
+        "armor",
+        "arm"
+    ]
 }

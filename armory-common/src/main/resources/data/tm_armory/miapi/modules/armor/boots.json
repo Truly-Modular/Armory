@@ -52,11 +52,6 @@
             }
         }
     },
-    "material_property": [
-        "default",
-        "armor",
-        "boot"
-    ],
     "model_transform": {
         "thirdperson_righthand": {
             "rotation": {
@@ -203,5 +198,10 @@
         ]
     },
     "item_id": "miapi:modular_boots",
-    "equipment_slot": "feet"
+    "equipment_slot": "feet",
+    "module_tag": [
+        "default",
+        "armor",
+        "boot"
+    ]
 }

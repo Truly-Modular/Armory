@@ -43,16 +43,6 @@
             }
         }
     ],
-    "material_property": [
-        "default",
-        "armor",
-        "helmet"
-    ],
-    "tag": [
-        "background_icon",
-        "armor_cosmetic",
-        "helmet_cosmetic"
-    ],
     "allowed_in_slots": [
         "hat"
     ],
@@ -68,5 +58,13 @@
         ],
         "cost": 3
     },
-    "display_name": "miapi.module.tm_armory.armor.hats.crown"
+    "display_name": "miapi.module.tm_armory.armor.hats.crown",
+    "module_tag": [
+        "default",
+        "armor",
+        "helmet",
+        "background_icon",
+        "armor_cosmetic",
+        "helmet_cosmetic"
+    ]
 }

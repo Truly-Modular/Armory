@@ -73,18 +73,6 @@
     },
     "priority": 1,
     "repair_priority": 1,
-    "material_property": [
-        "default",
-        "heavy_armor",
-        "armor",
-        "chest"
-    ],
-    "tag": [
-        "background_icon",
-        "heavy_armor",
-        "armor",
-        "chest"
-    ],
     "allowed_in_slots": [
         "chest_front"
     ],
@@ -146,5 +134,15 @@
             "minecraft:enchantable/chest_armor"
         ]
     },
-    "display_name": "miapi.module.tm_armory.armor.heavy.front_chest.name"
+    "display_name": "miapi.module.tm_armory.armor.heavy.front_chest.name",
+    "module_tag": [
+        "default",
+        "heavy_armor",
+        "armor",
+        "chest",
+        "background_icon",
+        "heavy_armor",
+        "armor",
+        "chest"
+    ]
 }

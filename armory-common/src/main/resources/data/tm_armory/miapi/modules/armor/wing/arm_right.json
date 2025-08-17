@@ -45,20 +45,8 @@
     ],
     "priority": 3,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "wing",
-        "chest"
-    ],
     "allowed_in_slots": [
         "arm_right"
-    ],
-    "tag": [
-        "background_icon_alt",
-        "armor",
-        "wingsuit",
-        "arm"
     ],
     "attributes": [
         {
@@ -81,5 +69,15 @@
             "feather"
         ],
         "cost": 2
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "wing",
+        "chest",
+        "background_icon_alt",
+        "armor",
+        "wingsuit",
+        "arm"
+    ]
 }

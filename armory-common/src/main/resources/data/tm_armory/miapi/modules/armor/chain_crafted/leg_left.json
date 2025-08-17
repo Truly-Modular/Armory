@@ -46,17 +46,6 @@
     ],
     "priority": 2,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "pants"
-    ],
-    "tag": [
-        "background_icon",
-        "armor",
-        "chain_armor",
-        "leg"
-    ],
     "allowed_in_slots": [
         "leg_left"
     ],
@@ -86,5 +75,14 @@
             "glass"
         ],
         "cost": 1
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "pants",
+        "background_icon",
+        "armor",
+        "chain_armor",
+        "leg"
+    ]
 }

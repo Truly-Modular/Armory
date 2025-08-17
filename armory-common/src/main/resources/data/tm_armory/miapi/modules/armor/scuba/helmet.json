@@ -71,19 +71,8 @@
             }
         }
     },
-    "material_property": [
-        "default",
-        "armor",
-        "helmet"
-    ],
     "priority": 4,
     "repair_priority": 0,
-    "tag": [
-        "background_icon",
-        "armor",
-        "scuba",
-        "helmet"
-    ],
     "allowed_in_slots": [
         "helmet_plate"
     ],
@@ -125,5 +114,14 @@
         ],
         "cost": 5
     },
-    "display_name": "miapi.module.tm_armory.armor.scuba.helmet.name"
+    "display_name": "miapi.module.tm_armory.armor.scuba.helmet.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "helmet",
+        "background_icon",
+        "armor",
+        "scuba",
+        "helmet"
+    ]
 }

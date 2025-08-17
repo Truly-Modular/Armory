@@ -45,20 +45,8 @@
     ],
     "priority": 2,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "wing",
-        "pants"
-    ],
     "allowed_in_slots": [
         "leg_right"
-    ],
-    "tag": [
-        "armor",
-        "wingsuit",
-        "leg",
-        "wingsuit"
     ],
     "attributes": [
         {
@@ -81,5 +69,15 @@
             "feather"
         ],
         "cost": 4
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "wing",
+        "pants",
+        "armor",
+        "wingsuit",
+        "leg",
+        "wingsuit"
+    ]
 }

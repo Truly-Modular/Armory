@@ -45,16 +45,6 @@
     ],
     "priority": 3,
     "repair_priority": 1,
-    "material_property": [
-        "default",
-        "armor",
-        "wing",
-        "chest"
-    ],
-    "tag": [
-        "wing_right",
-        "wing"
-    ],
     "allowed_in_slots": [
         "wing_right"
     ],
@@ -65,5 +55,13 @@
             "feather"
         ],
         "cost": 2
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "wing",
+        "chest",
+        "wing_right",
+        "wing"
+    ]
 }

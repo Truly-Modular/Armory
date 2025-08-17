@@ -45,12 +45,6 @@
     ],
     "priority": 3,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "wing",
-        "boot"
-    ],
     "allowed_in_slots": [
         "boot_right"
     ],
@@ -61,11 +55,6 @@
         ],
         "cost": 3
     },
-    "tag": [
-        "armor",
-        "wingsuit",
-        "boot"
-    ],
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
@@ -80,5 +69,14 @@
             "slot": "feet"
         }
     ],
-    "durability": "[material.durability]* 0.5"
+    "durability": "[material.durability]* 0.5",
+    "module_tag": [
+        "default",
+        "armor",
+        "wing",
+        "boot",
+        "armor",
+        "wingsuit",
+        "boot"
+    ]
 }

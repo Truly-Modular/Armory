@@ -53,16 +53,6 @@
     },
     "priority": 1,
     "repair_priority": 1,
-    "material_property": [
-        "default",
-        "armor",
-        "chest"
-    ],
-    "tag": [
-        "armor",
-        "chain_armor",
-        "pants"
-    ],
     "allowed_in_slots": [
         "chest_back"
     ],
@@ -94,5 +84,13 @@
         ],
         "cost": 3
     },
-    "display_name": "miapi.module.tm_armory.armor.chain.front_chest.name"
+    "display_name": "miapi.module.tm_armory.armor.chain.front_chest.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "chest",
+        "armor",
+        "chain_armor",
+        "pants"
+    ]
 }

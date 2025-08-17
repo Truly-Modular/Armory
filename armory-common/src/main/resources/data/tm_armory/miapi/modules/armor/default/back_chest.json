@@ -51,18 +51,8 @@
             }
         }
     },
-    "tag": [
-        "armor",
-        "default_armor",
-        "chest"
-    ],
     "priority": 0,
     "repair_priority": 1,
-    "material_property": [
-        "default",
-        "armor",
-        "chest"
-    ],
     "allowed_in_slots": [
         "chest_back"
     ],
@@ -105,5 +95,13 @@
             "minecraft:enchantable/chest_armor"
         ]
     },
-    "display_name": "miapi.module.tm_armory.armor.default.front_chest.name"
+    "display_name": "miapi.module.tm_armory.armor.default.front_chest.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "chest",
+        "armor",
+        "default_armor",
+        "chest"
+    ]
 }

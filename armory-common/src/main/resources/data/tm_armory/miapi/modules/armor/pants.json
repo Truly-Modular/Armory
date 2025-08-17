@@ -78,11 +78,6 @@
             }
         }
     },
-    "material_property": [
-        "default",
-        "armor",
-        "pants"
-    ],
     "enchantments": {
         "allowed": [
             "minecraft:enchantable/armor",
@@ -229,5 +224,10 @@
     },
     "display_name": "miapi.module.tm_armory.armor.pants.name",
     "item_id": "miapi:modular_leggings",
-    "equipment_slot": "legs"
+    "equipment_slot": "legs",
+    "module_tag": [
+        "default",
+        "armor",
+        "pants"
+    ]
 }

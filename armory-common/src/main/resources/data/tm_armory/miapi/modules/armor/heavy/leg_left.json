@@ -46,18 +46,6 @@
     ],
     "priority": 1,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "heavy_armor",
-        "armor",
-        "pants"
-    ],
-    "tag": [
-        "background_icon",
-        "heavy_armor",
-        "armor",
-        "leg"
-    ],
     "allowed_in_slots": [
         "leg_left"
     ],
@@ -101,5 +89,15 @@
             "glass"
         ],
         "cost": 3
-    }
+    },
+    "module_tag": [
+        "default",
+        "heavy_armor",
+        "armor",
+        "pants",
+        "background_icon",
+        "heavy_armor",
+        "armor",
+        "leg"
+    ]
 }

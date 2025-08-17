@@ -43,14 +43,6 @@
             }
         }
     ],
-    "material_property": [
-        "default",
-        "armor_cosmetic",
-        "helmet_cosmetic"
-    ],
-    "tag": [
-        "horns"
-    ],
     "allowed_in_slots": [
         "hat"
     ],
@@ -65,5 +57,11 @@
             "glass"
         ],
         "cost": 2
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor_cosmetic",
+        "helmet_cosmetic",
+        "horns"
+    ]
 }

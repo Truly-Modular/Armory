@@ -71,19 +71,8 @@
             }
         }
     },
-    "material_property": [
-        "default",
-        "armor",
-        "helmet"
-    ],
     "priority": 2,
     "repair_priority": 0,
-    "tag": [
-        "background_icon",
-        "armor",
-        "chain_armor",
-        "helmet"
-    ],
     "allowed_in_slots": [
         "helmet_plate"
     ],
@@ -114,5 +103,14 @@
         ],
         "cost": 5
     },
-    "display_name": "miapi.module.tm_armory.armor.chain_crafted.helmet.name"
+    "display_name": "miapi.module.tm_armory.armor.chain_crafted.helmet.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "helmet",
+        "background_icon",
+        "armor",
+        "chain_armor",
+        "helmet"
+    ]
 }

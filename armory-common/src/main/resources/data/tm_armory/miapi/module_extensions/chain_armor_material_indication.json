@@ -20,5 +20,8 @@
             },
             "durability": 1
         }
-    }
+    },
+    "module_tag": [
+        "chain_armor"
+    ]
 }

@@ -46,18 +46,6 @@
     ],
     "priority": 1,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "heavy_armor",
-        "boot"
-    ],
-    "tag": [
-        "background_icon",
-        "heavy_armor",
-        "armor",
-        "boot"
-    ],
     "allowed_in_slots": [
         "boot_left"
     ],
@@ -121,5 +109,15 @@
     "water_gravity": "floor([material.density]*5+30)",
     "food_exhaustion": "floor([material.density]*2+10)",
     "durability": "([material.durability]+[material.armor_durability_offset]) * 1.3 / 2",
-    "display_name": "miapi.module.tm_armory.armor.heavy.boot_left.name"
+    "display_name": "miapi.module.tm_armory.armor.heavy.boot_left.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "heavy_armor",
+        "boot",
+        "background_icon",
+        "heavy_armor",
+        "armor",
+        "boot"
+    ]
 }

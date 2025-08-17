@@ -54,12 +54,6 @@
     },
     "priority": 3,
     "repair_priority": 1,
-    "material_property": [
-        "default",
-        "armor",
-        "wing",
-        "chest"
-    ],
     "model": [
         {
             "path": "miapi:models/item/armor/gui/wingsuit/elytra_base/base/[material.texture].json",
@@ -83,12 +77,6 @@
             }
         }
     ],
-    "tag": [
-        "background_icon",
-        "armor",
-        "wingsuit",
-        "elytra"
-    ],
     "durability": "[material.durability] / 7 * 3",
     "allowed_material": {
         "allowedMaterials": [
@@ -96,5 +84,15 @@
         ],
         "cost": 1
     },
-    "display_name": "miapi.module.tm_armory.armor.wing.elytra_backplate.name"
+    "display_name": "miapi.module.tm_armory.armor.wing.elytra_backplate.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "wing",
+        "chest",
+        "background_icon",
+        "armor",
+        "wingsuit",
+        "elytra"
+    ]
 }

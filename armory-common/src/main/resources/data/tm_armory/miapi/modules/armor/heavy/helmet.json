@@ -71,20 +71,8 @@
             }
         }
     },
-    "material_property": [
-        "default",
-        "heavy_armor",
-        "armor",
-        "helmet"
-    ],
     "priority": 1,
     "repair_priority": 0,
-    "tag": [
-        "background_icon",
-        "heavy_armor",
-        "armor",
-        "helmet"
-    ],
     "allowed_in_slots": [
         "helmet_plate"
     ],
@@ -147,5 +135,15 @@
         ],
         "cost": 6
     },
-    "display_name": "miapi.module.tm_armory.armor.heavy.helmet.name"
+    "display_name": "miapi.module.tm_armory.armor.heavy.helmet.name",
+    "module_tag": [
+        "default",
+        "heavy_armor",
+        "armor",
+        "helmet",
+        "background_icon",
+        "heavy_armor",
+        "armor",
+        "helmet"
+    ]
 }

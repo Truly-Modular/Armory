@@ -13,5 +13,8 @@
             "display_name": "miapi.modular_elytra",
             "item_id": "miapi:modular_elytra"
         }
-    }
+    },
+    "module_tag": [
+        "wing_left"
+    ]
 }

@@ -46,19 +46,8 @@
     ],
     "priority": 0,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "pants"
-    ],
     "allowed_in_slots": [
         "belt"
-    ],
-    "tag": [
-        "background_icon",
-        "armor",
-        "chain_armor",
-        "pants"
     ],
     "allowed_material": {
         "allowedMaterials": [
@@ -83,5 +72,14 @@
         }
     },
     "durability": "([material.durability]+[material.armor_durability_offset]) / 7 * 3",
-    "display_name": "miapi.module.tm_armory.armor.chain.belt.name"
+    "display_name": "miapi.module.tm_armory.armor.chain.belt.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "pants",
+        "background_icon",
+        "armor",
+        "chain_armor",
+        "pants"
+    ]
 }

@@ -46,17 +46,6 @@
     ],
     "priority": 0,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "pants"
-    ],
-    "tag": [
-        "background_icon",
-        "armor",
-        "chain_armor",
-        "leg"
-    ],
     "allowed_in_slots": [
         "leg_right"
     ],
@@ -82,5 +71,14 @@
             "bone"
         ],
         "cost": 2
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "pants",
+        "background_icon",
+        "armor",
+        "chain_armor",
+        "leg"
+    ]
 }

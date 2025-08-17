@@ -1,5 +1,5 @@
 {
     "module": "tm_armory:armor/helmet",
     "translation": "miapi.create_item.helmet",
-    "priority":-4
+    "priority": -4
 }

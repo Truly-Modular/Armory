@@ -46,17 +46,6 @@
     ],
     "priority": 4,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "pants"
-    ],
-    "tag": [
-        "background_icon",
-        "armor",
-        "scuba",
-        "leg"
-    ],
     "allowed_in_slots": [
         "leg_right"
     ],
@@ -85,5 +74,14 @@
             "glass"
         ],
         "cost": 2
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "pants",
+        "background_icon",
+        "armor",
+        "scuba",
+        "leg"
+    ]
 }

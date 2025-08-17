@@ -103,11 +103,6 @@
             }
         }
     },
-    "material_property": [
-        "default",
-        "armor",
-        "chest"
-    ],
     "model_transform": {
         "thirdperson_righthand": {
             "rotation": {
@@ -253,5 +248,10 @@
             "minecraft:enchantable/durability",
             "minecraft:enchantable/chest_armor"
         ]
-    }
+    },
+    "module_tag": [
+        "default",
+        "armor",
+        "chest"
+    ]
 }

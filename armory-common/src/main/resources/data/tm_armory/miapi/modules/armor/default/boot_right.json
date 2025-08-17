@@ -46,17 +46,6 @@
     ],
     "priority": 0,
     "repair_priority": 0,
-    "material_property": [
-        "default",
-        "armor",
-        "boot"
-    ],
-    "tag": [
-        "background_icon",
-        "armor",
-        "boot",
-        "default_armor"
-    ],
     "allowed_in_slots": [
         "boot_right"
     ],
@@ -94,5 +83,14 @@
         }
     ],
     "durability": "([material.durability]+[material.armor_durability_offset]) / 2",
-    "display_name": "miapi.module.tm_armory.armor.default.boot_left.name"
+    "display_name": "miapi.module.tm_armory.armor.default.boot_left.name",
+    "module_tag": [
+        "default",
+        "armor",
+        "boot",
+        "background_icon",
+        "armor",
+        "boot",
+        "default_armor"
+    ]
 }
