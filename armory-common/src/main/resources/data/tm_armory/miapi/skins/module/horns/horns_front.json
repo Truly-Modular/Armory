@@ -47,13 +47,8 @@
                 }
             }
         ],
-        "material_property": [
-            "default",
-            "armor",
-            "helmet"
-        ],
         "tag": [
-            "horns_front"
+            "horns"
         ]
     },
     "condition": {

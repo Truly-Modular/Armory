@@ -47,12 +47,7 @@
                 }
             }
         ],
-        "material_property": [
-            "default",
-            "armor",
-            "helmet"
-        ],
-        "tag": [
+        "module_tag": [
             "ears"
         ]
     },
