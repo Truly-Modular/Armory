@@ -200,8 +200,7 @@
     "item_id": "miapi:modular_boots",
     "equipment_slot": "feet",
     "module_tag": [
-        "default",
-        "armor",
-        "boot"
+        "underarmor",
+        "underboots"
     ]
 }

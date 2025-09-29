@@ -91,6 +91,7 @@
         "background_icon",
         "armor",
         "default_armor",
-        "pants"
+        "pants",
+        "belt"
     ]
 }

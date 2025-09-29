@@ -79,6 +79,7 @@
         "background_icon_alt",
         "armor",
         "chain_armor",
-        "chest"
+        "chest",
+        "arm"
     ]
 }

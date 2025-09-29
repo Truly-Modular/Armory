@@ -250,8 +250,7 @@
         ]
     },
     "module_tag": [
-        "default",
-        "armor",
-        "chest"
+        "underarmor",
+        "underchest"
     ]
 }

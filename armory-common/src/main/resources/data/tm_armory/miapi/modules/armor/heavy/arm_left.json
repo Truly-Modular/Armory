@@ -85,15 +85,15 @@
             "slot": "chest"
         },
         {
-            "attribute": "miapi:generic.swim_speed",
-            "value": " (- 1 - [material.density]/2)/1000",
-            "operation": "*",
-            "slot": "chest"
-        },
-        {
             "attribute": "minecraft:generic.max_health",
             "value": "1",
             "operation": "+",
+            "slot": "chest"
+        },
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": " (- 1 - [material.density]/2)/1000",
+            "operation": "*",
             "slot": "chest"
         },
         {
@@ -126,6 +126,7 @@
         "background_icon_alt",
         "armor",
         "heavy_armor",
-        "arm"
+        "arm",
+        "arm_left"
     ]
 }

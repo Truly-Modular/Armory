@@ -226,8 +226,7 @@
     "item_id": "miapi:modular_leggings",
     "equipment_slot": "legs",
     "module_tag": [
-        "default",
-        "armor",
-        "pants"
+        "underarmor",
+        "underpants"
     ]
 }

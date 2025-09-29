@@ -106,6 +106,8 @@
         "background_icon_alt",
         "armor",
         "default_armor",
-        "chest"
+        "chest",
+        "arm",
+        "arm_right"
     ]
 }

@@ -111,6 +111,7 @@
         "background_icon",
         "armor",
         "heavy_armor",
-        "pants"
+        "pants",
+        "belt"
     ]
 }

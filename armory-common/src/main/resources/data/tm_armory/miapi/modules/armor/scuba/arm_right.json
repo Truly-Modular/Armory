@@ -110,6 +110,8 @@
         "background_icon_alt",
         "armor",
         "scuba",
-        "chest"
+        "chest",
+        "arm",
+        "arm_right"
     ]
 }

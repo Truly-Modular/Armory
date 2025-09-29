@@ -78,6 +78,7 @@
         "background_icon_alt",
         "armor",
         "wingsuit",
-        "arm"
+        "arm",
+        "arm_left"
     ]
 }

@@ -80,6 +80,7 @@
         "background_icon",
         "armor",
         "chain_armor",
-        "pants"
+        "pants",
+        "belt"
     ]
 }

@@ -176,5 +176,9 @@
     },
     "display_name": "miapi.module.tm_armory.armor.helmet.name",
     "item_id": "miapi:modular_helmet",
-    "equipment_slot": "head"
+    "equipment_slot": "head",
+    "module_tag": [
+        "underarmor",
+        "underhelmet"
+    ]
 }
