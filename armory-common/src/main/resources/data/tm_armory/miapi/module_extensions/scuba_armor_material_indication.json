@@ -3,7 +3,7 @@
     "merge": {
         "material_indication": {
             "hardness": {
-                "strength": 2,
+                "strength": 1,
                 "info": {
                     "type": "translatable",
                     "translate": "tm_armory.material_indication.scuba.hardness",
@@ -11,7 +11,7 @@
                 }
             },
             "flexibility": {
-                "strength": 1,
+                "strength": 2,
                 "info": {
                     "type": "translatable",
                     "translate": "tm_armory.material_indication.scuba.flexibility",
