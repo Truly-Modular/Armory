@@ -52,7 +52,7 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "(([material.flexibility]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*2",
+            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*2",
             "operation": "+",
             "slot": "legs"
         },
