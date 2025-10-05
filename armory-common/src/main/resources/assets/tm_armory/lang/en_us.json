@@ -7,17 +7,20 @@
     "miapi.slot.arm_right.name": "Empty Right Arm Slot",
 
     "tm_armory.material_indication.default.tier": "Increases Armor Toughness",
-    "tm_armory.material_indication.default.armor_points": "Directly increases armor points",
-    "tm_armory.material_indication.chain.flexibility": "Decreases armor points, but increases Projectile Armor",
-    "tm_armory.material_indication.scuba.hardness": "Increases Armor and Swim speed",
-    "tm_armory.material_indication.scuba.flexibility": "Negatively impacts Armor",
-    "tm_armory.material_indication.scuba.density": "Negatively impacts Swim Speed",
-    "tm_armory.material_indication.wing.flexibility": "Negatively impacts armor, but strongly increases glide efficiency",
-    "tm_armory.material_indication.wing.density": "NNegatively impacts glide efficiency",
+    "tm_armory.material_indication.default.armor_points": "Directly increases Armor Points",
 
-    "tm_armory.material_indication.heavy.density": "Decreases Swim and Elytra speed, increases exhaustion",
-    "tm_armory.material_indication.heavy.flexibility": "Decreases armor points",
-    "tm_armory.material_indication.armor.tier": "Sets Knock back Resistance and Armor Toughness",
+    "tm_armory.material_indication.chain.flexibility": "Decreases Armor Points, but increases Projectile Armor",
+
+    "tm_armory.material_indication.scuba.hardness": "Increases Armor",
+    "tm_armory.material_indication.scuba.flexibility": "Increases Swim Speed and negatively impacts Armor",
+    "tm_armory.material_indication.scuba.density": "Negatively impacts Swim Speed",
+    
+    "tm_armory.material_indication.wing.flexibility": "Negatively impacts Armor, but strongly increases Glide Efficiency",
+    "tm_armory.material_indication.wing.density": "Negatively impacts Glide Efficiency",
+
+    "tm_armory.material_indication.heavy.density": "Decreases Swim and Elytra Speed, increases Exhaustion",
+    "tm_armory.material_indication.heavy.flexibility": "Decreases Armor Points",
+    "tm_armory.material_indication.armor.tier": "Sets Knockback Resistance and Armor Toughness",
 
     "miapi.skin.tm_armory.name.pride-armor_1": "Aurora Tinted",
     "miapi.skin.tm_armory.name.pride-armor_2": "Chromatic Armor",
@@ -236,15 +239,15 @@
 
     "miapi.module.tm_armory.armor.scuba.front_chest": "Scuba Chestplate",
     "miapi.module.tm_armory.armor.scuba.front_chest.name": "%s Scuba Chestplate",
-    "miapi.module.tm_armory.armor.scuba.front_chest.description": "Scuba suit Chestplate to improve Swimmingspeed",
+    "miapi.module.tm_armory.armor.scuba.front_chest.description": "Scuba suit Chestplate to improve Swimming speed",
 
     "miapi.module.tm_armory.armor.scuba.back_chest": "Scuba Backplate",
     "miapi.module.tm_armory.armor.scuba.back_chest.name": "%s Scuba Backplate",
-    "miapi.module.tm_armory.armor.scuba.back_chest.description": "Scuba Backplate to improve Swimmingspeed",
+    "miapi.module.tm_armory.armor.scuba.back_chest.description": "Scuba Backplate to improve Swimming speed",
 
     "miapi.module.tm_armory.armor.scuba.helmet": "Scuba Helmet",
     "miapi.module.tm_armory.armor.scuba.helmet.name": "%s Scuba Helmet",
-    "miapi.module.tm_armory.armor.scuba.helmet.description": "A Scuba Helmet to improve Swimmingspeed",
+    "miapi.module.tm_armory.armor.scuba.helmet.description": "A Scuba Helmet to improve Swimming speed",
 
 
 
