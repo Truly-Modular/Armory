@@ -62,13 +62,13 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*3",
+            "value": "(([material.flexibility]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*3",
             "operation": "+",
             "slot": "legs"
         },
         {
             "attribute": "miapi:generic.swim_speed",
-            "value": "( [material.hardness]-[material.density]/2)/25",
+            "value": "( [material.flexibility]-[material.density]/2)/25",
             "operation": "*",
             "slot": "legs",
             "target_operation": "*"
