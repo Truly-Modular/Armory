@@ -62,172 +62,172 @@
     "miapi.slot.tm_armory.wing_right.name": "Right Wing Slot",
 
     "miapi.underboot.lore": "Socks, basis for Modular Boots",
-    "miapi.underpants.lore": "Underpants, basis for Modular leggings",
+    "miapi.underpants.lore": "Underpants, basis for Modular Leggings",
     "miapi.underchest.lore": "Undershirt, a basis for modular Chestplate",
     "miapi.underhelmet.lore": "Underhelmet, the basis for Modular Helmets",
 
     "miapi.module.tm_armory.armor.boots": "Socks",
     "miapi.module.tm_armory.armor.boots.name": "Socks",
-    "miapi.module.tm_armory.armor.boots.description": "Socks to keep your shoes on",
+    "miapi.module.tm_armory.armor.boots.description": "Socks to keep your Boots on",
 
     "miapi.module.tm_armory.armor.pants": "Underpants",
     "miapi.module.tm_armory.armor.pants.name": "Underpants",
-    "miapi.module.tm_armory.armor.pants.description": "Underpants to keep your pants on",
+    "miapi.module.tm_armory.armor.pants.description": "Underpants to keep your Leggings on",
 
     "miapi.module.tm_armory.armor.chestplate": "Undershirt",
     "miapi.module.tm_armory.armor.chestplate.name": "Undershirt",
-    "miapi.module.tm_armory.armor.chestplate.description": "Undershirt to hold your armor up",
+    "miapi.module.tm_armory.armor.chestplate.description": "Undershirt to hold your Chestplate up",
 
     "miapi.module.tm_armory.armor.helmet": "Underhelmet",
     "miapi.module.tm_armory.armor.helmet.name": "Underhelmet",
-    "miapi.module.tm_armory.armor.helmet.description": "a small piece on your head to hold the helmet",
+    "miapi.module.tm_armory.armor.helmet.description": "A Small piece on your Head to hold the Helmet",
 
 
 
     "miapi.module.tm_armory.armor.default.boot_left": "Left Boot",
     "miapi.module.tm_armory.armor.default.boot_left.name": "%s Boots",
-    "miapi.module.tm_armory.armor.default.boot_left.description": "The left Boot protecting your left foot",
+    "miapi.module.tm_armory.armor.default.boot_left.description": "The Left Boot protecting your Left Foot",
 
     "miapi.module.tm_armory.armor.default.boot_right": "Right Boot",
     "miapi.module.tm_armory.armor.default.boot_right.name": "%s Boots",
-    "miapi.module.tm_armory.armor.default.boot_right.description": "The right Boot protecting your right foot",
+    "miapi.module.tm_armory.armor.default.boot_right.description": "The Right Boot protecting your Right Foot",
 
     "miapi.module.tm_armory.armor.default.leg_left": "Left Pants",
     "miapi.module.tm_armory.armor.default.leg_left.name": "%s Left Pants",
-    "miapi.module.tm_armory.armor.default.leg_left.description": "The left Pant protecting your left leg",
+    "miapi.module.tm_armory.armor.default.leg_left.description": "The Left Pant protecting your Left Leg",
 
     "miapi.module.tm_armory.armor.default.leg_right": "Right Pants",
     "miapi.module.tm_armory.armor.default.leg_right.name": "%s Right Pants",
-    "miapi.module.tm_armory.armor.default.leg_right.description": "The right Pant protecting your right leg",
+    "miapi.module.tm_armory.armor.default.leg_right.description": "The Right Pant protecting your Right Leg",
 
     "miapi.module.tm_armory.armor.default.belt": "Belt",
     "miapi.module.tm_armory.armor.default.belt.name": "%s Leggings",
-    "miapi.module.tm_armory.armor.default.belt.description": "A piece to protect your underbelly and keep your pants high",
+    "miapi.module.tm_armory.armor.default.belt.description": "A piece to protect your underbelly and keep your Pants high",
 
     "miapi.module.tm_armory.armor.default.arm_left": "Left Arm Pauldron",
     "miapi.module.tm_armory.armor.default.arm_left.name": "%s Left Arm Pauldron",
-    "miapi.module.tm_armory.armor.default.arm_left.description": "A piece of armor to protect your left arm",
+    "miapi.module.tm_armory.armor.default.arm_left.description": "A piece of Armor to protect your Left Arm",
 
     "miapi.module.tm_armory.armor.default.arm_right": "Right Arm Pauldron",
     "miapi.module.tm_armory.armor.default.arm_right.name": "%s Right Arm Pauldron",
-    "miapi.module.tm_armory.armor.default.arm_right.description": "A piece of armor to protect your right arm",
+    "miapi.module.tm_armory.armor.default.arm_right.description": "A piece of Armor to protect your Right Arm",
 
     "miapi.module.tm_armory.armor.default.front_chest": "Chestplate",
     "miapi.module.tm_armory.armor.default.front_chest.name": "%s Chestplate",
-    "miapi.module.tm_armory.armor.default.front_chest.description": "A piece of armor to protect your chest",
+    "miapi.module.tm_armory.armor.default.front_chest.description": "A piece of Armor to protect your Chest",
 
     "miapi.module.tm_armory.armor.default.back_chest": "Backplate",
     "miapi.module.tm_armory.armor.default.back_chest.name": "%s Backplate",
-    "miapi.module.tm_armory.armor.default.back_chest.description": "A piece of armor to protect your back",
+    "miapi.module.tm_armory.armor.default.back_chest.description": "A piece of Armor to protect your Back",
 
     "miapi.module.tm_armory.armor.default.helmet": "Helmet",
     "miapi.module.tm_armory.armor.default.helmet.name": "%s Helmet",
-    "miapi.module.tm_armory.armor.default.helmet.description": "A plated helmet to protect your head",
+    "miapi.module.tm_armory.armor.default.helmet.description": "A plated piece of Armor to protect your Head",
 
 
     "miapi.module.tm_armory.armor.heavy.boot_left": "Heavy Left Boot",
     "miapi.module.tm_armory.armor.heavy.boot_left.name": "%s Heavy Boots",
-    "miapi.module.tm_armory.armor.heavy.boot_left.description": "A Heavy Boot with increased protection, but makes swimming harder",
+    "miapi.module.tm_armory.armor.heavy.boot_left.description": "A Heavy Boot with increased Protection, but makes Swimming harder",
 
     "miapi.module.tm_armory.armor.heavy.boot_right": "Heavy Right Boot",
     "miapi.module.tm_armory.armor.heavy.boot_right.name": "%s Heavy Boots",
-    "miapi.module.tm_armory.armor.heavy.boot_right.description": "A Heavy Boot with increased protection, but makes swimming harder",
+    "miapi.module.tm_armory.armor.heavy.boot_right.description": "A Heavy Boot with increased Protection, but makes Swimming harder",
 
     "miapi.module.tm_armory.armor.heavy.leg_left": "Heavy Left Pants",
     "miapi.module.tm_armory.armor.heavy.leg_left.name": "%s Heavy Left Pants",
-    "miapi.module.tm_armory.armor.heavy.leg_left.description": "The left Heavy Pant protecting your left leg",
+    "miapi.module.tm_armory.armor.heavy.leg_left.description": "A Left Heavy Pant to protect your Left Leg",
 
     "miapi.module.tm_armory.armor.heavy.leg_right": "Heavy Right Pants",
     "miapi.module.tm_armory.armor.heavy.leg_right.name": "%s Heavy Right Pants",
-    "miapi.module.tm_armory.armor.heavy.leg_right.description": "The right Heavy Pant protecting your right leg",
+    "miapi.module.tm_armory.armor.heavy.leg_right.description": "A Left Heavy Pant to protect your Left Leg",
 
     "miapi.module.tm_armory.armor.heavy.belt": "Heavy Belt",
     "miapi.module.tm_armory.armor.heavy.belt.name": "%s Heavy Leggings",
-    "miapi.module.tm_armory.armor.heavy.belt.description": "A Heavy Belt hindering swimming",
+    "miapi.module.tm_armory.armor.heavy.belt.description": "A Heavy Belt hindering Swimming",
 
     "miapi.module.tm_armory.armor.heavy.arm_left": "Left Heavy Pauldron",
     "miapi.module.tm_armory.armor.heavy.arm_left.name": "%s Left Heavy Pauldron",
-    "miapi.module.tm_armory.armor.heavy.arm_left.description": "A Heavy Piece to protect your arm",
+    "miapi.module.tm_armory.armor.heavy.arm_left.description": "A Heavy Piece to protect your Left Arm",
 
     "miapi.module.tm_armory.armor.heavy.arm_right": "Right Heavy Pauldron",
     "miapi.module.tm_armory.armor.heavy.arm_right.name": "%s Right Heavy Pauldron",
-    "miapi.module.tm_armory.armor.heavy.arm_right.description": "A Heavy Piece to protect your arm",
+    "miapi.module.tm_armory.armor.heavy.arm_right.description": "A Heavy Piece to protect your Right Arm",
 
     "miapi.module.tm_armory.armor.heavy.front_chest": "Heavy Chestplate",
     "miapi.module.tm_armory.armor.heavy.front_chest.name": "%s Heavy Chestplate",
-    "miapi.module.tm_armory.armor.heavy.front_chest.description": "A Heavy Chestplate providing increased protection",
+    "miapi.module.tm_armory.armor.heavy.front_chest.description": "A Heavy Chestplate providing increased Protection",
 
     "miapi.module.tm_armory.armor.heavy.back_chest": "Heavy Backplate",
     "miapi.module.tm_armory.armor.heavy.back_chest.name": "%s Heavy Backplate",
-    "miapi.module.tm_armory.armor.heavy.back_chest.description": "A Heavy backplate providing increased protection",
+    "miapi.module.tm_armory.armor.heavy.back_chest.description": "A Heavy Backplate providing increased Protection",
 
     "miapi.module.tm_armory.armor.heavy.helmet": "Heavy Helmet",
     "miapi.module.tm_armory.armor.heavy.helmet.name": "%s Heavy Helmet",
-    "miapi.module.tm_armory.armor.heavy.helmet.description": "A Heavy helmet with improved Armor",
+    "miapi.module.tm_armory.armor.heavy.helmet.description": "A Heavy Helmet with improved Armor",
 
 
 
     "miapi.module.tm_armory.armor.chain_crafted.boot_left": "Left Chainmail Boot",
     "miapi.module.tm_armory.armor.chain_crafted.boot_left.name": "%s Chainmail Boots",
-    "miapi.module.tm_armory.armor.chain_crafted.boot_left.description": "The left Boot protecting your left foot",
+    "miapi.module.tm_armory.armor.chain_crafted.boot_left.description": "The Left Boot protecting your Left Foot",
 
     "miapi.module.tm_armory.armor.chain_crafted.boot_right": "Right Chainmail Boot",
     "miapi.module.tm_armory.armor.chain_crafted.boot_right.name": "%s Chainmail Boots",
-    "miapi.module.tm_armory.armor.chain_crafted.boot_right.description": "A chainmail boot protecting your right foot",
+    "miapi.module.tm_armory.armor.chain_crafted.boot_right.description": "A Chainmail Boot protecting your Right Foot",
 
     "miapi.module.tm_armory.armor.chain_crafted.leg_left": "Left Chainmail Pants",
     "miapi.module.tm_armory.armor.chain_crafted.leg_left.name": "%s Left Chainmail Pants",
-    "miapi.module.tm_armory.armor.chain_crafted.leg_left.description": "A chainmail pant protecting your left leg",
+    "miapi.module.tm_armory.armor.chain_crafted.leg_left.description": "A Chainmail pant protecting your Left Leg",
 
     "miapi.module.tm_armory.armor.chain_crafted.leg_right": "Right Chainmail Pants",
     "miapi.module.tm_armory.armor.chain_crafted.leg_right.name": "%s Right Chainmail Pants",
-    "miapi.module.tm_armory.armor.chain_crafted.leg_right.description": "A chainmail pant protecting your right leg",
+    "miapi.module.tm_armory.armor.chain_crafted.leg_right.description": "A Chainmail pant protecting your Right Leg",
 
     "miapi.module.tm_armory.armor.chain_crafted.belt": "Chainmail Belt",
     "miapi.module.tm_armory.armor.chain_crafted.belt.name": "%s Chainmail Leggings",
-    "miapi.module.tm_armory.armor.chain_crafted.belt.description": "A piece of chainmail to protect your underbelly and keep your pants high",
+    "miapi.module.tm_armory.armor.chain_crafted.belt.description": "A piece of Chainmail to protect your underbelly and keep your Leggings high",
 
     "miapi.module.tm_armory.armor.chain_crafted.arm_left": "Left Chainmail-Sleeve",
     "miapi.module.tm_armory.armor.chain_crafted.arm_left.name": "%s Left Chainmail-Sleeve",
-    "miapi.module.tm_armory.armor.chain_crafted.arm_left.description": "A piece of chainmail to protect your left arm",
+    "miapi.module.tm_armory.armor.chain_crafted.arm_left.description": "A piece of Chainmail to protect your Left Arm",
 
     "miapi.module.tm_armory.armor.chain_crafted.arm_right": "Right Chainmail-Sleeve",
     "miapi.module.tm_armory.armor.chain_crafted.arm_right.name": "%s Right Chainmail-Sleeve",
-    "miapi.module.tm_armory.armor.chain_crafted.arm_right.description": "A piece of chainmail to protect your right arm",
+    "miapi.module.tm_armory.armor.chain_crafted.arm_right.description": "A piece of Chainmail to protect your Right Arm",
 
     "miapi.module.tm_armory.armor.chain_crafted.front_chest": "Chainmail Chestplate",
     "miapi.module.tm_armory.armor.chain_crafted.front_chest.name": "%s Chainmail Chestplate",
-    "miapi.module.tm_armory.armor.chain_crafted.front_chest.description": "A piece of chainmail to protect your chest",
+    "miapi.module.tm_armory.armor.chain_crafted.front_chest.description": "A piece of Chainmail to protect your Chest",
 
     "miapi.module.tm_armory.armor.chain_crafted.back_chest": "Chainmail Backplate",
     "miapi.module.tm_armory.armor.chain_crafted.back_chest.name": "%s Chainmail Backplate",
-    "miapi.module.tm_armory.armor.chain_crafted.back_chest.description": "A piece of chainmail to protect your back",
+    "miapi.module.tm_armory.armor.chain_crafted.back_chest.description": "A piece of Chainmail to protect your Back",
 
     "miapi.module.tm_armory.armor.chain_crafted.helmet": "Chainmail Helmet",
     "miapi.module.tm_armory.armor.chain_crafted.helmet.name": "%s Chain Helmet",
-    "miapi.module.tm_armory.armor.chain_crafted.helmet.description": "A chainmail helmet to protect your head",
+    "miapi.module.tm_armory.armor.chain_crafted.helmet.description": "A Chainmail Helmet to protect your Head",
 
 
 
     "miapi.module.tm_armory.armor.scuba.boot_left": "Left Scuba Boot",
     "miapi.module.tm_armory.armor.scuba.boot_left.name": "%s Scuba Boots",
-    "miapi.module.tm_armory.armor.scuba.boot_left.description": "The left Scuba Boot for Swimming",
+    "miapi.module.tm_armory.armor.scuba.boot_left.description": "The Left Scuba Boot for Swimming",
 
     "miapi.module.tm_armory.armor.scuba.boot_right": "Right Scuba Boot",
     "miapi.module.tm_armory.armor.scuba.boot_right.name": "%s Scuba Boots",
-    "miapi.module.tm_armory.armor.scuba.boot_right.description": "The right Scuba Boot for Swimming",
+    "miapi.module.tm_armory.armor.scuba.boot_right.description": "The Right Scuba Boot for Swimming",
 
     "miapi.module.tm_armory.armor.scuba.leg_left": "Left Scuba Pants",
     "miapi.module.tm_armory.armor.scuba.leg_left.name": "%s Left Scuba Pants",
-    "miapi.module.tm_armory.armor.scuba.leg_left.description": "A Scuba leg for Swimming",
+    "miapi.module.tm_armory.armor.scuba.leg_left.description": "A Scuba Leg for Swimming",
 
     "miapi.module.tm_armory.armor.scuba.leg_right": "Right Scuba Pants",
     "miapi.module.tm_armory.armor.scuba.leg_right.name": "%s Right Scuba Pants",
-    "miapi.module.tm_armory.armor.scuba.leg_right.description": "A Scuba leg for Swimming",
+    "miapi.module.tm_armory.armor.scuba.leg_right.description": "A Scuba Leg for Swimming",
 
     "miapi.module.tm_armory.armor.scuba.belt": "Scuba Belt",
     "miapi.module.tm_armory.armor.scuba.belt.name": "%s Scuba Leggings",
-    "miapi.module.tm_armory.armor.scuba.belt.description": "A Scuba belt to allow for faster Swimming",
+    "miapi.module.tm_armory.armor.scuba.belt.description": "A Scuba Belt to allow for faster Swimming",
 
     "miapi.module.tm_armory.armor.scuba.arm_left": "Left Scuba-Sleeve",
     "miapi.module.tm_armory.armor.scuba.arm_left.name": "%s Left Scuba-Sleeve",
@@ -235,99 +235,99 @@
 
     "miapi.module.tm_armory.armor.scuba.arm_right": "Right Scuba-Sleeve",
     "miapi.module.tm_armory.armor.scuba.arm_right.name": "%s Right Scuba-Sleeve",
-    "miapi.module.tm_armory.armor.scuba.arm_right.description": "A right Scuba Arm",
+    "miapi.module.tm_armory.armor.scuba.arm_right.description": "A Right Scuba Arm",
 
     "miapi.module.tm_armory.armor.scuba.front_chest": "Scuba Chestplate",
     "miapi.module.tm_armory.armor.scuba.front_chest.name": "%s Scuba Chestplate",
-    "miapi.module.tm_armory.armor.scuba.front_chest.description": "Scuba suit Chestplate to improve Swimming speed",
+    "miapi.module.tm_armory.armor.scuba.front_chest.description": "Scuba Suit Chestplate to improve Swimming Speed",
 
     "miapi.module.tm_armory.armor.scuba.back_chest": "Scuba Backplate",
     "miapi.module.tm_armory.armor.scuba.back_chest.name": "%s Scuba Backplate",
-    "miapi.module.tm_armory.armor.scuba.back_chest.description": "Scuba Backplate to improve Swimming speed",
+    "miapi.module.tm_armory.armor.scuba.back_chest.description": "Scuba Backplate to improve Swimming Speed",
 
     "miapi.module.tm_armory.armor.scuba.helmet": "Scuba Helmet",
     "miapi.module.tm_armory.armor.scuba.helmet.name": "%s Scuba Helmet",
-    "miapi.module.tm_armory.armor.scuba.helmet.description": "A Scuba Helmet to improve Swimming speed",
+    "miapi.module.tm_armory.armor.scuba.helmet.description": "A Scuba Helmet to improve Swimming Speed",
 
 
 
     "miapi.module.tm_armory.armor.chain.boot_left": "Old Left Chainmail Boot",
     "miapi.module.tm_armory.armor.chain.boot_left.name": "%s Chainmail Boots",
-    "miapi.module.tm_armory.armor.chain.boot_left.description": "The left Boot protecting your left foot",
+    "miapi.module.tm_armory.armor.chain.boot_left.description": "The Left Boot protecting your Left Foot",
 
     "miapi.module.tm_armory.armor.chain.boot_right": "Old Right Chainmail Boot",
     "miapi.module.tm_armory.armor.chain.boot_right.name": "%s Chainmail Boots",
-    "miapi.module.tm_armory.armor.chain.boot_right.description": "A chainmail boot protecting your right foot",
+    "miapi.module.tm_armory.armor.chain.boot_right.description": "A Chainmail Boot protecting your Right Foot",
 
     "miapi.module.tm_armory.armor.chain.leg_left": "Old Left Chainmail Pants",
     "miapi.module.tm_armory.armor.chain.leg_left.name": "%s Left Chainmail Pants",
-    "miapi.module.tm_armory.armor.chain.leg_left.description": "A chainmail pant protecting your left leg",
+    "miapi.module.tm_armory.armor.chain.leg_left.description": "A Chainmail pant protecting your Left Leg",
 
     "miapi.module.tm_armory.armor.chain.leg_right": "Old Right Chainmail Pants",
     "miapi.module.tm_armory.armor.chain.leg_right.name": "%s Right Chainmail Pants",
-    "miapi.module.tm_armory.armor.chain.leg_right.description": "A chainmail pant protecting your right leg",
+    "miapi.module.tm_armory.armor.chain.leg_right.description": "A Chainmail pant protecting your Right Leg",
 
     "miapi.module.tm_armory.armor.chain.belt": "Old Chainmail Belt",
     "miapi.module.tm_armory.armor.chain.belt.name": "%s Chainmail Leggings",
-    "miapi.module.tm_armory.armor.chain.belt.description": "A piece of chainmail to protect your underbelly and keep your pants high",
+    "miapi.module.tm_armory.armor.chain.belt.description": "A piece of Chainmail to protect your underbelly and keep your Leggings high",
 
     "miapi.module.tm_armory.armor.chain.arm_left": "Old Left Chainmail-Sleeve",
     "miapi.module.tm_armory.armor.chain.arm_left.name": "%s Left Chainmail-Sleeve",
-    "miapi.module.tm_armory.armor.chain.arm_left.description": "A piece of chainmail to protect your left arm",
+    "miapi.module.tm_armory.armor.chain.arm_left.description": "A piece of Chainmail to protect your Left Arm",
 
     "miapi.module.tm_armory.armor.chain.arm_right": "Old Right Chainmail-Sleeve",
     "miapi.module.tm_armory.armor.chain.arm_right.name": "%s Right Chainmail-Sleeve",
-    "miapi.module.tm_armory.armor.chain.arm_right.description": "A piece of chainmail to protect your right arm",
+    "miapi.module.tm_armory.armor.chain.arm_right.description": "A piece of Chainmail to protect your Right Arm",
 
     "miapi.module.tm_armory.armor.chain.front_chest": "Old Chainmail Chestplate",
     "miapi.module.tm_armory.armor.chain.front_chest.name": "%s Chainmail Chestplate",
-    "miapi.module.tm_armory.armor.chain.front_chest.description": "A piece of chainmail to protect your chest",
+    "miapi.module.tm_armory.armor.chain.front_chest.description": "A piece of Chainmail to protect your Chest",
 
     "miapi.module.tm_armory.armor.chain.back_chest": "Old Chainmail Backplate",
     "miapi.module.tm_armory.armor.chain.back_chest.name": "%s Chainmail Backplate",
-    "miapi.module.tm_armory.armor.chain.back_chest.description": "A piece of chainmail to protect your back",
+    "miapi.module.tm_armory.armor.chain.back_chest.description": "A piece of Chainmail to protect your Back",
 
     "miapi.module.tm_armory.armor.chain.helmet": "Old Chainmail Helmet",
     "miapi.module.tm_armory.armor.chain.helmet.name": "%s Chain Helmet",
-    "miapi.module.tm_armory.armor.chain.helmet.description": "A chainmail helmet to protect your head",
+    "miapi.module.tm_armory.armor.chain.helmet.description": "A Chainmail Helmet to protect your Head",
 
     
 
     "miapi.module.tm_armory.armor.wing.boot_left": "Left Flap",
     "miapi.module.tm_armory.armor.wing.boot_left.name": "%s Flaps",
-    "miapi.module.tm_armory.armor.wing.boot_left.description": "A flap on your left foot to have better turning",
+    "miapi.module.tm_armory.armor.wing.boot_left.description": "A Flap on your Left Foot to have better Turning",
 
     "miapi.module.tm_armory.armor.wing.boot_right": "Right Flap",
     "miapi.module.tm_armory.armor.wing.boot_right.name": "%s Flaps",
-    "miapi.module.tm_armory.armor.wing.boot_right.description": "A flap on your right foot to have better turning",
+    "miapi.module.tm_armory.armor.wing.boot_right.description": "A Flap on your Right Foot to have better Turning",
 
     "miapi.module.tm_armory.armor.wing.arm_left": "Left Arm Winglet",
     "miapi.module.tm_armory.armor.wing.arm_left.name": "%s Left Arm Winglet",
-    "miapi.module.tm_armory.armor.wing.arm_left.description": "A small wing to stabilise flight",
+    "miapi.module.tm_armory.armor.wing.arm_left.description": "A Small Wing to stabilise Flight",
 
     "miapi.module.tm_armory.armor.wing.arm_right": "Right Arm Winglet",
     "miapi.module.tm_armory.armor.wing.arm_right.name": "%s Right Arm Winglet",
-    "miapi.module.tm_armory.armor.wing.arm_right.description": "A small wing to stabilise flight",
+    "miapi.module.tm_armory.armor.wing.arm_right.description": "A Small Wing to stabilise Flight",
 
     "miapi.module.tm_armory.armor.wing.elytra_backplate": "Elytra Attachment",
     "miapi.module.tm_armory.armor.wing.elytra_backplate.name": "Elytra Attachment",
-    "miapi.module.tm_armory.armor.wing.elytra_backplate.description": "A Attachment for Wings to enable flight",
+    "miapi.module.tm_armory.armor.wing.elytra_backplate.description": "A Attachment for Wings to enable Flight",
 
     "miapi.module.tm_armory.armor.wing.left": "Left Wing",
     "miapi.module.tm_armory.armor.wing.left.name": "%s Left Wing",
-    "miapi.module.tm_armory.armor.wing.left.description": "A left wing to enable Flight",
+    "miapi.module.tm_armory.armor.wing.left.description": "A Left Wing to enable Flight",
 
     "miapi.module.tm_armory.armor.wing.right": "Right Wing",
     "miapi.module.tm_armory.armor.wing.right.name": "%s Right Arm Wing",
-    "miapi.module.tm_armory.armor.wing.right.description": "A right wing to enable Flight",
+    "miapi.module.tm_armory.armor.wing.right.description": "A Right Wing to enable Flight",
 
     "miapi.module.tm_armory.armor.wing.leg_left": "Left Panels",
     "miapi.module.tm_armory.armor.wing.leg_left.name": "%s Left Panels",
-    "miapi.module.tm_armory.armor.wing.leg_left.description": "A Large Panel to stabilise gliding with Wings",
+    "miapi.module.tm_armory.armor.wing.leg_left.description": "A Large Panel to stabilise Gliding with Wings",
 
     "miapi.module.tm_armory.armor.wing.leg_right": "Right Panels",
     "miapi.module.tm_armory.armor.wing.leg_right.name": "%s Right Panels",
-    "miapi.module.tm_armory.armor.wing.leg_right.description": "A Large Panel to stabilise gliding with Wings",
+    "miapi.module.tm_armory.armor.wing.leg_right.description": "A Large Panel to stabilise Gliding with Wings",
 
     "miapi.modular_elytra": "%s Elytra",
     "miapi:armored_elytra": "%s Armored Elytra",
@@ -364,5 +364,5 @@
     "miapi.module.tm_armory.armor.chest.banner.name": "%s Banner",
     "miapi.module.tm_armory.armor.chest.banner.description": "Chest Banner Decorative Piece\nGreat for displaying Art or Flags",
 
-    "miapi.hats.crown.technocrown.lore": "Technoblade never dies"
+    "miapi.hats.crown.technocrown.lore": "Technoblade Never Dies"
 }
