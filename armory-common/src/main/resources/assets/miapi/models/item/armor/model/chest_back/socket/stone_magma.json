@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "miapi:item/armor/socket/stone_magma/layer_1",
+		"particle": "miapi:item/armor/socket/stone_magma/layer_1"
+	},
+	"elements": [
+		{
+			"from": [-4, -9, -2],
+			"to": [4, 4, 2],
+			"faces": {
+				"south": {"uv": [8, 10, 10, 16], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "inner",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": []
+		},
+		0
+	]
+}

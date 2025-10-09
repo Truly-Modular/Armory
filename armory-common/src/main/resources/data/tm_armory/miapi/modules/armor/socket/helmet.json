@@ -1,0 +1,137 @@
+{
+    "model": [
+        {
+            "path": "miapi:models/item/armor/model/helmet/socket/[material.texture].json",
+            "trim_mode": "ARMOR_LAYER_ONE",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "head"
+            }
+        },
+        {
+            "path": "miapi:models/item/armor/gui/socket/helmet/socket/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "origin": "item"
+            }
+        }
+    ],
+    "slots": {
+        "hat": {
+            "allowed": [
+                "hat",
+                "sub_hat"
+            ],
+            "translationKey": "miapi.slot.hat.name",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.1,
+                    "y": 1.1,
+                    "z": 1.1
+                },
+                "origin": "head"
+            }
+        },
+        "gem": {
+            "allowed": [
+                "gem_armor_medium"
+            ],
+            "translationKey": "miapi.slot.gemstone.medium",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1.1,
+                    "y": 1.1,
+                    "z": 1.1
+                },
+                "origin": "head"
+            }
+        }
+    },
+    "material_property": [
+        "default",
+        "armor",
+        "helmet"
+    ],
+    "priority": 0,
+    "repair_priority": 0,
+    "tag": [
+        "background_icon",
+        "armor",
+        "helmet",
+        "default_armor"
+    ],
+    "allowed_in_slots": [
+        "helmet_plate"
+    ],
+    "attributes": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": "floor([material.hardness]/3)",
+            "operation": "+",
+            "slot": "head"
+        }
+    ],
+    "durability": "([material.durability]+[material.armor_durability_offset]) * 0.6",
+    "allowed_material": {
+        "allowedMaterials": [
+            "wood",
+            "fabric",
+            "metal",
+            "flint",
+            "bone",
+            "stone",
+            "crystal",
+            "glass"
+        ],
+        "cost": 5
+    },
+    "display_name": "Socket Helmet"
+}
