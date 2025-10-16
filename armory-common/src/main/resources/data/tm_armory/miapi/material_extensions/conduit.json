@@ -1,0 +1,19 @@
+{
+    "key": "miapi:custom/conduit",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.oxygen_bonus",
+                    "value": "[module.gem_power]",
+                    "operation": "+",
+                    "slot": "armor",
+                    "target_operation": "*"
+                }
+            ]
+        }
+    }
+}

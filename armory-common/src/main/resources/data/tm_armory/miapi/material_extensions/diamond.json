@@ -1,0 +1,41 @@
+{
+    "key": "miapi:crystal/diamond",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "durability": [
+                {
+                    "value": "400 + [module.gem_power]*200",
+                    "operation": "+"
+                },
+                {
+                    "value": "0.25",
+                    "operation": "*"
+                }
+            ],
+            "on_damaged_potion": [
+                {
+                    "potion": "minecraft:resistance",
+                    "amplifier": 0,
+                    "duration": "([module.gem_power]+1)*60",
+                    "target_self": true
+                }
+            ],
+            "gui_stat": {
+                "resistance_on_hit": {
+                    "value": 1,
+                    "min": 0,
+                    "max": 2,
+                    "header": {
+                        "translate": "miapi.armor_gems.gemstone_armor.armoring"
+                    },
+                    "description": {
+                        "translate": "miapi.armor_gems.gemstone_armor.armoring.description"
+                    }
+                }
+            }
+        }
+    }
+}

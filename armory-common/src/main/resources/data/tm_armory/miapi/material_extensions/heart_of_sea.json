@@ -1,0 +1,26 @@
+{
+    "key": "miapi:custom/heart_of_sea",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "fake_enchant": {
+                "minecraft:depth_strider": "[module.gem_power]"
+            },
+            "gui_stat": {
+                "depth_strider": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 3,
+                    "header": {
+                        "translate": "enchantment.minecraft.depth_strider"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.depth_strider.desc"
+                    }
+                }
+            }
+        }
+    }
+}

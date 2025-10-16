@@ -1,0 +1,32 @@
+{
+    "key": "miapi:stone/sculk",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "attributes": [
+                {
+                    "attribute": "minecraft:sneaking_speed",
+                    "value": "[module.gem_power] * 0.1",
+                    "operation": "+",
+                    "slot": "armor",
+                    "target_operation": "*"
+                }
+            ],
+            "gui_stat": {
+                "swift_sneak": {
+                    "value": "[module.gem_power] *0.1",
+                    "min": 0.3,
+                    "max": 1,
+                    "header": {
+                        "translate": "miapi.armor_gems.gemstone_armor.sneaking"
+                    },
+                    "description": {
+                        "translate": "eiapi.armor_gems.gemstone_armor.sneaking.description"
+                    }
+                }
+            }
+        }
+    }
+}

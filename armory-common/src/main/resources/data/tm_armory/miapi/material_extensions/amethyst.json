@@ -1,0 +1,26 @@
+{
+    "key": "miapi:crystal/amethyst",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "fake_enchant": {
+                "minecraft:projectile_protection": "[module.gem_power]"
+            },
+            "gui_stat": {
+                "projectile_protection": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 4,
+                    "header": {
+                        "translate": "enchantment.minecraft.projectile_protection"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.projectile_protection.desc"
+                    }
+                }
+            }
+        }
+    }
+}

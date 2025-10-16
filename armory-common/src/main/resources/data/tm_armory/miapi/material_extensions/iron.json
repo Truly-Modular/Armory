@@ -1,0 +1,26 @@
+{
+    "key": "miapi:metal/iron",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "fake_enchant": {
+                "minecraft:unbreaking": "[module.gem_power]"
+            },
+            "gui_stat": {
+                "unbreaking": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 4,
+                    "header": {
+                        "translate": "enchantment.minecraft.unbreaking"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.unbreaking.desc"
+                    }
+                }
+            }
+        }
+    }
+}

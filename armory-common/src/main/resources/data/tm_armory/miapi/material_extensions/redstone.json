@@ -1,0 +1,31 @@
+{
+    "key": "miapi:stone/redstone",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "on_damaged_potion": [
+                {
+                    "potion": "minecraft:speed",
+                    "amplifier": "0 + floor([module.gem_power]/2)",
+                    "duration": "([module.gem_power] + 1) * 40",
+                    "target_self": true
+                }
+            ],
+            "gui_stat": {
+                "speed_on_hit": {
+                    "value": "[module.gem_power]+1",
+                    "min": 0,
+                    "max": 3,
+                    "header": {
+                        "translate": "miapi.armor_gems.gemstone_armor.quickening"
+                    },
+                    "description": {
+                        "translate": "miapi.armor_gems.gemstone_armor.quickening.description"
+                    }
+                }
+            }
+        }
+    }
+}

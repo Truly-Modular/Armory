@@ -1,0 +1,55 @@
+{
+    "key": "miapi:metal/netherite",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "fake_enchant": {
+                "minecraft:blast_protection": "[module.gem_power]",
+                "minecraft:fire_protection": "[module.gem_power]"
+            },
+            "fire_proof": true,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": "[module.gem_power] * 0.075",
+                    "operation": "+",
+                    "slot": "armor",
+                    "target_operation": "*"
+                },
+                {
+                    "attribute": "minecraft:generic.explosion_knockback_resistance",
+                    "value": "[module.gem_power] * 0.025",
+                    "operation": "+",
+                    "slot": "armor",
+                    "target_operation": "*"
+                }
+            ],
+            "gui_stat": {
+                "fire_protection": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 4,
+                    "header": {
+                        "translate": "enchantment.minecraft.fire_protection"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.fire_protection.desc"
+                    }
+                },
+                "blast_protection": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 4,
+                    "header": {
+                        "translate": "enchantment.minecraft.blast_protection"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.blast_protection.desc"
+                    }
+                }
+            }
+        }
+    }
+}

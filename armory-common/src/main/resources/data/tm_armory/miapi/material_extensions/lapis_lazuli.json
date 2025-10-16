@@ -1,0 +1,12 @@
+{
+    "key": "miapi:crystal/lapis_lazuli",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "luminious_learning": "1 + [module.gem_power] * 2",
+            "enchantability": 50
+        }
+    }
+}

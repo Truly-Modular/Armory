@@ -1,0 +1,26 @@
+{
+    "key": "miapi:fletching/feather",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "fake_enchant": {
+                "minecraft:feather_falling": "[module.gem_power]"
+            },
+            "gui_stat": {
+                "feather_falling": {
+                    "value": "[module.gem_power]",
+                    "min": 0,
+                    "max": 4,
+                    "header": {
+                        "translate": "enchantment.minecraft.feather_falling"
+                    },
+                    "description": {
+                        "translate": "enchantment.minecraft.feather_falling.desc"
+                    }
+                }
+            }
+        }
+    }
+}
