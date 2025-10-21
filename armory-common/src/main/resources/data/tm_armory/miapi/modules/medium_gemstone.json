@@ -1,0 +1,49 @@
+{
+    "model": {
+        "path": "miapi:models/item/armor/medium/[material.texture].json",
+        "transform": {
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "translationKey": "miapi.slot.gemstone.medium",
+    "allowed_in_slots": [
+        "gem_armor_medium"
+    ],
+    "material_property": [
+        "default",
+        "gem_armor_handheld",
+        "gem_armor_generic"
+    ],
+    "module_stats": {
+        "gem_power": 1
+    },
+    "tag": [
+        "gem_armor",
+        "gem_armor_medium",
+        "gem_armor_generic",
+        "gem_armor_medium_generic"
+    ],
+    "priority": 0,
+    "repair_priority": 0,
+    "rarity": "uncommon",
+    "allowed_material": {
+        "allowedMaterials": [
+            "gem_armor"
+        ],
+        "cost": 2
+    }
+}

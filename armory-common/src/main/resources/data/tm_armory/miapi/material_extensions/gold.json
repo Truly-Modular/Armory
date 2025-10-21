@@ -1,0 +1,20 @@
+{
+    "key": "miapi:metal/gold",
+    "hidden_groups": [
+        "gem_armor"
+    ],
+    "properties": {
+        "gem_armor_generic": {
+            "is_piglin_gold": true,
+            "attributes": [
+                {
+                    "attribute": "minecraft:player.mining_efficiency",
+                    "value": "[module.gem_power]",
+                    "operation": "+",
+                    "slot": "armor",
+                    "target_operation": "*"
+                }
+            ]
+        }
+    }
+}

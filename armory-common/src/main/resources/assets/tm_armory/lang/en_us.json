@@ -332,6 +332,34 @@
     "miapi.modular_elytra": "%s Elytra",
     "miapi:armored_elytra": "%s Armored Elytra",
 
+    "miapi.module.armor_gems.armor.socket.belt": "Socket Belt",
+    "miapi.module.armor_gems.armor.socket.belt.name": "%s Socket Belt",
+    "miapi.module.armor_gems.armor.socket.belt.description": "A Belt capable of holding a Gemstone",
+
+    "miapi.module.armor_gems.armor.socket.front_chest": "Socket Chestplate",
+    "miapi.module.armor_gems.armor.socket.front_chest.name": "%s Socket Chestplate",
+    "miapi.module.armor_gems.armor.socket.front_chest.description": "A Chestplate capable of holding a Gemstone",
+
+    "miapi.module.armor_gems.armor.socket.back_chest": "Socket Backplate",
+    "miapi.module.armor_gems.armor.socket.back_chest.name": "%s Socket Backplate",
+    "miapi.module.armor_gems.armor.socket.back_chest.description": "A Backplate capable of holding a Gemstone",
+
+    "miapi.module.armor_gems.armor.socket.helmet": "Socket Helmet",
+    "miapi.module.armor_gems.armor.socket.helmet.name": "%s Socket Helmet",
+    "miapi.module.armor_gems.armor.socket.helmet.description": "A Helmet capable of holding a Gemstone",
+
+    "miapi.module.armor_gems.gems.large_gemstone": "Large Gemstone",
+    "miapi.module.armor_gems.gems.large_gemstone.name": "Large Gemstone",
+    "miapi.module.armor_gems.gems.large_gemstone.description": "A large sized Gemstone",
+
+    "miapi.module.armor_gems.gems.medium_gemstone": "Gemstone",
+    "miapi.module.armor_gems.gems.medium_gemstone.name": "Gemstone",
+    "miapi.module.armor_gems.gems.medium_gemstone.description": "A medium sized Gemstone",
+
+    "miapi.module.armor_gems.gems.small_gemstone": "Small Gemstone",
+    "miapi.module.armor_gems.gems.small_gemstone.name": "Small Gemstone",
+    "miapi.module.armor_gems.gems.small_gemstone.description": "A small sized Gemstone",
+
     "miapi.module.tm_armory.armor.hats.crown": "Crown",
     "miapi.module.tm_armory.armor.hats.crown.name": "%s Crown",
     "miapi.module.tm_armory.armor.hats.crown.description": "A decorative Crown",
@@ -364,5 +392,24 @@
     "miapi.module.tm_armory.armor.chest.banner.name": "%s Banner",
     "miapi.module.tm_armory.armor.chest.banner.description": "Chest Banner Decorative Piece\nGreat for displaying Art or Flags",
 
-    "miapi.hats.crown.technocrown.lore": "Technoblade Never Dies"
+    "miapi.hats.crown.technocrown.lore": "Technoblade Never Dies",
+
+    "miapi.slot.gemstone.small": "Small Gemstone",
+    "miapi.slot.gemstone.medium": "Medium Gemstone",
+    "miapi.slot.gemstone.large": "Large Gemstone",
+
+    "miapi.armor_gems.gemstone_armor.armoring": "Armoring",
+    "miapi.armor_gems.gemstone_armor.armoring.description": "Applies Resistance effect on wearer when hit by an Entity",
+    "miapi.armor_gems.gemstone_armor.quickening": "Quickening",
+    "miapi.armor_gems.gemstone_armor.quickening.description": "Applies Speed effect on wearer when hit by an Entity",
+    "miapi.armor_gems.gemstone_armor.sneaking": "Sneaking Speed Increase",
+    "miapi.armor_gems.gemstone_armor.sneaking.description": "Increases Sneaking Speed",
+
+    "enchantment.minecraft.projectile_protection.desc": "Reduces damage from projectiles such as arrows and fire balls.",
+    "enchantment.minecraft.feather_falling.desc": "Reduces fall damage and ender pearl teleportation damage.",
+    "enchantment.minecraft.depth_strider.desc": "Increases movement speed while underwater.",
+    "enchantment.minecraft.unbreaking.desc": "Causes the tool to lose durability at a slower rate.",
+    "enchantment.minecraft.fire_protection.desc": "Reduces the effects of fire damage. Also reduces the burn time when set on fire.",
+    "enchantment.minecraft.blast_protection.desc": "Reduces damage from explosions and explosion knockback.",
+    
 }
