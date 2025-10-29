@@ -1,6 +1,6 @@
 {
     "model": {
-        "path": "miapi:models/item/armor/medium/[material.texture].json",
+        "path": "miapi:models/item/armor/gems/medium/[material.texture].json",
         "transform": {
             "rotation": {
                 "x": 0.0,
@@ -19,7 +19,7 @@
             }
         }
     },
-    "translationKey": "miapi.slot.gemstone.medium",
+    "display_name": "miapi.slot.gemstone.medium",
     "allowed_in_slots": [
         "gem_armor_medium"
     ],

@@ -1,0 +1,36 @@
+{
+    "type": "module",
+    "module": "tm_armory:medium_gemstone",
+    "condition": {
+        "type": "other_module",
+        "condition": {
+            "type": "module",
+            "module": "tm_armory:armor/socket/front_chest"
+        }
+    },
+    "properties": {
+        "merge": {
+            "model": {
+                "path": "miapi:models/item/armor/gems/medium/[material.texture].json",
+                "transform": {
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "translation": {
+                        "x": -8,
+                        "y": -8.0,
+                        "z": -10
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "origin": "body"
+                }
+            }
+        }
+    }
+}

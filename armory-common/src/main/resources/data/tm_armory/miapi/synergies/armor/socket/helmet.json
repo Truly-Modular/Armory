@@ -1,0 +1,60 @@
+{
+    "type": "module",
+    "module": "tm_armory:medium_gemstone",
+    "condition": {
+        "type": "other_module",
+        "condition": {
+            "type": "module",
+            "module": "tm_armory:armor/socket/helmet"
+        }
+    },
+    "properties": {
+        "merge": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/gems/medium/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "translation": {
+                            "x": -8,
+                            "y": -10.0,
+                            "z": -8
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 0.5
+                        },
+                        "origin": "head"
+                    }
+                },
+                {
+                    "path": "miapi:models/item/sword/guard/socket/[material.texture].json",
+                    "color_provider": "parent",
+                    "transform": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "translation": {
+                            "x": -8,
+                            "y": -10.0,
+                            "z": -12
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "origin": "head"
+                    }
+                }
+            ]
+        }
+    }
+}

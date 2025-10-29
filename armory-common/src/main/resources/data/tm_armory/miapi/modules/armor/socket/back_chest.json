@@ -93,7 +93,7 @@
     "attributes": [
         {
             "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 1",
+            "value": "([material.hardness] + 1)",
             "operation": "+",
             "slot": "chest"
         }

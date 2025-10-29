@@ -410,6 +410,6 @@
     "enchantment.minecraft.depth_strider.desc": "Increases movement speed while underwater.",
     "enchantment.minecraft.unbreaking.desc": "Causes the tool to lose durability at a slower rate.",
     "enchantment.minecraft.fire_protection.desc": "Reduces the effects of fire damage. Also reduces the burn time when set on fire.",
-    "enchantment.minecraft.blast_protection.desc": "Reduces damage from explosions and explosion knockback.",
+    "enchantment.minecraft.blast_protection.desc": "Reduces damage from explosions and explosion knockback."
     
 }
