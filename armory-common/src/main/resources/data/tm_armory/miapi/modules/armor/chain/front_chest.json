@@ -1,117 +1,108 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/chest_front/chain/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_ONE",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "body"
-            }
+    "parent": "tm_armory:armor/default/front_chest",
+    "data": {
+        "merge": {
+            "crafting_condition": {
+                "visible": {
+                    "type": "not"
+                }
+            },
+            "module_tag": [
+                "chain_armor"
+            ]
         },
-        {
-            "path": "miapi:models/item/armor/gui/chain/chest/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/chest_front/chain/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "body"
+                    }
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
-        }
-    ],
-    "priority": 1,
-    "repair_priority": 1,
-    "slots": {
-        "banner": {
-            "allowed": [
-                "chest_cosmetic"
+                {
+                    "path": "miapi:models/item/armor/gui/chain/chest/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
             ],
-            "slotType": "cosmetic",
-            "translationKey": "miapi.slot.chest_center.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0.9,
-                    "z": -2.35
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 0.8,
-                    "z": 1.1
-                },
-                "origin": "body"
+            "slots": {
+                "banner": {
+                    "allowed": [
+                        "chest_cosmetic"
+                    ],
+                    "slotType": "cosmetic",
+                    "translationKey": "miapi.slot.chest_center.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0.9,
+                            "z": -2.35
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 0.8,
+                            "z": 1.1
+                        },
+                        "origin": "body"
+                    }
+                }
+            },
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "([material.hardness] + 1 - ceil([material.flexibility]/4)) / 8 * 3",
+                    "operation": "+",
+                    "slot": "chest"
+                }
+            ],
+            "priority": 1,
+            "display_name": "miapi.module.tm_armory.armor.chain.front_chest.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "metal",
+                    "crystal",
+                    "flint",
+                    "bone"
+                ],
+                "cost": 3
             }
         }
-    },
-    "allowed_in_slots": [
-        "chest_front"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4)) / 8 * 3",
-            "operation": "+",
-            "slot": "chest"
-        }
-    ],
-    "crafting_condition": {
-        "visible": {
-            "type": "not"
-        }
-    },
-    "durability": "([material.durability]+[material.armor_durability_offset]) / 7 * 3",
-    "allowed_material": {
-        "allowedMaterials": [
-            "metal",
-            "crystal",
-            "flint",
-            "bone"
-        ],
-        "cost": 3
-    },
-    "enchantments": {
-        "allowed": [
-            "minecraft:enchantable/chest_armor"
-        ]
-    },
-    "display_name": "miapi.module.tm_armory.armor.chain.front_chest.name",
-    "module_tag": [
-        "default",
-        "armor",
-        "chain_armor",
-        "chest",
-        "background_icon",
-        "armor",
-        "chest"
-    ]
+    }
 }

@@ -1,94 +1,98 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/boot_left/base/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_ONE",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+    "parent": "tm_armory:armor/base",
+    "data": {
+        "merge": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/boot_left/base/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "left_leg"
+                    }
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                {
+                    "path": "miapi:models/item/armor/gui/base/boot_left/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "priority": 0,
+            "repair_priority": 0,
+            "allowed_in_slots": [
+                "boot_left"
+            ],
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "fabric",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "crystal",
+                    "glass"
+                ],
+                "cost": 2
+            },
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(2))",
+                    "operation": "+",
+                    "slot": "feet"
                 },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": "(((((([material.tier]-1-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-1))/2",
+                    "operation": "+",
+                    "slot": "feet"
                 },
-                "origin": "left_leg"
-            }
-        },
-        {
-            "path": "miapi:models/item/armor/gui/base/boot_left/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": "((((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10) /2",
+                    "operation": "+",
+                    "slot": "feet"
+                }
+            ],
+            "durability": "[material-module.armor_durability] * 6.5",
+            "display_name": "miapi.module.tm_armory.armor.default.boot_left.name",
+            "module_tag": [
+                "boot",
+                "boot_left",
+                "background_icon",
+                "default_armor"
+            ]
         }
-    ],
-    "priority": 0,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "boot_left"
-    ],
-    "allowed_material": {
-        "allowedMaterials": [
-            "wood",
-            "fabric",
-            "metal",
-            "flint",
-            "bone",
-            "stone",
-            "crystal",
-            "glass"
-        ],
-        "cost": 2
-    },
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(2))",
-            "operation": "+",
-            "slot": "feet"
-        },
-        {
-            "attribute": "minecraft:generic.armor_toughness",
-            "value": "(((((([material.tier]-1-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-1))/2",
-            "operation": "+",
-            "slot": "feet"
-        },
-        {
-            "attribute": "minecraft:generic.knockback_resistance",
-            "value": "((((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10) /2",
-            "operation": "+",
-            "slot": "feet"
-        }
-    ],
-    "durability": "([material.durability]+[material.armor_durability_offset]) / 2",
-    "display_name": "miapi.module.tm_armory.armor.default.boot_left.name",
-    "module_tag": [
-        "default",
-        "armor",
-        "boot",
-        "background_icon",
-        "default_armor"
-    ]
+    }
 }

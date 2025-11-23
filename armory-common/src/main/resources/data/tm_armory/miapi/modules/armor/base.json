@@ -1,0 +1,11 @@
+{
+    "module_stats": {
+        "armor_durability": "[material.durability]/25"
+    },
+    "priority": 0,
+    "repair_priority": 0,
+    "module_tag": [
+        "default",
+        "armor"
+    ]
+}

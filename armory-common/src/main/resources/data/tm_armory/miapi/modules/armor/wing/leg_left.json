@@ -1,83 +1,80 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/leg_left/wing/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+    "parent": "tm_armory:armor/default/leg_left",
+    "data": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "-0.6",
+                    "operation": "*",
+                    "slot": "legs"
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "left_leg"
-            }
+                {
+                    "attribute": "miapi:generic.elytra_glide_efficiency",
+                    "value": "5+[material.flexibility]*3-[material.density]*2",
+                    "operation": "+",
+                    "slot": "legs"
+                }
+            ],
+            "module_tag": [
+                "wing",
+                "wingsuit"
+            ]
         },
-        {
-            "path": "miapi:models/item/armor/gui/wingsuit/leg_left/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/leg_left/wing/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "left_leg"
+                    }
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
+                {
+                    "path": "miapi:models/item/armor/gui/wingsuit/leg_left/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "priority": 2,
+            "display_name": "miapi.module.tm_armory.armor.wing.leg_left.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "fabric",
+                    "feather"
+                ],
+                "cost": 4
             }
         }
-    ],
-    "priority": 2,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "leg_left"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(14))",
-            "operation": "+",
-            "slot": "legs"
-        },
-        {
-            "attribute": "miapi:generic.elytra_glide_efficiency",
-            "value": "5+[material.flexibility]*3-[material.density]*2",
-            "operation": "+",
-            "slot": "legs"
-        }
-    ],
-    "durability": "[material.durability] / 7 * 2 / 3.7",
-    "allowed_material": {
-        "allowedMaterials": [
-            "fabric",
-            "feather"
-        ],
-        "cost": 4
-    },
-    "module_tag": [
-        "default",
-        "armor",
-        "wing",
-        "pants",
-        "armor",
-        "wingsuit",
-        "leg",
-        "wingsuit"
-    ]
+    }
 }

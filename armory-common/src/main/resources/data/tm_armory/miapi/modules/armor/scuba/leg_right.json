@@ -1,87 +1,69 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/leg_right/scuba/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_TWO",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "right_leg"
-            }
+    "parent": "tm_armory:armor/default/leg_right",
+    "data": {
+        "merge": {
+            "module_tag": [
+                "scuba"
+            ]
         },
-        {
-            "path": "miapi:models/item/armor/gui/scuba/leg_right/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/leg_right/scuba/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_TWO",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "right_leg"
+                    }
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
+                {
+                    "path": "miapi:models/item/armor/gui/scuba/leg_right/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "priority": 4,
+            "display_name": "miapi.module.tm_armory.armor.scuba.leg_right.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "fabric",
+                    "metal",
+                    "flint",
+                    "crystal",
+                    "glass"
+                ],
+                "cost": 2
             }
         }
-    ],
-    "priority": 4,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "leg_right"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-2)/(7))*2",
-            "operation": "+",
-            "slot": "legs"
-        },
-        {
-            "attribute": "miapi:generic.swim_speed",
-            "value": "( [material.flexibility]-[material.density]/2)/25",
-            "operation": "*",
-            "slot": "legs",
-            "target_operation": "*"
-        }
-    ],
-    "durability": "([material.durability]+[material.armor_durability_offset]) * 0.65 / 7 * 2",
-    "allowed_material": {
-        "allowedMaterials": [
-            "fabric",
-            "metal",
-            "flint",
-            "crystal",
-            "glass"
-        ],
-        "cost": 2
-    },
-    "module_tag": [
-        "default",
-        "armor",
-        "pants",
-        "background_icon",
-        "armor",
-        "scuba",
-        "leg"
-    ]
+    }
 }

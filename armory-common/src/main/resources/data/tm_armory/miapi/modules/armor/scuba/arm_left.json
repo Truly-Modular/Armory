@@ -1,116 +1,69 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/arm_left/scuba/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_ONE",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "left_arm"
-            }
+    "parent": "tm_armory:armor/default/arm_left",
+    "data": {
+        "merge": {
+            "module_tag": [
+                "scuba"
+            ]
         },
-        {
-            "path": "miapi:models/item/armor/gui/scuba/arm_left/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/arm_left/scuba/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "left_arm"
+                    }
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
-        }
-    ],
-    "slots": {
-        "banner-arm-left": {
-            "allowed": [
-                "cosmetic_2x4",
-                "banner_2x4"
+                {
+                    "path": "miapi:models/item/armor/gui/scuba/arm_left/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
             ],
-            "slotType": "cosmetic",
-            "translationKey": "miapi.slot.arm_patch.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 90,
-                    "z": 0
-                },
-                "translation": {
-                    "x": -2.15,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1.1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "left_arm"
+            "priority": 4,
+            "display_name": "miapi.module.tm_armory.armor.scuba.arm_left.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "fabric",
+                    "metal",
+                    "flint",
+                    "crystal",
+                    "glass"
+                ],
+                "cost": 1
             }
         }
-    },
-    "priority": 4,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "arm_left"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8",
-            "operation": "+",
-            "slot": "chest"
-        },
-        {
-            "attribute": "miapi:generic.swim_speed",
-            "value": "( [material.flexibility]-[material.density]/2)/25",
-            "operation": "*",
-            "slot": "chest",
-            "target_operation": "*"
-        }
-    ],
-    "durability": "([material.durability]+[material.armor_durability_offset]) * 0.65 / 8",
-    "allowed_material": {
-        "allowedMaterials": [
-            "fabric",
-            "metal",
-            "flint",
-            "crystal",
-            "glass"
-        ],
-        "cost": 1
-    },
-    "module_tag": [
-        "default",
-        "armor",
-        "chest",
-        "background_icon_alt",
-        "armor",
-        "scuba",
-        "arm",
-        "arm_left"
-    ]
+    }
 }

@@ -1,132 +1,126 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/arm_left/heavy/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_ONE",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+    "parent": "tm_armory:armor/default/arm_left",
+    "data": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "0.05",
+                    "operation": "*",
+                    "slot": "chest"
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": "1",
+                    "operation": "+",
+                    "slot": "chest"
                 },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
+                {
+                    "attribute": "miapi:generic.swim_speed",
+                    "value": " (- 1 - [material.density]/2)/1000",
+                    "operation": "*",
+                    "slot": "chest"
                 },
-                "origin": "left_arm"
-            }
-        },
-        {
-            "path": "miapi:models/item/armor/gui/heavy/arm_left/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
-        }
-    ],
-    "slots": {
-        "banner-arm-left": {
-            "allowed": [
-                "cosmetic_2x4",
-                "banner_2x4"
+                {
+                    "attribute": "miapi:generic.elytra_glide_efficiency",
+                    "value": " - 10 -[material.density]*0.3",
+                    "operation": "+",
+                    "slot": "chest"
+                }
             ],
-            "slotType": "cosmetic",
-            "translationKey": "miapi.slot.arm_patch.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 90,
-                    "z": 0
+            "module_tag": [
+                "heavy_armor"
+            ]
+        },
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/arm_left/heavy/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "left_arm"
+                    }
                 },
-                "translation": {
-                    "x": -2.15,
-                    "y": -1,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1.1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "left_arm"
-            }
+                {
+                    "path": "miapi:models/item/armor/gui/heavy/arm_left/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "slots": {
+                "banner-arm-left": {
+                    "allowed": [
+                        "cosmetic_2x4",
+                        "banner_2x4"
+                    ],
+                    "slotType": "cosmetic",
+                    "translationKey": "miapi.slot.arm_patch.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 90,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": -2.15,
+                            "y": -1,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1.1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "left_arm"
+                    }
+                }
+            },
+            "food_exhaustion": "floor([material.density]*1+3)",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "fabric",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "crystal",
+                    "glass"
+                ],
+                "cost": 1
+            },
+            "priority": 1
         }
-    },
-    "priority": 1,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "arm_left"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "(([material.hardness] + 2 - ceil([material.flexibility]/4))/8)*1.1",
-            "operation": "+",
-            "slot": "chest"
-        },
-        {
-            "attribute": "minecraft:generic.max_health",
-            "value": "1",
-            "operation": "+",
-            "slot": "chest"
-        },
-        {
-            "attribute": "miapi:generic.swim_speed",
-            "value": " (- 1 - [material.density]/2)/1000",
-            "operation": "*",
-            "slot": "chest"
-        },
-        {
-            "attribute": "miapi:generic.elytra_glide_efficiency",
-            "value": " - 10 -[material.density]*0.3",
-            "operation": "+",
-            "slot": "chest"
-        }
-    ],
-    "food_exhaustion": "floor([material.density]*1+3)",
-    "durability": "([material.durability]+[material.armor_durability_offset]) * 1.3 / 8",
-    "allowed_material": {
-        "allowedMaterials": [
-            "wood",
-            "fabric",
-            "metal",
-            "flint",
-            "bone",
-            "stone",
-            "crystal",
-            "glass"
-        ],
-        "cost": 1
-    },
-    "module_tag": [
-        "default",
-        "armor",
-        "heavy_armor",
-        "chest",
-        "background_icon_alt",
-        "armor",
-        "heavy_armor",
-        "arm",
-        "arm_left"
-    ]
+    }
 }

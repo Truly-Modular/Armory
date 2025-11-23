@@ -1,89 +1,33 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/boot_left/chain/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_ONE",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "left_leg"
+    "parent": "tm_armory:armor/chain/boot_left",
+    "data": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "miapi:generic.projectile_armor",
+                    "value": "ceil(([material.hardness]*2+[material.flexibility])/3*2)/10",
+                    "operation": "+",
+                    "slot": "feet"
+                }
+            ]
+        },
+        "replace": {
+            "display_name": "miapi.module.tm_armory.armor.chain_crafted.boot_left.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "crystal",
+                    "glass"
+                ],
+                "cost": 2
             }
         },
-        {
-            "path": "miapi:models/item/armor/gui/chain/boot_left/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
-        }
-    ],
-    "priority": 2,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "boot_left"
-    ],
-    "allowed_material": {
-        "allowedMaterials": [
-            "wood",
-            "metal",
-            "flint",
-            "bone",
-            "stone",
-            "crystal",
-            "glass"
-        ],
-        "cost": 1
-    },
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(4))",
-            "operation": "+",
-            "slot": "feet"
-        },
-        {
-            "attribute": "miapi:generic.projectile_armor",
-            "value": "ceil(([material.hardness]*2+[material.flexibility])/3*2)/10",
-            "operation": "+",
-            "slot": "feet"
-        }
-    ],
-    "durability": "([material.durability]+[material.armor_durability_offset]) / 2",
-    "display_name": "miapi.module.tm_armory.armor.chain_crafted.boot_left.name",
-    "module_tag": [
-        "default",
-        "armor",
-        "boot",
-        "background_icon",
-        "armor",
-        "chain_armor",
-        "boot"
-    ]
+        "remove": [
+            "crafting_condition"
+        ]
+    }
 }

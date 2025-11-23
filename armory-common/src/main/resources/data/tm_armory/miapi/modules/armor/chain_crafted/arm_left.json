@@ -1,117 +1,34 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/arm_left/chain/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_ONE",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "left_arm"
+    "parent": "tm_armory:armor/chain/arm_left",
+    "data": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "miapi:generic.projectile_armor",
+                    "value": "ceil(([material.hardness]*2+[material.flexibility])/3)/10",
+                    "operation": "+",
+                    "slot": "chest"
+                }
+            ]
+        },
+        "replace": {
+            "priority": 2,
+            "display_name": "miapi.module.tm_armory.armor.chain_crafted.arm_left.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "crystal",
+                    "glass"
+                ],
+                "cost": 1
             }
         },
-        {
-            "path": "miapi:models/item/armor/gui/chain/arm_left/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
-        }
-    ],
-    "slots": {
-        "banner-arm-left": {
-            "allowed": [
-                "cosmetic_2x4",
-                "banner_2x4"
-            ],
-            "slotType": "cosmetic",
-            "translationKey": "miapi.slot.arm_patch.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 90,
-                    "z": 0
-                },
-                "translation": {
-                    "x": -2.15,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1.1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "left_arm"
-            }
-        }
-    },
-    "priority": 2,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "arm_left"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 1 - ceil([material.flexibility]/4))/8",
-            "operation": "+",
-            "slot": "chest"
-        },
-        {
-            "attribute": "miapi:generic.projectile_armor",
-            "value": "ceil(([material.hardness]*2+[material.flexibility])/3*1)/10",
-            "operation": "+",
-            "slot": "chest"
-        }
-    ],
-    "durability": "([material.durability]+[material.armor_durability_offset]) / 8",
-    "allowed_material": {
-        "allowedMaterials": [
-            "wood",
-            "metal",
-            "flint",
-            "bone",
-            "stone",
-            "crystal",
-            "glass"
-        ],
-        "cost": 1
-    },
-    "module_tag": [
-        "default",
-        "armor",
-        "chain_armor",
-        "chest",
-        "background_icon_alt",
-        "armor",
-        "arm",
-        "arm_left"
-    ]
+        "remove": [
+            "crafting_condition"
+        ]
+    }
 }

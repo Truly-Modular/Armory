@@ -1,98 +1,95 @@
 {
-    "allowed_in_slots": [
-        "chest_back"
-    ],
-    "slots": {
-        "left_wing": {
-            "allowed": [
-                "wing_left"
-            ],
-            "translationKey": "miapi.slot.tm_armory.wing_left.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 180
-                },
-                "translation": {
-                    "x": -4.5,
-                    "y": 10,
-                    "z": 1
-                },
-                "scale": {
-                    "x": 1.125,
-                    "y": 1.125,
-                    "z": 1.125
-                },
-                "origin": "left_wing"
-            }
+    "parent": "tm_armory:armor/default/back_chest",
+    "data": {
+        "merge": {
+            "module_tag": [
+                "wing",
+                "wingsuit",
+                "elytra"
+            ]
         },
-        "right_wing": {
-            "allowed": [
-                "wing_right"
+        "replace": {
+            "slots": {
+                "left_wing": {
+                    "allowed": [
+                        "wing_left"
+                    ],
+                    "translationKey": "miapi.slot.tm_armory.wing_left.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 180
+                        },
+                        "translation": {
+                            "x": -4.5,
+                            "y": 10,
+                            "z": 1
+                        },
+                        "scale": {
+                            "x": 1.125,
+                            "y": 1.125,
+                            "z": 1.125
+                        },
+                        "origin": "left_wing"
+                    }
+                },
+                "right_wing": {
+                    "allowed": [
+                        "wing_right"
+                    ],
+                    "translationKey": "miapi.slot.tm_armory.wing_right.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 180
+                        },
+                        "translation": {
+                            "x": 4.5,
+                            "y": 10,
+                            "z": 1
+                        },
+                        "scale": {
+                            "x": 1.125,
+                            "y": 1.125,
+                            "z": 1.125
+                        },
+                        "origin": "right_wing"
+                    }
+                }
+            },
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/gui/wingsuit/elytra_base/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
             ],
-            "translationKey": "miapi.slot.tm_armory.wing_right.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 180
-                },
-                "translation": {
-                    "x": 4.5,
-                    "y": 10,
-                    "z": 1
-                },
-                "scale": {
-                    "x": 1.125,
-                    "y": 1.125,
-                    "z": 1.125
-                },
-                "origin": "right_wing"
+            "priority": 3,
+            "display_name": "miapi.module.tm_armory.armor.wing.elytra_backplate.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "miapi:custom/elytra"
+                ],
+                "cost": 1
             }
         }
-    },
-    "priority": 3,
-    "repair_priority": 1,
-    "model": [
-        {
-            "path": "miapi:models/item/armor/gui/wingsuit/elytra_base/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
-        }
-    ],
-    "durability": "[material.durability] / 7 * 3",
-    "allowed_material": {
-        "allowedMaterials": [
-            "miapi:custom/elytra"
-        ],
-        "cost": 1
-    },
-    "display_name": "miapi.module.tm_armory.armor.wing.elytra_backplate.name",
-    "module_tag": [
-        "default",
-        "armor",
-        "wing",
-        "chest",
-        "background_icon",
-        "armor",
-        "wingsuit",
-        "elytra"
-    ]
+    }
 }

@@ -1,84 +1,80 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/arm_right/wing/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+    "parent": "tm_armory:armor/default/arm_right",
+    "data": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "-0.6",
+                    "operation": "*",
+                    "slot": "chest"
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "right_arm"
-            }
+                {
+                    "attribute": "miapi:generic.elytra_glide_efficiency",
+                    "value": "[material.flexibility]*2-[material.density]*2",
+                    "operation": "+",
+                    "slot": "chest"
+                }
+            ],
+            "module_tag": [
+                "wing",
+                "wingsuit"
+            ]
         },
-        {
-            "path": "miapi:models/item/armor/gui/wingsuit/arm_right/base/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/arm_right/wing/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "right_arm"
+                    }
                 },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
+                {
+                    "path": "miapi:models/item/armor/gui/wingsuit/arm_right/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "priority": 3,
+            "display_name": "miapi.module.tm_armory.armor.wing.arm_right.name",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "fabric",
+                    "feather"
+                ],
+                "cost": 2
             }
         }
-    ],
-    "priority": 3,
-    "repair_priority": 0,
-    "allowed_in_slots": [
-        "arm_right"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/16",
-            "operation": "+",
-            "slot": "chest"
-        },
-        {
-            "attribute": "miapi:generic.elytra_glide_efficiency",
-            "value": "[material.flexibility]*2-[material.density]*2",
-            "operation": "+",
-            "slot": "chest"
-        }
-    ],
-    "durability": "[material.durability] / 8",
-    "allowed_material": {
-        "allowedMaterials": [
-            "fabric",
-            "feather"
-        ],
-        "cost": 2
-    },
-    "module_tag": [
-        "default",
-        "armor",
-        "wing",
-        "chest",
-        "background_icon_alt",
-        "armor",
-        "wingsuit",
-        "arm",
-        "arm_right"
-    ]
+    }
 }

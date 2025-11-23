@@ -1,142 +1,117 @@
 {
-    "model": [
-        {
-            "path": "miapi:models/item/armor/model/chest_front/socket/[material.texture].json",
-            "trim_mode": "ARMOR_LAYER_ONE",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "body"
-            }
-        },
-        {
-            "path": "miapi:models/item/armor/gui/socket/chest/socket/[material.texture].json",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                },
-                "origin": "item"
-            }
-        }
-    ],
-    "slots": {
-        "banner-chest": {
-            "allowed": [
-                "chest_cosmetic"
+    "parent": "tm_armory:armor/default/front_chest",
+    "data": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "-0.05",
+                    "operation": "*",
+                    "slot": "chest"
+                }
             ],
-            "slotType": "cosmetic",
-            "translationKey": "miapi.slot.chest_center.name",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "translation": {
-                    "x": 0,
-                    "y": 0.9,
-                    "z": -2.35
-                },
-                "scale": {
-                    "x": 1,
-                    "y": 0.95,
-                    "z": 1.1
-                },
-                "origin": "body"
-            }
+            "module_tag": [
+                "socket_armor"
+            ]
         },
-        "gem": {
-            "allowed": [
-                "gem_armor_medium"
+        "replace": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/chest_front/socket/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "body"
+                    }
+                },
+                {
+                    "path": "miapi:models/item/armor/gui/socket/chest/socket/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
             ],
-            "translationKey": "miapi.slot.gemstone.medium",
-            "transform": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+            "slots": {
+                "banner-chest": {
+                    "allowed": [
+                        "chest_cosmetic"
+                    ],
+                    "slotType": "cosmetic",
+                    "translationKey": "miapi.slot.chest_center.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0.9,
+                            "z": -2.35
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 0.95,
+                            "z": 1.1
+                        },
+                        "origin": "body"
+                    }
                 },
-                "translation": {
-                    "x": 0,
-                    "y": -1,
-                    "z": 0
-                },
-                "scale": {
-                    "x": 1.1,
-                    "y": 1.1,
-                    "z": 1.1
-                },
-                "origin": "body"
-            }
+                "gem": {
+                    "allowed": [
+                        "gem_armor_medium"
+                    ],
+                    "translationKey": "miapi.slot.gemstone.medium",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": -1,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1.1,
+                            "y": 1.1,
+                            "z": 1.1
+                        },
+                        "origin": "body"
+                    }
+                }
+            },
+            "display_name": "miapi.module.tm_armory.armor.socket.front_chest.name"
         }
-    },
-    "priority": 0,
-    "repair_priority": 1,
-    "material_property": [
-        "default",
-        "armor",
-        "chest"
-    ],
-    "tag": [
-        "background_icon",
-        "armor",
-        "chest",
-        "default_armor"
-    ],
-    "allowed_in_slots": [
-        "chest_front"
-    ],
-    "attributes": [
-        {
-            "attribute": "minecraft:generic.armor",
-            "value": "([material.hardness] + 1)",
-            "operation": "+",
-            "slot": "chest"
-        }
-    ],
-    "durability": "([material.durability]+[material.armor_durability_offset]) / 8 * 2",
-    "allowed_material": {
-        "allowedMaterials": [
-            "wood",
-            "fabric",
-            "metal",
-            "flint",
-            "bone",
-            "stone",
-            "crystal",
-            "glass"
-        ],
-        "cost": 3
-    },
-    "enchantments": {
-        "allowed": [
-            "minecraft:enchantable/chest_armor"
-        ]
-    },
-    "display_name": "Socket Chestplate"
+    }
 }

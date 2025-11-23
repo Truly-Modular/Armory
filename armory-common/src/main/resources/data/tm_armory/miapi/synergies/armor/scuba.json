@@ -1,0 +1,24 @@
+{
+    "type": "tag",
+    "tag": "scuba",
+    "condition": {
+        "type": "true"
+    },
+    "properties": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "miapi:generic.swim_speed",
+                    "value": "(( [material.flexibility] - [material.density] / 4 ) / 100) * [module.cost] ",
+                    "operation": "*",
+                    "target_operation": "*"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "-0.1",
+                    "operation": "*"
+                }
+            ]
+        }
+    }
+}
