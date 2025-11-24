@@ -65,22 +65,26 @@
                 ],
                 "cost": 3
             },
+            "module_stats": {
+                "armor": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(7))*3",
+                "knockback_resistance": "(((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10"
+            },
             "attributes": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(7))*3",
+                    "value": "[module.armor]",
                     "operation": "+",
                     "slot": "legs"
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": "((((([material.tier]-1-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-1)",
+                    "value": "[material-module.armor_toughness]",
                     "operation": "+",
                     "slot": "legs"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": "(((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10",
+                    "value": "[module.knockback_resistance]",
                     "operation": "+",
                     "slot": "legs"
                 }

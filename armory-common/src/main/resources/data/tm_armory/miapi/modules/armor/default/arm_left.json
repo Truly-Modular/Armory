@@ -80,10 +80,13 @@
             "allowed_in_slots": [
                 "arm_left"
             ],
+            "module_stats": {
+                "armor": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8"
+            },
             "attributes": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8",
+                    "value": "[module.armor]",
                     "operation": "+",
                     "slot": "chest"
                 }

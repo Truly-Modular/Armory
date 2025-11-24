@@ -79,22 +79,27 @@
             "allowed_in_slots": [
                 "chest_front"
             ],
+            "module_stats": {
+                "armor": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8*3",
+                "armor_toughness": "[material-module.armor_toughness]/2",
+                "knockback_resistance": "(((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 20"
+            },
             "attributes": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8*3",
+                    "value": "[module.armor]",
                     "operation": "+",
                     "slot": "chest"
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": "((((([material.tier]-1-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-1) / 2",
+                    "value": "[material-module.armor_toughness]/2",
                     "operation": "+",
                     "slot": "chest"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": "(((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 20",
+                    "value": "[module.knockback_resistance]",
                     "operation": "+",
                     "slot": "chest"
                 }

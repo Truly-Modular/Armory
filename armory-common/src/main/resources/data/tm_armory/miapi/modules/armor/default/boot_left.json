@@ -65,22 +65,26 @@
                 ],
                 "cost": 2
             },
+            "module_stats": {
+                "armor": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(2))",
+                "knockback_resistance": "((((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10) /2"
+            },
             "attributes": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(2))",
+                    "value": "[module.armor]",
                     "operation": "+",
                     "slot": "feet"
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": "(((((([material.tier]-1-2)/(abs(([material.tier]-1)-2))))/(2))+0.5) * (([material.tier]-1)-1))/2",
+                    "value": "[material-module.armor_toughness]/2",
                     "operation": "+",
                     "slot": "feet"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": "((((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10) /2",
+                    "value": "[module.knockback_resistance]",
                     "operation": "+",
                     "slot": "feet"
                 }

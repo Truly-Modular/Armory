@@ -4,6 +4,18 @@
         "merge": {
             "attributes": [
                 {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": "[module.armor_toughness]*0.5",
+                    "operation": "+",
+                    "slot": "chest"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": "0.5",
+                    "operation": "+",
+                    "slot": "chest"
+                },
+                {
                     "attribute": "minecraft:generic.max_health",
                     "value": "1",
                     "operation": "+",

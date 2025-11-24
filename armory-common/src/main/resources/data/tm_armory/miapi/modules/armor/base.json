@@ -1,6 +1,7 @@
 {
     "module_stats": {
-        "armor_durability": "[material.durability]/25"
+        "armor_durability": "[material.durability]/25",
+        "armor_toughness": "abs(round([material.tier]-3))"
     },
     "priority": 0,
     "repair_priority": 0,

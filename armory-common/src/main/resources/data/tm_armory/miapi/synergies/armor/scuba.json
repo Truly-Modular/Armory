@@ -15,8 +15,8 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": "-0.1",
-                    "operation": "*"
+                    "value": "-[module.armor]*0.1",
+                    "operation": "+"
                 }
             ]
         }

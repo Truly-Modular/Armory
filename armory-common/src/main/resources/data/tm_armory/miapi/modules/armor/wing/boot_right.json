@@ -4,12 +4,6 @@
         "merge": {
             "attributes": [
                 {
-                    "attribute": "minecraft:generic.armor",
-                    "value": "-0.6",
-                    "operation": "*",
-                    "slot": "feet"
-                },
-                {
                     "attribute": "miapi:generic.elytra_glide_efficiency",
                     "value": "[material.flexibility]*2-[material.density]*2",
                     "operation": "+",

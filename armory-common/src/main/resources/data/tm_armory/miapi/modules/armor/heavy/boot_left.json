@@ -4,22 +4,10 @@
         "merge": {
             "attributes": [
                 {
-                    "attribute": "minecraft:generic.armor",
-                    "value": "((floor((([material.hardness])/(2)))-floor((([material.density])/(4))))/(2))",
-                    "operation": "+",
-                    "slot": "feet"
-                },
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": "0.05",
-                    "operation": "*",
-                    "slot": "feet"
-                },
-                {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": "[material.tier]-1/2",
+                    "value": "[module.armor_toughness]*0.5",
                     "operation": "+",
-                    "slot": "feet"
+                    "slot": "chest"
                 },
                 {
                     "attribute": "minecraft:generic.max_health",

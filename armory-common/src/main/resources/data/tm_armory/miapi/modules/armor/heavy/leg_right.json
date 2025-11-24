@@ -4,12 +4,6 @@
         "merge": {
             "attributes": [
                 {
-                    "attribute": "minecraft:generic.armor",
-                    "value": "0.10",
-                    "operation": "*",
-                    "slot": "legs"
-                },
-                {
                     "attribute": "minecraft:generic.max_health",
                     "value": "1",
                     "operation": "+",

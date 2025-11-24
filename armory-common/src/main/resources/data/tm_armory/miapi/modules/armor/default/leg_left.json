@@ -52,10 +52,13 @@
             "allowed_in_slots": [
                 "leg_left"
             ],
+            "module_stats": {
+                "armor": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(7))*2"
+            },
             "attributes": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(7))*2",
+                    "value": "[module.armor]",
                     "operation": "+",
                     "slot": "legs"
                 }
