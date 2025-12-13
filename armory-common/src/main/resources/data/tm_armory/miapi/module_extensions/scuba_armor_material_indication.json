@@ -35,7 +35,19 @@
                 }
             },
             "durability": 1
-        }
+        },
+        "attributes": [
+            {
+                "attribute": "miapi:generic.swim_speed",
+                "value": "log( ( [material.flexibility] + 2 ) /20 * [module.cost] * 5 + 1)/5",
+                "operation": "+"
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "value": "-[module.armor]*0.1",
+                "operation": "+"
+            }
+        ]
     },
     "module_tag": [
         "scuba"

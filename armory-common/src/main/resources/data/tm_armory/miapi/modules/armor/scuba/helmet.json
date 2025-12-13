@@ -2,21 +2,6 @@
     "parent": "tm_armory:armor/default/helmet",
     "data": {
         "merge": {
-            "attributes": [
-                {
-                    "attribute": "miapi:generic.swim_speed",
-                    "value": "( [material.flexibility]-[material.density]/2) / 12.5",
-                    "operation": "*",
-                    "slot": "head",
-                    "target_operation": "*"
-                },
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": "-0.25",
-                    "operation": "*",
-                    "slot": "head"
-                }
-            ],
             "module_tag": [
                 "scuba"
             ]

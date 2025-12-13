@@ -8,6 +8,7 @@ import smartin.miapi.Miapi;
 import smartin.miapi.item.ModularItemStackConverter;
 import smartin.miapi.material.MaterialProperty;
 import smartin.miapi.material.base.Material;
+import smartin.miapi.material.generated.GeneratedMaterial;
 import smartin.miapi.modules.ModuleInstance;
 import smartin.miapi.modules.properties.ItemIdProperty;
 import smartin.miapi.registries.RegistryInventory;
@@ -18,13 +19,19 @@ public class GenerateConvertersHelperArmor {
 
     public static void setup(List<ArmorItem> armorItems, Material material) {
         // Helmet
+        ArmorItem armorItem = armorItems.getFirst();
+        if (armorItem != null) {
+            if(material instanceof GeneratedMaterial m) {
+            }
+        }
+
         armorItems.stream()
                 .filter(a -> a.getEquipmentSlot() == EquipmentSlot.HEAD)
-                .map(a -> (Item)a)
+                .map(a -> (Item) a)
                 .findFirst()
                 .ifPresent(item -> {
                     ModularItemStackConverter.converters.add(stack -> {
-                        if(stack.getItem().equals(item)){
+                        if (stack.getItem().equals(item)) {
                             return helmetItem(material);
                         }
                         return stack;
@@ -34,11 +41,11 @@ public class GenerateConvertersHelperArmor {
         // Chestplate
         armorItems.stream()
                 .filter(a -> a.getEquipmentSlot() == EquipmentSlot.CHEST)
-                .map(a -> (Item)a)
+                .map(a -> (Item) a)
                 .findFirst()
                 .ifPresent(item -> {
                     ModularItemStackConverter.converters.add(stack -> {
-                        if(stack.getItem().equals(item)){
+                        if (stack.getItem().equals(item)) {
                             return chestplateItem(material);
                         }
                         return stack;
@@ -48,11 +55,11 @@ public class GenerateConvertersHelperArmor {
         // Leggings
         armorItems.stream()
                 .filter(a -> a.getEquipmentSlot() == EquipmentSlot.LEGS)
-                .map(a -> (Item)a)
+                .map(a -> (Item) a)
                 .findFirst()
                 .ifPresent(item -> {
                     ModularItemStackConverter.converters.add(stack -> {
-                        if(stack.getItem().equals(item)){
+                        if (stack.getItem().equals(item)) {
                             return leggingsItem(material);
                         }
                         return stack;
@@ -62,11 +69,11 @@ public class GenerateConvertersHelperArmor {
         // Boots
         armorItems.stream()
                 .filter(a -> a.getEquipmentSlot() == EquipmentSlot.FEET)
-                .map(a -> (Item)a)
+                .map(a -> (Item) a)
                 .findFirst()
                 .ifPresent(item -> {
                     ModularItemStackConverter.converters.add(stack -> {
-                        if(stack.getItem().equals(item)){
+                        if (stack.getItem().equals(item)) {
                             return bootsItem(material);
                         }
                         return stack;

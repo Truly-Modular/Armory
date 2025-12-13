@@ -35,7 +35,14 @@
                 }
             },
             "durability": 1
-        }
+        },
+        "attributes": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "value": "-[module.armor]*0.5",
+                "operation": "+"
+            }
+        ]
     },
     "module_tag": [
         "wingsuit"

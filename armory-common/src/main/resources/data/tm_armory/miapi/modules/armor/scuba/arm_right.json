@@ -2,15 +2,6 @@
     "parent": "tm_armory:armor/default/arm_right",
     "data": {
         "merge": {
-            "attributes": [
-                {
-                    "attribute": "miapi:generic.swim_speed",
-                    "value": "( [material.flexibility]-[material.density]/2)/25",
-                    "operation": "*",
-                    "slot": "chest",
-                    "target_operation": "*"
-                }
-            ],
             "module_tag": [
                 "scuba"
             ]

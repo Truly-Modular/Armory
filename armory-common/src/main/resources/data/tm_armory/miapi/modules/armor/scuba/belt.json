@@ -2,21 +2,6 @@
     "parent": "tm_armory:armor/default/belt",
     "data": {
         "merge": {
-            "attributes": [
-                {
-                    "attribute": "miapi:generic.swim_speed",
-                    "value": "( [material.flexibility]-[material.density]/2)/25",
-                    "operation": "*",
-                    "slot": "legs",
-                    "target_operation": "*"
-                },
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": "-0.25",
-                    "operation": "*",
-                    "slot": "legs"
-                }
-            ],
             "module_tag": [
                 "scuba"
             ]
