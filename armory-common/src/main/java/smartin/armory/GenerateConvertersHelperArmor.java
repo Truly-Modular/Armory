@@ -21,7 +21,7 @@ public class GenerateConvertersHelperArmor {
         // Helmet
         ArmorItem armorItem = armorItems.getFirst();
         if (armorItem != null) {
-            if(material instanceof GeneratedMaterial m) {
+            if (material instanceof GeneratedMaterial m) {
             }
         }
 
@@ -83,6 +83,7 @@ public class GenerateConvertersHelperArmor {
 
 
     public static ItemStack bootsItem(Material material) {
+        // , Miapi.registryAccess
         ModuleInstance bootsModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/boots")));
 
         ModuleInstance leftBootModule = new ModuleInstance(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(Miapi.id("tm_armory", "armor/default/boot_left")));
