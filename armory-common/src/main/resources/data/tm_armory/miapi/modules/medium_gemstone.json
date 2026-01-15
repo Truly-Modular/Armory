@@ -19,7 +19,6 @@
             }
         }
     },
-    "display_name": "miapi.slot.gemstone.medium",
     "allowed_in_slots": [
         "gem_armor_medium"
     ],

@@ -29,10 +29,10 @@
                     "min": 0,
                     "max": 2,
                     "header": {
-                        "translate": "miapi.armor_gems.gemstone_armor.armoring"
+                        "translate": "miapi.tm_armory.gemstone_armor.armoring"
                     },
                     "description": {
-                        "translate": "miapi.armor_gems.gemstone_armor.armoring.description"
+                        "translate": "miapi.tm_armory.gemstone_armor.armoring.description"
                     }
                 }
             }

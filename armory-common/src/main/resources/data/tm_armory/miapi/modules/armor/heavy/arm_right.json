@@ -1,5 +1,5 @@
 {
-    "parent": "tm_armory:armor/default/arm_left",
+    "parent": "tm_armory:armor/default/arm_right",
     "data": {
         "merge": {
             "attributes": [

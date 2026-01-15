@@ -19,10 +19,10 @@
                     "min": 0,
                     "max": 3,
                     "header": {
-                        "translate": "miapi.armor_gems.gemstone_armor.quickening"
+                        "translate": "miapi.tm_armory.gemstone_armor.quickening"
                     },
                     "description": {
-                        "translate": "miapi.armor_gems.gemstone_armor.quickening.description"
+                        "translate": "miapi.tm_armory.gemstone_armor.quickening.description"
                     }
                 }
             }

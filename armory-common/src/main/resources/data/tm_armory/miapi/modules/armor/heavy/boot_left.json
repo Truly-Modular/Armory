@@ -1,5 +1,5 @@
 {
-    "parent": "tm_armory:armor/default/belt",
+    "parent": "tm_armory:armor/default/boot_left",
     "data": {
         "merge": {
             "attributes": [
