@@ -22,6 +22,8 @@
     "tm_armory.material_indication.heavy.flexibility": "Decreases Armor Points",
     "tm_armory.material_indication.armor.tier": "Sets Knockback Resistance and Armor Toughness",
 
+    "miapi.material_group.gem_armor": "Armor Gemstones",
+
     "miapi.skin.tm_armory.name.pride-armor_1": "Aurora Tinted",
     "miapi.skin.tm_armory.name.pride-armor_2": "Chromatic Armor",
     "miapi.skin.tm_armory.name.pride-armor_3": "Luminous",

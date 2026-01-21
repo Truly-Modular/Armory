@@ -8,7 +8,6 @@ import smartin.miapi.Miapi;
 import smartin.miapi.item.ModularItemStackConverter;
 import smartin.miapi.material.MaterialProperty;
 import smartin.miapi.material.base.Material;
-import smartin.miapi.material.generated.GeneratedMaterial;
 import smartin.miapi.modules.ModuleInstance;
 import smartin.miapi.modules.properties.ItemIdProperty;
 import smartin.miapi.registries.RegistryInventory;
@@ -19,11 +18,10 @@ public class GenerateConvertersHelperArmor {
 
     public static void setup(List<ArmorItem> armorItems, Material material) {
         // Helmet
-        ArmorItem armorItem = armorItems.getFirst();
-        if (armorItem != null) {
-            if (material instanceof GeneratedMaterial m) {
-            }
+        if (armorItems.isEmpty()) {
+            return;
         }
+        ArmorItem armorItem = armorItems.getFirst();
 
         armorItems.stream()
                 .filter(a -> a.getEquipmentSlot() == EquipmentSlot.HEAD)
