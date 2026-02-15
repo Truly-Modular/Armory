@@ -2,28 +2,15 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "miapi:item/armor/wingsuit/elytry_banner",
 		"2": "miapi:item/armor/wingsuit/elytra",
 		"particle": "miapi:item/armor/wingsuit/elytra"
 	},
 	"elements": [
 		{
-			"name": "outer",
-			"from": [-5, -10, 2],
-			"to": [5, 10, -2],
-			"faces": {
-				"north": {"uv": [5, 0.25, 0, 10.25], "texture": "#1"},
-				"east": {"uv": [10.25, 8.25, 9.5, 3.25], "texture": "#1"},
-				"south": {"uv": [14.5, 0, 16, 10], "texture": "#1"},
-				"west": {"uv": [5, 0.25, 7.5, 10.25], "texture": "#1"},
-				"up": {"uv": [10.25, 0.5, 7.75, 2], "texture": "#1"},
-				"down": {"uv": [11.75, 7.75, 7.5, 9.5], "texture": "#1"}
-			}
-		},
-		{
 			"name": "inner",
-			"from": [5, 12, -2],
-			"to": [-5, 32, 2],
+			"from": [5, -10, -2],
+			"to": [-5, 10, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -22, 0]},
 			"faces": {
 				"north": {"uv": [6.5, 2, 8, 12], "texture": "#2"},
 				"east": {"uv": [9, 2, 8, 12], "texture": "#2"},
@@ -35,8 +22,9 @@
 		},
 		{
 			"name": "outer",
-			"from": [5, 12, 2],
-			"to": [-5, 32, -2],
+			"from": [5, -10, 2],
+			"to": [-5, 10, -2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -22, 0]},
 			"faces": {
 				"north": {"uv": [9, 2, 11.5, 12], "texture": "#2"},
 				"east": {"uv": [8, 2, 9, 12], "texture": "#2"},
@@ -49,16 +37,10 @@
 	],
 	"groups": [
 		{
-			"name": "new",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [0]
-		},
-		{
 			"name": "old",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"children": [1, 2]
+			"children": [0, 1]
 		}
 	]
 }
