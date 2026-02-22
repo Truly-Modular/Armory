@@ -1,2 +1,2 @@
-## v1.11 (1.20.1)
-- hotfix scuba gear
+## v1.12 (1.20.1)
+- fix module tags and default equipment slots
