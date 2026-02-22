@@ -22,10 +22,6 @@ repositories {
         }
     }
     maven {
-        url 'http://trulymodular.dedyn.io/maven'
-        allowInsecureProtocol = true
-    }
-    maven {
         name = 'Modrinth'
         url = 'https://api.modrinth.com/maven'
         content {

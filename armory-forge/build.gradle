@@ -17,10 +17,6 @@ repositories {
     maven { url 'https://maven.theillusivec4.top/' }
     maven { url 'https://www.cursemaven.com' }
     maven {
-        url 'http://trulymodular.dedyn.io/maven'
-        allowInsecureProtocol = true
-    }
-    maven {
         name = 'Modrinth'
         url = 'https://api.modrinth.com/maven'
         content {

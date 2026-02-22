@@ -13,10 +13,6 @@ repositories {
             includeGroup 'maven.modrinth'
         }
     }
-    maven {
-        url 'http://trulymodular.dedyn.io/maven'
-        allowInsecureProtocol = true
-    }
 }
 
 dependencies {
