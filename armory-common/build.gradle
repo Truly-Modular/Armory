@@ -22,7 +22,9 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    modApi( "com.github.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}")
+    modApi( "com.github.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}") {
+        exclude group: "software.bernie.geckolib", module: "geckolib-fabric-1.20.1"
+    }
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
 
