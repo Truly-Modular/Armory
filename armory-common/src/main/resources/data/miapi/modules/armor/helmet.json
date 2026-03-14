@@ -175,5 +175,5 @@
     },
     "displayName": "miapi.module.helmet_base.name",
     "itemId": "miapi:modular_helmet",
-    "equipmentSlot": "helmet"
+    "equipmentSlot": "head"
 }
