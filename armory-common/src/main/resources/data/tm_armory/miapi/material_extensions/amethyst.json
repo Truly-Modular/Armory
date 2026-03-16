@@ -5,22 +5,14 @@
     ],
     "properties": {
         "gem_armor_generic": {
-            "fake_enchant": {
-                "minecraft:projectile_protection": "[module.gem_power]"
-            },
-            "gui_stat": {
-                "projectile_protection": {
-                    "value": "[module.gem_power]",
-                    "min": 0,
-                    "max": 4,
-                    "header": {
-                        "translate": "enchantment.minecraft.projectile_protection"
-                    },
-                    "description": {
-                        "translate": "enchantment.minecraft.projectile_protection.desc"
-                    }
+            "attributes": [
+                {
+                    "attribute": "minecraft:player.entity_interaction_range",
+                    "value": "[module.gem_power] * 0.05 + 0.10",
+                    "operation": "+",
+                    "target_operation": "+"
                 }
-            }
+            ]
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "key": "miapi:metal/gold",
+    "key": "miapi:crystal/nether_quartz",
     "hidden_groups": [
         "gem_armor"
     ],
@@ -7,10 +7,9 @@
         "gem_armor_generic": {
             "attributes": [
                 {
-                    "attribute": "minecraft:generic.max_health",
-                    "value": "[module.gem_power]",
-                    "operation": "+",
-                    "slot": "armor",
+                    "attribute": "miapi:generic.crit_chance",
+                    "value": "[module.gem_power]*0.05+0.05",
+                    "operation": "*",
                     "target_operation": "*"
                 }
             ]

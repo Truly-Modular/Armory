@@ -7,11 +7,10 @@
         "gem_armor_generic": {
             "attributes": [
                 {
-                    "attribute": "minecraft:sneaking_speed",
+                    "attribute": "minecraft:player.sneaking_speed",
                     "value": "[module.gem_power] * 0.1",
-                    "operation": "+",
-                    "slot": "armor",
-                    "target_operation": "*"
+                    "operation": "**",
+                    "target_operation": "**"
                 }
             ],
             "gui_stat": {
@@ -23,7 +22,7 @@
                         "translate": "miapi.tm_armory.gemstone_armor.sneaking"
                     },
                     "description": {
-                        "translate": "eiapi.tm_armory.gemstone_armor.sneaking.description"
+                        "translate": "miapi.tm_armory.gemstone_armor.sneaking.description"
                     }
                 }
             }

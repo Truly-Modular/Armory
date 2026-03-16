@@ -1,5 +1,5 @@
 {
-    "key": "miapi:custom/conduit",
+    "key": "miapi:crystal/emerald",
     "hidden_groups": [
         "gem_armor"
     ],
@@ -7,8 +7,8 @@
         "gem_armor_generic": {
             "attributes": [
                 {
-                    "attribute": "minecraft:generic.oxygen_bonus",
-                    "value": "[module.gem_power] * 2",
+                    "attribute": "minecraft:generic.luck",
+                    "value": "[module.gem_power]+1",
                     "operation": "+",
                     "target_operation": "+"
                 }

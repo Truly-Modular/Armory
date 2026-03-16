@@ -1,5 +1,5 @@
 {
-    "key": "miapi:custom/conduit",
+    "key": "miapi:metal/copper",
     "hidden_groups": [
         "gem_armor"
     ],
@@ -7,8 +7,8 @@
         "gem_armor_generic": {
             "attributes": [
                 {
-                    "attribute": "minecraft:generic.oxygen_bonus",
-                    "value": "[module.gem_power] * 2",
+                    "attribute": "minecraft:player.block_interaction_range",
+                    "value": "[module.gem_power] * 0.1 + 0.20",
                     "operation": "+",
                     "target_operation": "+"
                 }

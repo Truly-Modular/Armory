@@ -9,9 +9,8 @@
             "attributes": [
                 {
                     "attribute": "minecraft:player.mining_efficiency",
-                    "value": "[module.gem_power]",
-                    "operation": "+",
-                    "slot": "armor",
+                    "value": "[module.gem_power]*5/100",
+                    "operation": "*",
                     "target_operation": "*"
                 }
             ]

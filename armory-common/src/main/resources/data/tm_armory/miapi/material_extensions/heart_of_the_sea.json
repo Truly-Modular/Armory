@@ -5,22 +5,14 @@
     ],
     "properties": {
         "gem_armor_generic": {
-            "fake_enchant": {
-                "minecraft:depth_strider": "[module.gem_power]"
-            },
-            "gui_stat": {
-                "depth_strider": {
-                    "value": "[module.gem_power]",
-                    "min": 0,
-                    "max": 3,
-                    "header": {
-                        "translate": "enchantment.minecraft.depth_strider"
-                    },
-                    "description": {
-                        "translate": "enchantment.minecraft.depth_strider.desc"
-                    }
+            "attributes": [
+                {
+                    "attribute": "miapi:player.swim_speed",
+                    "value": "([module.gem_power]*5+10)/100",
+                    "operation": "*",
+                    "target_operation": "*"
                 }
-            }
+            ]
         }
     }
 }

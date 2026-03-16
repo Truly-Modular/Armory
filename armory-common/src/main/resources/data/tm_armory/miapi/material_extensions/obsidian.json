@@ -1,5 +1,5 @@
 {
-    "key": "miapi:fletching/feather",
+    "key": "miapi:stone/obsidian",
     "hidden_groups": [
         "gem_armor"
     ],
@@ -8,7 +8,7 @@
             "attributes": [
                 {
                     "attribute": "minecraft:generic.gravity",
-                    "value": "-([module.gem_power]*10+15)/100",
+                    "value": "([module.gem_power]*10+15)/100",
                     "operation": "**",
                     "target_operation": "**"
                 }

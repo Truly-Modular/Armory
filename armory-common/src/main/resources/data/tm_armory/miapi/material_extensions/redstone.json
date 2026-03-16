@@ -5,7 +5,7 @@
     ],
     "properties": {
         "gem_armor_generic": {
-            "on_damaged_potion": [
+            "on_hit_potion": [
                 {
                     "potion": "minecraft:speed",
                     "amplifier": "0 + floor([module.gem_power]/2)",

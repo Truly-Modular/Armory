@@ -11,31 +11,10 @@
                     "operation": "+"
                 },
                 {
-                    "value": "0.25",
+                    "value": "0.50",
                     "operation": "*"
                 }
-            ],
-            "on_damaged_potion": [
-                {
-                    "potion": "minecraft:resistance",
-                    "amplifier": 0,
-                    "duration": "([module.gem_power]+1)*60",
-                    "target_self": true
-                }
-            ],
-            "gui_stat": {
-                "resistance_on_hit": {
-                    "value": 1,
-                    "min": 0,
-                    "max": 2,
-                    "header": {
-                        "translate": "miapi.tm_armory.gemstone_armor.armoring"
-                    },
-                    "description": {
-                        "translate": "miapi.tm_armory.gemstone_armor.armoring.description"
-                    }
-                }
-            }
+            ]
         }
     }
 }

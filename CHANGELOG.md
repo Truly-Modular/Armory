@@ -7,3 +7,18 @@
 - changed how armor toughness is calculated -> materials can now define armor_toughness to overwrite it
 - changed heavy armor, scuba and wing calculation for armor points, they now are a flat percentage better or worse then normal armor
 - added gemstone armor (thanks to pixale)
+  - amethyst : +0.15 entity interaction range
+  - copper : + 0.3 block interaction range
+  - conduit : +25% oxygen bonus
+  - heart of the sea : +10% swim speed
+  - diamond : +400 durability + 50% durability
+  - emerald : + 2 luck
+  - feather : -25% gravity reduces
+  - obsidian : +25% gravity reduces
+  - gold : 5% mining efficiency
+  - iron : + 1 Unbreaking
+  - lapis : +3 luminous learning
+  - nether quarz +10% crit chance
+  - netherite : +10% armor
+  - redstone : 1 speed when attacked (4 s)
+  - sculk : +10% sneak speed
