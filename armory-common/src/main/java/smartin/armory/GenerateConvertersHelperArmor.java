@@ -24,7 +24,6 @@ public class GenerateConvertersHelperArmor {
 
     public static void setup(List<ArmorItem> armorItems, Material material) {
         if (armorItems.isEmpty()) {
-            Miapi.LOGGER.error("Armor setup aborted: armorItems list is empty.");
             return;
         }
 

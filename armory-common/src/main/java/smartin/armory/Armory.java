@@ -9,7 +9,9 @@ public class Armory
 
 	public static void init() {
 		MiapiEvents.GENERATE_MATERIAL_CONVERTERS.register((material, tools, armorItems, isClient) -> {
-			GenerateConvertersHelperArmor.setup(armorItems, material);
+			if(!armorItems.isEmpty()){
+				GenerateConvertersHelperArmor.setup(armorItems, material);
+			}
 			return EventResult.pass();
 		});
 	}
