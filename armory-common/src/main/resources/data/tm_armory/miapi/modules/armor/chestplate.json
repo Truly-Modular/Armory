@@ -31,7 +31,7 @@
             "allowed": [
                 "chest_back"
             ],
-            "priotity": 1,
+            "priority": 1,
             "translationKey": "miapi.slot.backplate.name",
             "transform": {
                 "rotation": {

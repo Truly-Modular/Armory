@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "description": "Re-enable Shielding Armor"
+    },
+    "miapi_default_enable": false
+}

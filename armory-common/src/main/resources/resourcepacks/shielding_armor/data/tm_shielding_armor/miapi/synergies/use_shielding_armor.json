@@ -1,0 +1,63 @@
+{
+    "type": "tag",
+    "tag": "underarmor",
+    "condition": {
+        "type": "true"
+    },
+    "properties": {
+        "merge": {
+            "attribute_split": {
+                "minecraft:generic.max_health": {
+                    "head": [
+                        {
+                            "attribute": "miapi:generic.shielding_armor",
+                            "percentage": "200",
+                            "target": "head"
+                        },
+                        {
+                            "attribute": "minecraft:generic.max_health",
+                            "percentage": "-100",
+                            "target": "head"
+                        }
+                    ],
+                    "chest": [
+                        {
+                            "attribute": "miapi:generic.shielding_armor",
+                            "percentage": "200",
+                            "target": "chest"
+                        },
+                        {
+                            "attribute": "minecraft:generic.max_health",
+                            "percentage": "-100",
+                            "target": "chest"
+                        }
+                    ],
+                    "legs": [
+                        {
+                            "attribute": "miapi:generic.shielding_armor",
+                            "percentage": "200",
+                            "target": "legs"
+                        },
+                        {
+                            "attribute": "minecraft:generic.max_health",
+                            "percentage": "-100",
+                            "target": "legs"
+                        }
+                    ],
+                    "feet": [
+                        {
+                            "attribute": "miapi:generic.shielding_armor",
+                            "percentage": "200",
+                            "target": "feet"
+                        },
+                        {
+                            "attribute": "minecraft:generic.max_health",
+                            "percentage": "-100",
+                            "target": "feet"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

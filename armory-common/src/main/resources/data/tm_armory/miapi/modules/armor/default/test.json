@@ -1,0 +1,10 @@
+{
+    "attributes": [
+        {
+            "attribute": "miapi:generic.shielding_armor",
+            "value": "50",
+            "operation": "+",
+            "slot": "chest"
+        }
+    ]
+}
