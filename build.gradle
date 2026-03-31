@@ -93,7 +93,7 @@ subprojects {
                 "mod_id"                        : rootProject.mod_id,
                 "mod_description"               : rootProject.mod_description,
                 "credits"                       : rootProject.credits,
-                "miapi_version"                 : rootProject.miapi_version,
+                "miapi_version"                 : rootProject.miapi_min_version,
                 "github"                        : rootProject.github
         ]
 

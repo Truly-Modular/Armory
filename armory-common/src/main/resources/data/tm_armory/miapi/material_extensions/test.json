@@ -1,0 +1,16 @@
+{
+    "attributes": [
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": "2",
+            "operation": "*",
+            "target_operation": "*"
+        },
+        {
+            "attribute": "minecraft:generic.water_movement_efficiency",
+            "value": "2",
+            "operation": "*",
+            "target_operation": "*"
+        }
+    ]
+}

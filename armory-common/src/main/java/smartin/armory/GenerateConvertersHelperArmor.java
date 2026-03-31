@@ -10,13 +10,13 @@ import smartin.miapi.material.MaterialProperty;
 import smartin.miapi.material.base.Material;
 import smartin.miapi.material.generated.GeneratedMaterial;
 import smartin.miapi.modules.ModuleInstance;
+import smartin.miapi.modules.MutableModuleInstance;
 import smartin.miapi.modules.properties.ItemIdProperty;
 import smartin.miapi.registries.RegistryInventory;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -95,12 +95,12 @@ public class GenerateConvertersHelperArmor {
 
     private static ModuleInstance module(String moduleId, Material material) {
         ModuleInstance instance = new ModuleInstance(
-                Objects.requireNonNull(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(
-                        Miapi.id("tm_armory", moduleId)
-                ))
+                Miapi.id("tm_armory", moduleId),
+                Miapi.registryAccess
         );
-        MaterialProperty.setMaterial(instance, material);
-        return instance;
+        MutableModuleInstance mutableModuleInstance = instance.asMutable();
+        MaterialProperty.setMaterial(mutableModuleInstance, material);
+        return mutableModuleInstance.toRecord();
     }
 
     private static ItemStack buildArmorItem(
@@ -108,21 +108,19 @@ public class GenerateConvertersHelperArmor {
             Material material,
             Map<String, String> subModules
     ) {
-        ModuleInstance root = new ModuleInstance(
-                Objects.requireNonNull(RegistryInventory.ITEM_MODULE_MIAPI_REGISTRY.get(
-                        Miapi.id("tm_armory", rootModuleId)
-                ))
-        );
+        MutableModuleInstance root = new ModuleInstance(
+                Miapi.id("tm_armory", rootModuleId),
+                Miapi.registryAccess
+        ).asMutable();
 
         subModules.forEach((slot, moduleId) ->
-                root.setSubModule(slot, module(moduleId, material))
+                root.setChild(slot, module(moduleId, material).asMutable())
         );
 
         ItemStack stack = new ItemStack(RegistryInventory.modularItem);
-        root.writeToItem(stack);
+        root.toRecord().writeToItem(stack);
         return ItemIdProperty.changeId(stack);
     }
-
 
 
     public static ItemStack bootsItem(Material material) {
@@ -130,7 +128,7 @@ public class GenerateConvertersHelperArmor {
                 "armor/boots",
                 material,
                 Map.of(
-                        "boot_left",  "armor/default/boot_left",
+                        "boot_left", "armor/default/boot_left",
                         "boot_right", "armor/default/boot_right"
                 )
         );
@@ -141,8 +139,8 @@ public class GenerateConvertersHelperArmor {
                 "armor/pants",
                 material,
                 Map.of(
-                        "belt",      "armor/default/belt",
-                        "leg_left",  "armor/default/leg_left",
+                        "belt", "armor/default/belt",
+                        "leg_left", "armor/default/leg_left",
                         "leg_right", "armor/default/leg_right"
                 )
         );
@@ -155,9 +153,9 @@ public class GenerateConvertersHelperArmor {
                 material,
                 Map.of(
                         "chest_front", "armor/default/front_chest",
-                        "chest_back",  "armor/default/back_chest",
-                        "arm_left",    "armor/default/arm_left",
-                        "arm_right",   "armor/default/arm_right"
+                        "chest_back", "armor/default/back_chest",
+                        "arm_left", "armor/default/arm_left",
+                        "arm_right", "armor/default/arm_right"
                 )
         );
     }

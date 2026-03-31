@@ -7,7 +7,7 @@
         "gem_armor_generic": {
             "attributes": [
                 {
-                    "attribute": "miapi:player.swim_speed",
+                    "attribute": "miapi:generic.swim_speed",
                     "value": "([module.gem_power]*5+10)/100",
                     "operation": "*",
                     "target_operation": "*"
