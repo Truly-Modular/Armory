@@ -40,7 +40,8 @@
             {
                 "attribute": "miapi:generic.swim_speed",
                 "value": "log( ( [material.flexibility] + 2 ) /20 * [module.cost] * 5 + 1)/5",
-                "operation": "+"
+                "operation": "*",
+                "target_operation": "*"
             },
             {
                 "attribute": "minecraft:generic.armor",
