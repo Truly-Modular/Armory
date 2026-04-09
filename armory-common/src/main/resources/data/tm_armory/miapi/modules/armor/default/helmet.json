@@ -98,7 +98,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": "[module.knockback_resistance]",
+                    "value": "[module.armor_knockback_resistance]",
                     "operation": "+",
                     "slot": "head"
                 }
