@@ -92,7 +92,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": "[material-module.armor_toughness]/2",
+                    "value": "[material-module.armor_toughness]",
                     "operation": "+",
                     "slot": "head"
                 },
