@@ -33,38 +33,32 @@ public class GenerateConvertersHelperArmor {
             return;
         }
 
-        if (!(material instanceof GeneratedMaterial generatedMaterial)) {
-            Miapi.LOGGER.error(
-                    "Armor setup aborted: material is not a GeneratedMaterial (material = {}).",
-                    material
+        if (material instanceof GeneratedMaterial generatedMaterial) {
+            generatedMaterial.stats.put(
+                    "toughness",
+                    (double) armorItem.getMaterial().value().toughness()
             );
-            return;
-        }
 
-        // At this point we are guaranteed to reach toughness logic
-        generatedMaterial.stats.put(
-                "toughness",
-                (double) armorItem.getMaterial().value().toughness()
-        );
+            if (armorItems.size() == 4) {
+                double totalArmor = armorItems.stream()
+                        .collect(Collectors.summarizingInt(ArmorItem::getDefense))
+                        .getSum();
 
-        if (armorItems.size() == 4) {
-            double totalArmor = armorItems.stream()
-                    .collect(Collectors.summarizingInt(ArmorItem::getDefense))
-                    .getSum();
+                double desiredHardness =
+                        (totalArmor
+                         + (generatedMaterial.stats.get("flexibility") / 4)
+                         + (generatedMaterial.stats.get("density") / 4)
+                         - 1
+                        ) / 4.05;
 
-            double desiredHardness =
-                    (totalArmor
-                     + (generatedMaterial.stats.get("flexibility") / 4)
-                     + (generatedMaterial.stats.get("density") / 4)
-                     - 1
-                    ) / 4.05;
+                double max = Math.max(totalArmor, desiredHardness);
 
-            double max = Math.max(totalArmor, desiredHardness);
-
-            if (!(Math.abs(totalArmor - desiredHardness) <= (15 / 100.0) * max)) {
-                generatedMaterial.stats.put("armor_hardness", desiredHardness);
+                if (!(Math.abs(totalArmor - desiredHardness) <= (15 / 100.0) * max)) {
+                    generatedMaterial.stats.put("armor_hardness", desiredHardness);
+                }
             }
         }
+
 
         addArmorConverter(armorItems, EquipmentSlot.HEAD, GenerateConvertersHelperArmor::helmetItem, material);
         addArmorConverter(armorItems, EquipmentSlot.CHEST, GenerateConvertersHelperArmor::chestplateItem, material);
