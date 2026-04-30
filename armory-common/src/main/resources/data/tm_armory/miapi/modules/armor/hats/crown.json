@@ -60,9 +60,6 @@
     },
     "display_name": "miapi.module.tm_armory.armor.hats.crown",
     "module_tag": [
-        "default",
-        "armor",
-        "helmet",
         "background_icon",
         "armor_cosmetic",
         "helmet_cosmetic"
