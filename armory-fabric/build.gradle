@@ -9,16 +9,21 @@ architectury {
 
 repositories {
     maven { url 'https://maven.uuid.gg/releases' }
-    maven { url 'https://maven.kosmx.dev/' }
-    maven { url 'https://maven.shedaniel.me/' }
-    maven { url 'https://maven.fabricmc.net/' }
-    maven { url 'https://jitpack.io' }
     maven { url 'https://maven.terraformersmc.com/' }
+    maven { url 'https://maven.theillusivec4.top/' }
     maven { url 'https://www.cursemaven.com' }
     maven {
         url "https://maven.jamieswhiteshirt.com/libs-release"
         content {
             includeGroup "com.jamieswhiteshirt"
+        }
+    }
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
         }
     }
     maven {
@@ -29,7 +34,6 @@ repositories {
         }
     }
 }
-
 configurations {
     common
     shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
