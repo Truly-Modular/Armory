@@ -1,24 +1,2 @@
-## v2.2 (1.21)
-- large scale internal rework
-  - now it makes usage of module stats for easier addon and adjustments
-  - other armor modules now extend default armor modules
-  - if you want to work on armor we recommend checking armory and its updated way of doing armor modules.
-- changed all armors durability calculation to closer fit vanilla (thanks @pixale) -> materials can now set armor_durability directly, they are multiplied for each module.
-- changed how armor toughness is calculated -> materials can now define armor_toughness to overwrite it
-- changed heavy armor, scuba and wing calculation for armor points, they now are a flat percentage better or worse then normal armor
-- added gemstone armor (thanks to pixale)
-  - amethyst : +0.15 entity interaction range
-  - copper : + 0.3 block interaction range
-  - conduit : +25% oxygen bonus
-  - heart of the sea : +10% swim speed
-  - diamond : +400 durability + 50% durability
-  - emerald : + 2 luck
-  - feather : -25% gravity reduces
-  - obsidian : +25% gravity reduces
-  - gold : 5% mining efficiency
-  - iron : + 1 Unbreaking
-  - lapis : +3 luminous learning
-  - nether quarz +10% crit chance
-  - netherite : +10% armor
-  - redstone : 1 speed when attacked (4 s)
-  - sculk : +10% sneak speed
+## v2.3 (1.21)
+- added scutes to normal, heavy and scuba armors
