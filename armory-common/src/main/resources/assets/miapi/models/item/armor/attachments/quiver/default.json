@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "miapi:item/armor/attachments/quiver/default",
+		"particle": "miapi:item/armor/attachments/quiver/default"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 8, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 10], "texture": "#0"},
+				"east": {"uv": [3, 0, 6, 10], "texture": "#0"},
+				"south": {"uv": [6, 0, 9, 10], "texture": "#0"},
+				"west": {"uv": [9, 0, 12, 10], "texture": "#0"},
+				"up": {"uv": [6, 10, 9, 13], "texture": "#0"},
+				"down": {"uv": [0, 10, 3, 13], "texture": "#0"}
+			}
+		}
+	]
+}
