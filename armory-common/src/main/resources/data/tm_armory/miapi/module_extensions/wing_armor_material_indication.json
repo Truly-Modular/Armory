@@ -43,8 +43,5 @@
                 "operation": "+"
             }
         ]
-    },
-    "module_tag": [
-        "wingsuit"
-    ]
+    }
 }

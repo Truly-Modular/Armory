@@ -49,8 +49,5 @@
                 "operation": "+"
             }
         ]
-    },
-    "module_tag": [
-        "scuba"
-    ]
+    }
 }
