@@ -1,3 +1,4 @@
 ## v2.3 (1.21)
 - added scutes to normal, heavy and scuba armors
 - fixed converters not working on non-generated materials
+- fixed helmets toughness calculations
