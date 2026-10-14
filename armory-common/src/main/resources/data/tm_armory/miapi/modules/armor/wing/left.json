@@ -55,6 +55,7 @@
             "allowed_material": {
                 "allowedMaterials": [
                     "fabric",
+                    "skin",
                     "feather"
                 ],
                 "cost": 2

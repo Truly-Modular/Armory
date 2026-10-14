@@ -94,6 +94,7 @@
                 "allowedMaterials": [
                     "wood",
                     "fabric",
+                    "skin",
                     "metal",
                     "flint",
                     "bone",

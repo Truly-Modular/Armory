@@ -48,8 +48,9 @@
     ],
     "allowed_material": {
         "allowedMaterials": [
-            "fabric",
             "wood",
+            "fabric",
+            "skin",
             "metal",
             "flint",
             "bone",

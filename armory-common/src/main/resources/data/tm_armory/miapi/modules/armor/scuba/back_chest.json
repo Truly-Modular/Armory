@@ -36,6 +36,7 @@
             "allowed_material": {
                 "allowedMaterials": [
                     "fabric",
+                    "skin",
                     "metal",
                     "flint",
                     "crystal",
